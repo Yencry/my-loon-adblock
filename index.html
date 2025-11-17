@@ -366,9 +366,11 @@
       document.addEventListener('DOMContentLoaded', function() {
         var rows = document.querySelectorAll('#lists table tbody tr');
         Array.prototype.forEach.call(rows, function(row) {
-          if (!row.cells || row.cells.length < 4) return;
+          // 当前表格列顺序：0 Name, 1 类型(隐藏), 2 更新日期, 3 说明, 4 URL
+          if (!row.cells || row.cells.length < 5) return;
           var dateCell = row.cells[2];
-          var link = row.cells[3].querySelector('a');
+          var linkCell = row.cells[4];
+          var link = linkCell ? linkCell.querySelector('a') : null;
           if (!dateCell || !link || !link.href) return;
           dateCell.textContent = '检测中…';
           updateLastModified(dateCell, link.href);
