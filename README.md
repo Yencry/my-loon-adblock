@@ -1,6 +1,6 @@
 # my-dns-ruleboard
 
-一个用于个人自用的 **DNS 层 / 广告与隐私拦截规则面板**，同时提供自动聚合的 Clash / Loon 规则文件。
+一个用于个人自用的 **DNS 层 / 广告与隐私拦截规则面板**，同时提供自动聚合的 Clash 规则文件。
 - 自动更新：GitHub Actions 每日北京时间凌晨两点自动更新一次
 
 ## 在线预览
@@ -12,9 +12,8 @@ https://yencry.github.io/my-dns-ruleboard/
 - 常见广告 / 隐私 / hosts 黑名单规则源列表
 - 每个规则源的说明、最近更新时间
 - 一键复制按钮，方便粘贴到 DNS / 防火墙 / 客户端配置中
-- 两条由本仓库自动聚合生成的规则：
+- 一条由本仓库自动聚合生成的规则：
   - `my-dns-ruleboard (Clash)`
-  - `my-dns-ruleboard (Loon)`
 
 ## 规则来源（部分）
 
