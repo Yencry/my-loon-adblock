@@ -1,0 +1,98 @@
+name: Update merged adblock rules
+
+on:
+  schedule:
+    # 每天 03:30 UTC 运行一次（可按需修改）
+    - cron: "30 3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-merged-adblock:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Pull Script-Hub Docker image
+        run: |
+          docker pull xream/script-hub:latest
+
+      - name: Start Script-Hub service
+        run: |
+          docker run -d --name scripthub \
+            -e HOST=0.0.0.0 \
+            -e PORT=9100 \
+            -e BASE_URL=http://localhost:9100 \
+            -p 9100:9100 \
+            xream/script-hub:latest
+
+          # 等待服务启动
+          for i in {1..30}; do
+            if curl -fsS http://localhost:9100 >/dev/null 2>&1; then
+              echo "Script-Hub is ready"
+              break
+            fi
+            echo "Waiting for Script-Hub... ($i)"
+            sleep 2
+          done
+
+      - name: Generate merged_adblock.list via Script-Hub
+        run: |
+          mkdir -p rules
+
+          # 要聚合的规则源列表（与本地使用的一致）
+          SOURCES=(
+            "https://badmojr.github.io/1Hosts/Lite/adblock.txt"
+            "https://hblock.molinero.dev/hosts_adblock.txt"
+            "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/multi.txt"
+            "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt"
+            "https://easylist-downloads.adblockplus.org/easylistchina.txt"
+            "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
+            "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/rule/rejectAd.list"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising_Domain.list"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list"
+            "https://anti-ad.net/surge2.txt"
+          )
+
+          # Script-Hub 多源分隔符 😂 (U+1F602)
+          SEP=$'\xF0\x9F\x98\x82'
+
+          JOINED=""
+          for SRC in "${SOURCES[@]}"; do
+            if [ -z "$JOINED" ]; then
+              JOINED="$SRC"
+            else
+              JOINED="$JOINED$SEP$SRC"
+            fi
+          done
+
+          AGG_URL="http://localhost:9100/file/_start_/${JOINED}/_end_/merged_adblock.list?type=rule-set&target=loon-rule-set&del=true&jqEnabled=true"
+
+          echo "Requesting Script-Hub with aggregated URL"
+          echo "$AGG_URL" | sed 's/\xF0\x9F\x98\x82/[LOL]/g'
+
+          # 请求 Script-Hub 生成 Loon 规则集
+          curl -fSL --connect-timeout 20 --max-time 300 "$AGG_URL" -o rules/merged_adblock.list
+
+          echo "Generated file info:"
+          ls -lh rules/merged_adblock.list
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet rules/merged_adblock.list; then
+            echo "No changes in rules/merged_adblock.list"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add rules/merged_adblock.list
+          git commit -m "chore: update merged adblock rules"
+          git push
