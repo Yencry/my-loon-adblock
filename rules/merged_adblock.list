@@ -1,7 +1,7 @@
 #!/bin/bash
 # 聚合广告拦截规则 - Loon格式
-# 生成时间: 2026-10-14 16:42:40
-# 总规则数: 910748
+# 生成时间: 2026-10-14 21:21:37
+# 总规则数: 910803
 # 规则来源: 1Hosts (Lite), hBlock, Multi NORMAL, Fanboy-Cookiemonster, EasylistChina, AdGuardSDNSFilter, rejectAd, Advertising_Domain, Advertising
 
 DOMAIN,! Title: 1Hosts (Lite)
@@ -600541,9 +600541,9 @@ DOMAIN,||zztxr.cn^
 DOMAIN,||zzycj.com^
 DOMAIN,||zzz-event.com^
 DOMAIN,||zzzperform.com^
-DOMAIN,! Checksum: rWhXQPVvdKO4okC3u14Rww
+DOMAIN,! Checksum: r5bgWHBfceQmLjVNyWlhhA
 DOMAIN,! Title: Easylist Cookie List
-IP-CIDR6,! Last modified: 2026-10-14 09:25 UTC
+IP-CIDR6,! Last modified: 2026-10-14 18:25 UTC
 DOMAIN,! Expires: 9 days (update frequency)
 DOMAIN,! License: http://creativecommons.org/licenses/by/3.0/
 DOMAIN,! Please report any unblocked content or problems by email or in our forums
@@ -609841,10 +609841,10 @@ DOMAIN,@@||rambox.app/wp-content/plugins/complianz-gdpr/$~third-party
 DOMAIN,@@||vesmir.cz/components/eu_cookie/$script
 DOMAIN,@@||vulcangas.com^*/cookie-notice/$script
 @@||WEBTV.STOFA.DK/PUBLIC/JS/COOKIE-BANNER.$SCRIPT,~third-party
-DOMAIN,! Checksum: 1BY+RScVqqbYXA2poyXasA
-DOMAIN,! Version: 202610141633
+DOMAIN,! Checksum: Ae3cbSzAa79z23ykxzDY4A
+DOMAIN,! Version: 202610142112
 DOMAIN,! Title: EasyList China
-IP-CIDR6,! Last modified: 14 Oct 2026 16:33 UTC
+IP-CIDR6,! Last modified: 14 Oct 2026 21:12 UTC
 DOMAIN,! Expires: 1 days (update frequency)
 DOMAIN,! Homepage: https://github.com/easylist/easylistchina/
 DOMAIN,! EasyList China subscription
@@ -618567,7 +618567,7 @@ DOMAIN,! Title: AdGuard DNS filter
 ! DESCRIPTION: FILTER COMPOSED OF SEVERAL OTHER FILTERS (ADGUARD BASE FILTER,Tracking Protection filter
 DOMAIN,! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 DOMAIN,! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-IP-CIDR6,! Last modified: 2026-10-14T16:16:01.811Z
+IP-CIDR6,! Last modified: 2026-10-14T20:14:34.447Z
 DOMAIN,! Compiled by @adguard/hostlist-compiler v2.1.0
 DOMAIN,! Source name: AdGuard Base filter ad servers
 DOMAIN,! Source: https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/adservers.txt
@@ -618969,6 +618969,7 @@ DOMAIN,! Source name: AdGuard Italian filter ad servers first-party
 DOMAIN,! Source: https://adguardteam.github.io/AdguardFilters/ItalianFilter/sections/adservers_firstparty.txt
 DOMAIN,! Source name: AdGuard Japanese filter ad servers
 DOMAIN,! Source: https://adguardteam.github.io/AdguardFilters/JapaneseFilter/sections/adservers.txt
+DOMAIN,||onergogogo.com^
 DOMAIN-SUFFIX,ad.durasite.net^
 DOMAIN,||bar*.shinobi.jp^
 DOMAIN,! for Safari (|| covers one sub-domain only)
@@ -619707,6 +619708,7 @@ DOMAIN,tototix.gif
 DOMAIN,! Source name: EasyList ad servers
 DOMAIN,! Source: https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt
 DOMAIN,! Non-flagged (Generic blocks)
+DOMAIN,||84ugo1c53pqhne.cfd^
 DOMAIN,||abgztrwbtcduz.website^
 DOMAIN,||abomwngcpvlot.site^
 DOMAIN,||antclxnxcwpln.space^
@@ -619715,27 +619717,34 @@ DOMAIN,||arxbuoyage.cyou^
 DOMAIN,||asgwgdsjaamrl.online^
 DOMAIN,||b43t3ckolyh9c221ebxpot56.cfd^
 DOMAIN,||bcpghyvhtwpcj.website^
+DOMAIN,||bcpkzibxkfogh.space^
 DOMAIN,||bdagxixncozzw.site^
 DOMAIN,||bdwszttlibevp.space^
+DOMAIN,||beverragbolt.cyou^
 DOMAIN,||bijisdikvmufo.online^
 DOMAIN,||bjmuqfyvinlyc.website^
 DOMAIN,||boulteltugmanrater.qpon^
 DOMAIN,||boxppscnodpfq.website^
 DOMAIN,||brtuigmdbvbjj.site^
+DOMAIN,||btzvjvwhrovhc.site^
 DOMAIN,||budgerdowning.qpon^
 DOMAIN,||butchestusker.com^
 DOMAIN,||bvhvigbjkwtgw.website^
 DOMAIN,||bwaozzmeerulo.site^
 DOMAIN,||c2obmjin2o584fvq7mxfopm9w.rest^
+DOMAIN,||caveletganoine.qpon^
 DOMAIN,||celtiswetters.com^
 DOMAIN,||cjknvvkqxknay.space^
+DOMAIN,||csdrifzovbhjq.site^
 DOMAIN,||cudaliaisontivy.cfd^
 DOMAIN,||daintilyrare.com^
 DOMAIN,||daleelerah.info
+DOMAIN,||daylongrankish.cyou^
 DOMAIN,||defensive-cross.com^
 DOMAIN,||detuvqvvxfxrk.online^
 DOMAIN,||diskdem.cfd^
 DOMAIN,||dnjjsaftgijjc.space^
+DOMAIN,||dustupmonger.cyou^
 DOMAIN,||dwzymufmsgzlj.online^
 DOMAIN,||eluqvijxickdj.space^
 DOMAIN,||emgzqqfkqypbg.website^
@@ -619752,28 +619761,43 @@ DOMAIN,||gccdigaixnjow.site^
 DOMAIN,||gdnkgpkosvjkb.online^
 DOMAIN,||get-me-wow.
 DOMAIN,||gtcsuqgbseydn.online^
+DOMAIN,||gubmethxscdh.com^
 DOMAIN,||gxpxmamikdcdq.space^
 DOMAIN,||haikswhips.cyou^
 DOMAIN,||hamelmug.cfd^
+DOMAIN,||hcuxbayrklcgk.space^
 DOMAIN,||hhzkzyskjyqja.online^
 DOMAIN,||hnksvwqkgdmuj.site^
+DOMAIN,||hoctmhlqtztpp.space^
 DOMAIN,||hoydenredowas.cyou^
 DOMAIN,||hyklalsicqtvl.online^
+DOMAIN,||iagaiucmcfxdq.online^
+DOMAIN,||ilxjgfxguojbl.site^
 DOMAIN,||incrstud.qpon^
 DOMAIN,||iovgqvybqbdmm.website^
 DOMAIN,||ipltineine.com^
+DOMAIN,||iwdeztqppxwgg.site^
 DOMAIN,||jalyjuvgyhowd.website^
 DOMAIN,||jcfeniizigntw.space^
+DOMAIN,||jrcmlyfezriii.online^
 DOMAIN,||julidcosiest.cyou^
 DOMAIN,||juwkpkfvkmbix.site^
 DOMAIN,||kjitkhmrqxhmz.online^
 DOMAIN,||klsdruefcrrrd.space^
+DOMAIN,||kmggrjifkuvej.space^
+DOMAIN,||kvkcogjeuoolu.space^
 DOMAIN,||layingjinglyencases.cyou^
 DOMAIN,||lcfdnqjtsdrcb.site^
+DOMAIN,||leninsiloam.cyou^
 DOMAIN,||lynjerxfsnyoq.site^
+DOMAIN,||mgcvbgwimnahb.space^
 DOMAIN,||mhuzsmkbekzrk.site^
+DOMAIN,||mifamlfziobx.in^
+DOMAIN,||miriestoyesses.com^
 DOMAIN,||mjsiytfcohpuh.site^
+DOMAIN,||mmpbupxytqtuy.site^
 DOMAIN,||mtywhpvf.com^
+DOMAIN,||mzgeyizpftsvb.space^
 DOMAIN,||naviemytotgbg.online^
 DOMAIN,||nfzpebljbplut.site^
 DOMAIN,||nhbjdqngpqkxh.space^
@@ -619781,58 +619805,89 @@ DOMAIN,||niwazaqmk.com^
 DOMAIN,||novellewhereto.cyou^
 DOMAIN,||nxlqtogxebdgs.site^
 DOMAIN,||o6o2yic1ro38p5zt.rest^
+DOMAIN,||oepdduabkjtda.site^
+DOMAIN,||omkbfnbbxccim.space^
 DOMAIN,||oolzzdapzjwtx.site^
+DOMAIN,||ophitesarician.qpon^
 DOMAIN,||orxo5m9nwcy4xk6w2n5jug8ve.cfd^
 DOMAIN,||p77xhk514uizilxooptznv8jehx.cfd^
 DOMAIN,||papkexvye.com^
 DOMAIN,||patwyavweuxzx.space^
 DOMAIN,||paxillidespotbashaw.cfd^
+DOMAIN,||peelinggiddier.com^
 DOMAIN,||pippiermagas.qpon^
 DOMAIN,||pjhmunsrehdfh.space^
 DOMAIN,||plaitsunwaxboulder.cfd^
 DOMAIN,||pouncetdiddy.cfd^
 DOMAIN,||prendrefireman.cfd^
+DOMAIN,||ptljjcvigwvra.space^
 DOMAIN,||pvkymjocyeukz.website^
+DOMAIN,||qfkvarapofvmu.online^
 DOMAIN,||qihktxwuwvrsb.space^
 DOMAIN,||qmlewpemuxxjh.online^
+DOMAIN,||qrvtxlktyfxm.com^
 DOMAIN,||qutqpznsbnqlq.online^
 DOMAIN,||qxgloyadavqvf.space^
 DOMAIN,||qyfkhibpaggzg.space^
+DOMAIN,||rajmwttcdstac.website^
+DOMAIN,||ratwapaleola.com^
 DOMAIN,||rcamagqknhmx.com^
 DOMAIN,||rollmopidylist.cfd^
 DOMAIN,||roosedramstam.com^
+DOMAIN,||rqguexlgwmhoe.space^
+DOMAIN,||rwqxqwolhifto.space^
 DOMAIN,||ryosrwwsczzpe.site^
 DOMAIN,||salliesshipped.com^
+DOMAIN,||sculksmaists.com^
 DOMAIN,||sdpvirkxndxwc.online^
 DOMAIN,||sejrylzt.com^
 DOMAIN,||sfguivhkbgtlb.website^
 DOMAIN,||sinnercurbs.cfd^
+DOMAIN,||sireepeppyreen.qpon^
 DOMAIN,||soleformolsfirepot.qpon^
 DOMAIN,||spreaghramus.cyou^
+DOMAIN,||strentgerard.qpon^
 DOMAIN,||stungeremian.cfd^
 DOMAIN,||succikamboucedars.qpon^
 DOMAIN,||swobbottsintrail.cfd^
 DOMAIN,||sytnuxvfhrpvm.space^
 DOMAIN,||teatherlahore.qpon^
 DOMAIN,||telpathwennier.com^
+DOMAIN,||thongygenevan.com^
 DOMAIN,||tmidahaefogi.com^
+DOMAIN,||tpftscfxkdeyf.online^
+DOMAIN,||tqwsedyecfayh.site^
+DOMAIN,||triplesjainistdusack.qpon^
+DOMAIN,||trxsxwfyfxnjk.space^
 DOMAIN,||udkjmuapwttdq.website^
+DOMAIN,||useslayout.cfd^
 DOMAIN,||vgljjtousxekg.site^
 DOMAIN,||vm9etrih3y1jrjomvpoy9.rest^
+DOMAIN,||vpwdfzhcczwye.space^
+DOMAIN,||vqszcauwqgxfm.space^
 DOMAIN,||vqydtwutfyafq.space^
+DOMAIN,||vultzotczdvwu.online^
+DOMAIN,||washingexcheatjulid.cyou^
 DOMAIN,||whaurstratus.com^
 DOMAIN,||whblfbsdkgt.com^
+DOMAIN,||whetherragee.qpon^
+DOMAIN,||whyfhooqf7wyw45im371.rest^
 DOMAIN,||wiaarhmbbvkpf.website^
 DOMAIN,||wraithsunegal.cfd^
 DOMAIN,||wynnscanela.com^
 DOMAIN,||ximtmikqubrlo.space^
 DOMAIN,||xkmtxaybwpbnj.space^
 DOMAIN,||xmzvrkniutbxy.space^
+DOMAIN,||xnlmmyfgayvom.site^
 DOMAIN,||xpzhpyiokyhdw.site^
+DOMAIN,||xtycalhnphcru.space^
+DOMAIN,||yazatadoolysups.cfd^
+DOMAIN,||yihdlhglqqkqm.online^
 DOMAIN,||yksbqenumcrmj.site^
 DOMAIN,||ylgxpltrimwwd.site^
 DOMAIN,||yxedkxqynqftu.space^
 DOMAIN,||zdplvkqnqkabw.site^
+DOMAIN,||zxdwovduodmta.space^
 DOMAIN,! Anti-drainer eth phishing
 DOMAIN,! $document blocks
 DOMAIN,!! Third-party
