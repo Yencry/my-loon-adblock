@@ -1,7 +1,7 @@
 #!/bin/bash
 # 聚合广告拦截规则 - Loon格式
-# 生成时间: 2026-10-15 10:59:05
-# 总规则数: 911824
+# 生成时间: 2026-10-15 16:27:48
+# 总规则数: 912199
 # 规则来源: 1Hosts (Lite), hBlock, Multi NORMAL, Fanboy-Cookiemonster, EasylistChina, AdGuardSDNSFilter, rejectAd, Advertising_Domain, Advertising
 
 DOMAIN,! Title: 1Hosts (Lite)
@@ -611103,10 +611103,10 @@ DOMAIN,@@||rambox.app/wp-content/plugins/complianz-gdpr/$~third-party
 DOMAIN,@@||vesmir.cz/components/eu_cookie/$script
 DOMAIN,@@||vulcangas.com^*/cookie-notice/$script
 @@||WEBTV.STOFA.DK/PUBLIC/JS/COOKIE-BANNER.$SCRIPT,~third-party
-DOMAIN,! Checksum: s8M6DfEE0hzdn1914rtgRA
-DOMAIN,! Version: 202610151051
+DOMAIN,! Checksum: EJlZymTs1XUgj0nJvcfhtg
+DOMAIN,! Version: 202610151612
 DOMAIN,! Title: EasyList China
-IP-CIDR6,! Last modified: 15 Oct 2026 10:51 UTC
+IP-CIDR6,! Last modified: 15 Oct 2026 16:12 UTC
 DOMAIN,! Expires: 1 days (update frequency)
 DOMAIN,! Homepage: https://github.com/easylist/easylistchina/
 DOMAIN,! EasyList China subscription
@@ -611573,6 +611573,8 @@ DOMAIN,||205.209.138.102^
 DOMAIN,||23.231.151.252^
 DOMAIN,||cupfox.app^$third-party
 DOMAIN,||w6n00vtw6.com^
+DOMAIN,||8icep0mqi.com^
+DOMAIN,||p5jrngqnp.com^
 DOMAIN,||1133.cc^$third-party
 DOMAIN,||1188.com^$third-party
 DOMAIN,||1fxs.com^$third-party
@@ -619730,7 +619732,7 @@ DOMAIN,! Title: AdGuard DNS filter
 ! DESCRIPTION: FILTER COMPOSED OF SEVERAL OTHER FILTERS (ADGUARD BASE FILTER,Tracking Protection filter
 DOMAIN,! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 DOMAIN,! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-IP-CIDR6,! Last modified: 2026-10-15T10:14:16.955Z
+IP-CIDR6,! Last modified: 2026-10-15T16:16:06.556Z
 DOMAIN,! Compiled by @adguard/hostlist-compiler v2.1.0
 DOMAIN,! Source name: AdGuard Base filter ad servers
 DOMAIN,! Source: https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/adservers.txt
@@ -619740,6 +619742,7 @@ DOMAIN,! The rules with hints are at the end of file.
 DOMAIN,! Good: ||doubleclick.net^$third-party
 DOMAIN,! Bad: /banner.jpg (should be in general_url.txt)
 DOMAIN,! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
+DOMAIN,||rodexchange.com^
 DOMAIN,||194.63.143.96^
 DOMAIN,||103.179.189.35^
 DOMAIN,||direct-specific.com
@@ -620432,6 +620435,294 @@ DOMAIN,||trk*.vidible.tv^
 DOMAIN,||wa.gmx.
 DOMAIN,charlestownwyllie.oaklawnnonantum.com^
 DOMAIN,! MediaNews Group Inc (blueconic.net analytics)
+DOMAIN,||123p.12thmanrising.com^
+DOMAIN,||123p.1428elm.com^
+DOMAIN,||123p.8points9seconds.com^
+DOMAIN,||123p.airalamo.com^
+DOMAIN,||123p.allcougdup.com^
+DOMAIN,||123p.allfortennessee.com^
+DOMAIN,||123p.allstokedup.com^
+DOMAIN,||123p.allucanheat.com^
+DOMAIN,||123p.alongmainstreet.com^
+DOMAIN,||123p.apptrigger.com^
+DOMAIN,||123p.aroundthefoghorn.com^
+DOMAIN,||123p.aroyalpain.com^
+DOMAIN,||123p.arrowheadaddict.com^
+DOMAIN,||123p.artofgears.com^
+DOMAIN,||123p.atlallday.com^
+DOMAIN,||123p.audiophix.com^
+DOMAIN,||123p.autzenzoo.com^
+DOMAIN,||123p.awaybackgone.com^
+DOMAIN,||123p.awinninghabit.com^
+DOMAIN,||123p.badgerofhonor.com^
+DOMAIN,||123p.balldurham.com^
+DOMAIN,||123p.bamahammer.com^
+DOMAIN,||123p.bamsmackpow.com^
+DOMAIN,||123p.bayernstrikes.com^
+DOMAIN,||123p.bealestreetbears.com^
+DOMAIN,||123p.beargoggleson.com^
+DOMAIN,||123p.beaverbyte.com^
+DOMAIN,||123p.behindthebuckpass.com^
+DOMAIN,||123p.beyondtheflag.com^
+DOMAIN,||123p.bigredlouie.com^
+DOMAIN,||123p.birdswatcher.com^
+DOMAIN,||123p.blackandteal.com^
+DOMAIN,||123p.blackhawkup.com^
+DOMAIN,||123p.blackoutdallas.com^
+DOMAIN,||123p.bladesofteal.com^
+DOMAIN,||123p.bleedinblue.com^
+DOMAIN,||123p.bloggingdirty.com^
+DOMAIN,||123p.blogoflegends.com^
+DOMAIN,||123p.blogredmachine.com^
+DOMAIN,||123p.bluelinestation.com^
+DOMAIN,||123p.bluemanhoop.com^
+DOMAIN,||123p.boilingwithbias.com^
+DOMAIN,||123p.boltbeat.com^
+DOMAIN,||123p.boltsbythebay.com^
+DOMAIN,||123p.bosoxinjection.com^
+DOMAIN,||123p.broadstreetbuzz.com^
+DOMAIN,||123p.bucketsinbrooklyn.com^
+DOMAIN,||123p.buffalowdown.com^
+DOMAIN,||123p.bustingbrackets.com^
+DOMAIN,||123p.bvbbuzz.com^
+DOMAIN,||123p.calltothepen.com^
+DOMAIN,||123p.caneswarning.com^
+DOMAIN,||123p.cardiaccane.com^
+DOMAIN,||123p.catcrave.com^
+DOMAIN,||123p.causewaycrowd.com^
+DOMAIN,||123p.chicagoskydaily.com^
+DOMAIN,||123p.chopchat.com^
+DOMAIN,||123p.chowderandchampions.com^
+DOMAIN,||123p.cincyontheprowl.com^
+DOMAIN,||123p.claireandjamie.com^
+DOMAIN,||123p.claretvillans.com^
+DOMAIN,||123p.climbingtalshill.com^
+DOMAIN,||123p.clipperholics.com^
+DOMAIN,||123p.cubbiescrib.com^
+DOMAIN,||123p.culturess.com^
+DOMAIN,||123p.dailyddt.com^
+DOMAIN,||123p.dailyknicks.com^
+DOMAIN,||123p.dairylandexpress.com^
+DOMAIN,||123p.dawgpounddaily.com^
+DOMAIN,||123p.dawindycity.com^
+DOMAIN,||123p.dawnofthedawg.com^
+DOMAIN,||123p.dbltap.com^
+DOMAIN,||123p.deathvalleyvoice.com^
+DOMAIN,||123p.detroitjockcity.com^
+DOMAIN,||123p.devilsindetail.com^
+DOMAIN,||123p.diredota.com^
+DOMAIN,||123p.districtondeck.com^
+DOMAIN,||123p.dodgersway.com^
+DOMAIN,||123p.dogoday.com^
+DOMAIN,||123p.dorksideoftheforce.com^
+DOMAIN,||123p.dunkingwithwolves.com^
+DOMAIN,||123p.ebonybird.com^
+DOMAIN,||123p.editorinleaf.com^
+DOMAIN,||123p.empirewritesback.com^
+DOMAIN,||123p.everythingbarca.com^
+DOMAIN,||123p.eyesonisles.com^
+DOMAIN,||123p.factoryofsadness.co^
+DOMAIN,||123p.fightinggobbler.com^
+DOMAIN,||123p.flameforthought.com^
+DOMAIN,||123p.flicksided.com^
+DOMAIN,||123p.flywareagle.com^
+DOMAIN,||123p.foodsided.com^
+DOMAIN,||123p.foreverfortnite.com^
+DOMAIN,||123p.fourfourcrew.com^
+DOMAIN,||123p.foxesofleicester.com^
+DOMAIN,||123p.friarsonbase.com^
+DOMAIN,||123p.gamesided.com^
+DOMAIN,||123p.garnetandcocky.com^
+DOMAIN,||123p.gbmwolverine.com^
+DOMAIN,||123p.geeksided.com^
+DOMAIN,||123p.gigemgazette.com^
+DOMAIN,||123p.glorycolorado.com^
+DOMAIN,||123p.gmenhq.com^
+DOMAIN,||123p.gojoebruin.com^
+DOMAIN,||123p.goldengatesports.com^
+DOMAIN,||123p.gonepuckwild.com^
+DOMAIN,||123p.gradingonthecurve.com^
+DOMAIN,||123p.greengoldandbold.com^
+DOMAIN,||123p.greenstreethammers.com^
+DOMAIN,||123p.guiltyeats.com^
+DOMAIN,||123p.hailfloridahail.com^
+DOMAIN,||123p.hailwv.com^
+DOMAIN,||123p.halohangout.com^
+DOMAIN,||123p.hardwoodhoudini.com^
+DOMAIN,||123p.highposthoops.com^
+DOMAIN,||123p.hookemheadlines.com^
+DOMAIN,||123p.hoopshabit.com^
+DOMAIN,||123p.hoosierstateofmind.com^
+DOMAIN,||123p.horseshoeheroes.com^
+DOMAIN,||123p.hotspurhq.com^
+DOMAIN,||123p.houseofhouston.com^
+DOMAIN,||123p.housethathankbuilt.com^
+DOMAIN,||123p.hoyosrevenge.com^
+DOMAIN,||123p.huskercorner.com^
+DOMAIN,||123p.indianafeverreport.com^
+DOMAIN,||123p.inkonindy.com^
+DOMAIN,||123p.insideibrox.com^
+DOMAIN,||123p.insidetheiggles.com^
+DOMAIN,||123p.insidetheloudhouse.com^
+DOMAIN,||123p.interheron.com^
+DOMAIN,||123p.jaysjournal.com^
+DOMAIN,||123p.jetswhiteout.com^
+DOMAIN,||123p.jugofsnyder.com^
+DOMAIN,||123p.justblogbaby.com^
+DOMAIN,||123p.kardashiandish.com^
+DOMAIN,||123p.kckingdom.com^
+DOMAIN,||123p.keepingitheel.com^
+DOMAIN,||123p.kingjamesgospel.com^
+DOMAIN,||123p.kingsofkauffman.com^
+DOMAIN,||123p.knightlyreview.com^
+DOMAIN,||123p.krakenchronicle.com^
+DOMAIN,||123p.lakeshowlife.com^
+DOMAIN,||123p.lasportshub.com^
+DOMAIN,||123p.lastnighton.com^
+DOMAIN,||123p.lawlessrepublic.com^
+DOMAIN,||123p.lobandsmash.com^
+DOMAIN,||123p.lombardiave.com^
+DOMAIN,||123p.mancitysquare.com^
+DOMAIN,||123p.marlinmaniac.com^
+DOMAIN,||123p.maroonandwhitenation.com^
+DOMAIN,||123p.milehighsticking.com^
+DOMAIN,||123p.mlsmultiplex.com^
+DOMAIN,||123p.motorcitybengals.com^
+DOMAIN,||123p.musketfire.com^
+DOMAIN,||123p.netflixlife.com^
+DOMAIN,||123p.newcastletoons.com^
+DOMAIN,||123p.nflmocks.com^
+DOMAIN,||123p.nflspinzone.com^
+DOMAIN,||123p.ninernoise.com^
+DOMAIN,||123p.nolanwritin.com^
+DOMAIN,||123p.northbankrsl.com^
+DOMAIN,||123p.nugglove.com^
+DOMAIN,||123p.oilonwhyte.com^
+DOMAIN,||123p.oldjuve.com^
+DOMAIN,||123p.olehottytoddy.com^
+DOMAIN,||123p.onechicagocenter.com^
+DOMAIN,||123p.orangeintheoven.com^
+DOMAIN,||123p.orlandomagicdaily.com^
+DOMAIN,||123p.otowns11.com^
+DOMAIN,||123p.paininthearsenal.com^
+DOMAIN,||123p.pelicandebrief.com^
+DOMAIN,||123p.penslabyrinth.com^
+DOMAIN,||123p.phinphanatic.com^
+DOMAIN,||123p.pippenainteasy.com^
+DOMAIN,||123p.pistonpowered.com^
+DOMAIN,||123p.playingfor90.com^
+DOMAIN,||123p.pokespost.com^
+DOMAIN,||123p.precincttv.com^
+DOMAIN,||123p.predlines.com^
+DOMAIN,||123p.predominantlyorange.com^
+DOMAIN,||123p.princerupertstower.com^
+DOMAIN,||123p.progolfnow.com^
+DOMAIN,||123p.psgpost.com^
+DOMAIN,||123p.puckettspond.com^
+DOMAIN,||123p.puckprose.com^
+DOMAIN,||123p.pucksandpitchforks.com^
+DOMAIN,||123p.pucksofafeather.com^
+DOMAIN,||123p.raisingzona.com^
+DOMAIN,||123p.ramblinfan.com^
+DOMAIN,||123p.raptorsrapture.com^
+DOMAIN,||123p.rayscoloredglasses.com^
+DOMAIN,||123p.razorbackers.com^
+DOMAIN,||123p.redbirdrants.com^
+DOMAIN,||123p.reddevilarmada.com^
+DOMAIN,||123p.reddevilsdispatch.com^
+DOMAIN,||123p.redshirtsalwaysdie.com^
+DOMAIN,||123p.reignoftroy.com^
+DOMAIN,||123p.releasetheknappen.com^
+DOMAIN,||123p.reportingkc.com^
+DOMAIN,||123p.reviewingthebrew.com^
+DOMAIN,||123p.riggosrag.com^
+DOMAIN,||123p.rinkroyalty.com^
+DOMAIN,||123p.ripcityproject.com^
+DOMAIN,||123p.risingapple.com^
+DOMAIN,||123p.roxpile.com^
+DOMAIN,||123p.rubbingtherock.com^
+DOMAIN,||123p.rumbunter.com^
+DOMAIN,||123p.rushthekop.com^
+DOMAIN,||123p.sabrenoise.com^
+DOMAIN,||123p.saintsmarching.com^
+DOMAIN,||123p.saturdayblitz.com^
+DOMAIN,||123p.scarletandgame.com^
+DOMAIN,||123p.section215.com^
+DOMAIN,||123p.senshot.com^
+DOMAIN,||123p.showsnob.com^
+DOMAIN,||123p.sidelionreport.com^
+DOMAIN,||123p.sircharlesincharge.com^
+DOMAIN,||123p.skyscraperblues.com^
+DOMAIN,||123p.slapthesign.com^
+DOMAIN,||123p.soaringdownsouth.com^
+DOMAIN,||123p.soaringtoglory.com^
+DOMAIN,||123p.sodomojo.com^
+DOMAIN,||123p.soundersnation.com^
+DOMAIN,||123p.southboundanddown.com^
+DOMAIN,||123p.southsideshowdown.com^
+DOMAIN,||123p.spacecityscoop.com^
+DOMAIN,||123p.spartanavenue.com^
+DOMAIN,||123p.sportdfw.com^
+DOMAIN,||123p.starsandsticks.com^
+DOMAIN,||123p.stillcurtain.com^
+DOMAIN,||123p.stormininnorman.com^
+DOMAIN,||123p.stormthepaint.com^
+DOMAIN,||123p.stripehype.com^
+DOMAIN,||123p.survivingtribal.com^
+DOMAIN,||123p.swarmandsting.com^
+DOMAIN,||123p.teaandbanter.com^
+DOMAIN,||123p.tenntruth.com^
+DOMAIN,||123p.terrapinstationmd.com^
+DOMAIN,||123p.thatballsouttahere.com^
+DOMAIN,||123p.theamericanpitch.com^
+DOMAIN,||123p.thecanuckway.com^
+DOMAIN,||123p.thecelticbhoys.com^
+DOMAIN,||123p.thehuskyhaul.com^
+DOMAIN,||123p.thejetpress.com^
+DOMAIN,||123p.thejnotes.com^
+DOMAIN,||123p.thelandryhat.com^
+DOMAIN,||123p.theparentwatch.com^
+DOMAIN,||123p.thepewterplank.com^
+DOMAIN,||123p.theprideoflondon.com^
+DOMAIN,||123p.therattrick.com^
+DOMAIN,||123p.therealchamps.com^
+DOMAIN,||123p.thesixersense.com^
+DOMAIN,||123p.thesmokingcuban.com^
+DOMAIN,||123p.thetimberlean.com^
+DOMAIN,||123p.thetopflight.com^
+DOMAIN,||123p.thevalkyriesblog.com^
+DOMAIN,||123p.theviewfromavalon.com^
+DOMAIN,||123p.thevikingage.com^
+DOMAIN,||123p.throughthephog.com^
+DOMAIN,||123p.thunderousintentions.com^
+DOMAIN,||123p.tipofthetower.com^
+DOMAIN,||123p.titansized.com^
+DOMAIN,||123p.torontoreds.com^
+DOMAIN,||123p.torotimes.com^
+DOMAIN,||123p.trumanstales.com^
+DOMAIN,||123p.undeadwalking.com^
+DOMAIN,||123p.underthelaces.com^
+DOMAIN,||123p.unionandblue.com^
+DOMAIN,||123p.valleyofthesuns.com^
+DOMAIN,||123p.vegashockeyknight.com^
+DOMAIN,||123p.venomstrikes.com^
+DOMAIN,||123p.victorybellrings.com^
+DOMAIN,||123p.vivaligamx.com^
+DOMAIN,||123p.whitecleatbeat.com^
+DOMAIN,||123p.whodatdish.com^
+DOMAIN,||123p.wildcatbluenation.com^
+DOMAIN,||123p.winteriscoming.net^
+DOMAIN,||123p.wizardsandwhatnot.com^
+DOMAIN,||123p.wizofawes.com^
+DOMAIN,||123p.wreckemred.com^
+DOMAIN,||123p.writingillini.com^
+DOMAIN,||123p.yanksgoyard.com^
+DOMAIN,||123p.yellowjackedup.com^
+DOMAIN,||p123.fansided.com^
+DOMAIN,||p123.mentalfloss.com^
+DOMAIN,||p123.theplayerstribune.com^
+DOMAIN,||p329.si.com^
+DOMAIN,||123p.zonazealots.com^
 DOMAIN,! Klaviyo - dont block subdomains of a.klaviyo.com by DNS
 DOMAIN,|a.klaviyo.com^
 DOMAIN,! Hisense Smart TV
@@ -620638,6 +620929,7 @@ DOMAIN,! ||sentry.anytype.io^
 DOMAIN,! ||ensighten.com^$third-party - not a tracker
 DOMAIN,! Be careful when blocking snssdk.com. It is used also for legal purposes
 DOMAIN,!||i.snssdk.com/log/*
+DOMAIN,||manus-analytics.com^
 DOMAIN,||logws*.ati-host.net^
 DOMAIN,||clickhouse-collector.*.prod.plat.agency^
 DOMAIN,||bapi-*.moengage.com^
@@ -620870,47 +621162,129 @@ DOMAIN,! Source name: EasyList ad servers
 DOMAIN,! Source: https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt
 DOMAIN,! Non-flagged (Generic blocks)
 DOMAIN,||0awdiotf.xyz^
+DOMAIN,||46pwjwou1gwmwxikpx.rest^
 DOMAIN,||6ubmtezxemvqvf.rest^
+DOMAIN,||7g1tf5458ckxgjcnw7i2u8qlh4.cfd^
+DOMAIN,||aaglpqhchibmm.site^
 DOMAIN,||ajoydorijoozd.website^
 DOMAIN,||aphthaskiapod.com^
+DOMAIN,||apteriapithos.com^
+DOMAIN,||atbrmcokpxxpu.online^
+DOMAIN,||axmwgvbptkvok.online^
 DOMAIN,||bbfoqgjchlgcy.online^
+DOMAIN,||bbgpcdvxaumdz.site^
 DOMAIN,||bconkjmsphvwc.online^
+DOMAIN,||biewskcdywkju.space^
+DOMAIN,||bnvjdnmdwssph.space^
+DOMAIN,||bxrtvoseeldwv.website^
 DOMAIN,||clientsvogie.com^
+DOMAIN,||cmlduchess.com^
+DOMAIN,||cogkhnvxsbbak.site^
+DOMAIN,||comfitscausal.cyou^
+DOMAIN,||coynyebodock.cfd^
+DOMAIN,||cqimxhfuoljle.site^
+DOMAIN,||cravesgage.cyou^
+DOMAIN,||cygeiovsqjeqb.online^
+DOMAIN,||czxapxkwztkqc.website^
 DOMAIN,||daleelerah.info
+DOMAIN,||darxscmexhpvg.site^
 DOMAIN,||dereismveeryunsnare.cfd^
+DOMAIN,||djpgypbrdacco.space^
 DOMAIN,||droverseidels.qpon^
+DOMAIN,||dyerdorpers.qpon^
+DOMAIN,||dzpzankowdjpk.site^
 DOMAIN,||ejoczsbduvkea.website^
+DOMAIN,||eknnygiotrgnb.site^
 DOMAIN,||epiciergrogger.cyou^
 DOMAIN,||etbkkyaiqjaix.online^
 DOMAIN,||ethicalmafflin.qpon^
+DOMAIN,||eudemonballant.com^
+DOMAIN,||ewusjpzknfhpx.space^
+DOMAIN,||flabileoxyopiawholism.cfd^
+DOMAIN,||foxskingerefa.qpon^
 DOMAIN,||fzdwgedlxtgpw.site^
+DOMAIN,||geezlazily.com^
 DOMAIN,||get-me-wow.
 DOMAIN,||giltencashibo.cfd^
+DOMAIN,||gmvcaoyeknplk.website^
 DOMAIN,||growingstenosbeetler.qpon^
+DOMAIN,||guequucytrcht.site^
+DOMAIN,||heathsleavenlinaloe.cfd^
+DOMAIN,||hfebymdaesxxn.space^
+DOMAIN,||hgkhjxgrzgwex.website^
+DOMAIN,||hgxjdgkkxvqpz.website^
 DOMAIN,||hlssrtfsfrycf.site^
 DOMAIN,||hodrefers.com^
 DOMAIN,||hokxqbuyxwctx.online^
 DOMAIN,||hopbinecauline.qpon^
+DOMAIN,||hurlednias.qpon^
 DOMAIN,||hwcxpzckfzxeh.website^
 DOMAIN,||ibaofcstbaclj.online^
+DOMAIN,||ifchoupimfwnx.site^
+DOMAIN,||igiszbgftpamu.space^
+DOMAIN,||iijmzmmzrelcdj.com^
+DOMAIN,||isobarswhitier.qpon^
+DOMAIN,||jbheaolymgnkr.website^
+DOMAIN,||kirietabawisf.site^
+DOMAIN,||kombblqgxclmc.site^
 DOMAIN,||lactoidhazansswagers.cyou^
+DOMAIN,||lozidpatwjvat.space^
+DOMAIN,||lplvkhrwrimjb.site^
+DOMAIN,||lubamalva.qpon^
 DOMAIN,||m8uhr7bjw2ibij4b8z88cbbyfqt7z74k49.cfd^
+DOMAIN,||messireresows.cfd^
+DOMAIN,||miflqxlpzuxqh.site^
 DOMAIN,||montanetrawler.cfd^
+DOMAIN,||muwwkgocljod.com^
+DOMAIN,||nomarax.com^
+DOMAIN,||numinefidding.cfd^
+DOMAIN,||nyevxusngwyzu.online^
 DOMAIN,||oekscqtdyyeuv.online^
 DOMAIN,||oermq1h3qo5wi1.rest^
+DOMAIN,||oilfisheleazarplod.cfd^
+DOMAIN,||omcmpwpsaumed.site^
 DOMAIN,||omenedliti.cfd^
+DOMAIN,||otscnfrjsyuii.website^
 DOMAIN,||oyzjkapsddigl.site^
+DOMAIN,||pncirjjzsnoqt.website^
+DOMAIN,||pqsifuzomftzt.online^
+DOMAIN,||purroneovistscouse.qpon^
+DOMAIN,||qmyamxdku.in^
+DOMAIN,||qwkdjyceo.com^
 DOMAIN,||qyalgyfsshg.com^
+DOMAIN,||qyjsgeltkqask.site^
+DOMAIN,||rassledtutrice.com^
+DOMAIN,||restroomwildlifetactical.com^
+DOMAIN,||rnvzqcnivr.com^
+DOMAIN,||rqejxttjtofuf.site^
 DOMAIN,||rzdgyraejkell.online^
+DOMAIN,||sangergirdle.qpon^
 DOMAIN,||seastaracedy.qpon^
 DOMAIN,||sfdfqzhczerlx.website^
 DOMAIN,||sheersunl.cyou^
+DOMAIN,||sptleeyrtpacn.website^
+DOMAIN,||storeypassman.cfd^
 DOMAIN,||sxogfzokmcxnn.site^
+DOMAIN,||tartarfeast.com^
+DOMAIN,||tiltupgeebungdixain.cfd^
+DOMAIN,||tjploniqhrjkp.site^
 DOMAIN,||topgroz3cqmkpov1lkn1z2c.rest^
+DOMAIN,||ttivmzmjcgrta.website^
+DOMAIN,||udcthrbuypzbe.site^
 DOMAIN,||uhfzxfbkfzafv.online^
+DOMAIN,||verutumcohoshcerci.cyou^
+DOMAIN,||verythekit.com^
+DOMAIN,||vicsremv.com^
+DOMAIN,||vtppcirpnlwsn.online^
+DOMAIN,||w7ejv2gqmkmniy1o921tv9t.rest^
 DOMAIN,||wbododioooann.website^
+DOMAIN,||wxrgpifrpwggq.site^
+DOMAIN,||xdjywzvukorcl.site^
 DOMAIN,||xumbhppesjves.space^
+DOMAIN,||xyivtaictjnhh.website^
+DOMAIN,||z2c9n81uljvxgv4l.cfd^
 DOMAIN,||zsvtqanqnw.com^
+DOMAIN,||zziywstqfbxbk.website^
 DOMAIN,! Anti-drainer eth phishing
 DOMAIN,! $document blocks
 DOMAIN,!! Third-party
@@ -620950,6 +621324,7 @@ DOMAIN,! Source name: EasyPrivacy Admiral tracking servers
 DOMAIN,! Source: https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers_admiral.txt
 DOMAIN,! easyprivacy_trackingservers_admiral.txt
 DOMAIN,! Admiral
+DOMAIN,||flowerybunch.com^
 DOMAIN,! Source name: EasyPrivacy international tracking servers
 DOMAIN,! Source: https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers_international.txt
 DOMAIN,! German
