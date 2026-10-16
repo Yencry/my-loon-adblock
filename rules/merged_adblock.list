@@ -1,7 +1,7 @@
 #!/bin/bash
 # 聚合广告拦截规则 - Loon格式
-# 生成时间: 2026-10-16 16:13:02
-# 总规则数: 913067
+# 生成时间: 2026-10-16 20:36:12
+# 总规则数: 913149
 # 规则来源: 1Hosts (Lite), hBlock, Multi NORMAL, Fanboy-Cookiemonster, EasylistChina, AdGuardSDNSFilter, rejectAd, Advertising_Domain, Advertising
 
 DOMAIN,! Title: 1Hosts (Lite)
@@ -611841,10 +611841,10 @@ DOMAIN,@@||rambox.app/wp-content/plugins/complianz-gdpr/$~third-party
 DOMAIN,@@||vesmir.cz/components/eu_cookie/$script
 DOMAIN,@@||vulcangas.com^*/cookie-notice/$script
 @@||WEBTV.STOFA.DK/PUBLIC/JS/COOKIE-BANNER.$SCRIPT,~third-party
-DOMAIN,! Checksum: 01Vs5JMvhjIs3BO0EKmx+w
-DOMAIN,! Version: 202610161552
+DOMAIN,! Checksum: 3hvftDVtfbADw+xQ871PBw
+DOMAIN,! Version: 202610162022
 DOMAIN,! Title: EasyList China
-IP-CIDR6,! Last modified: 16 Oct 2026 15:52 UTC
+IP-CIDR6,! Last modified: 16 Oct 2026 20:22 UTC
 DOMAIN,! Expires: 1 days (update frequency)
 DOMAIN,! Homepage: https://github.com/easylist/easylistchina/
 DOMAIN,! EasyList China subscription
@@ -620310,7 +620310,7 @@ DOMAIN,! Title: AdGuard DNS filter
 ! DESCRIPTION: FILTER COMPOSED OF SEVERAL OTHER FILTERS (ADGUARD BASE FILTER,Tracking Protection filter
 DOMAIN,! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 DOMAIN,! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-IP-CIDR6,! Last modified: 2026-10-16T14:15:37.803Z
+IP-CIDR6,! Last modified: 2026-10-16T20:13:41.179Z
 DOMAIN,! Compiled by @adguard/hostlist-compiler v2.1.0
 DOMAIN,! Source name: AdGuard Base filter ad servers
 DOMAIN,! Source: https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/adservers.txt
@@ -620320,6 +620320,7 @@ DOMAIN,! The rules with hints are at the end of file.
 DOMAIN,! Good: ||doubleclick.net^$third-party
 DOMAIN,! Bad: /banner.jpg (should be in general_url.txt)
 DOMAIN,! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
+DOMAIN,||amdcwiptibfy.in^
 DOMAIN,||194.63.143.96^
 DOMAIN,||103.179.189.35^
 DOMAIN,||direct-specific.com
@@ -621219,6 +621220,7 @@ DOMAIN,! ||sentry.anytype.io^
 DOMAIN,! ||ensighten.com^$third-party - not a tracker
 DOMAIN,! Be careful when blocking snssdk.com. It is used also for legal purposes
 DOMAIN,!||i.snssdk.com/log/*
+DOMAIN,||g.rtbrain.app^
 DOMAIN,||logws*.ati-host.net^
 DOMAIN,||clickhouse-collector.*.prod.plat.agency^
 DOMAIN,||bapi-*.moengage.com^
@@ -621451,17 +621453,96 @@ DOMAIN,! Source name: EasyList ad servers
 DOMAIN,! Source: https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt
 DOMAIN,! Non-flagged (Generic blocks)
 DOMAIN,||2t89irzelv3fwit4.rest^
+DOMAIN,||7woqerclqww6j678em.cfd^
+DOMAIN,||adhecbyydvfly.website^
 DOMAIN,||akmvkpgfmaibu.online^
+DOMAIN,||akykvnbddvyjo.site^
+DOMAIN,||alrlqhhhinp.com^
+DOMAIN,||ambaasteerguidman.cyou^
+DOMAIN,||axperelwuzxzz.website^
+DOMAIN,||axslynebghzxx.website^
+DOMAIN,||ayhfjurkrfdcr.online^
+DOMAIN,||aylbsbkqwnqkx.website^
+DOMAIN,||bawrelcuttail.com^
+DOMAIN,||beecheralloy.cfd^
+DOMAIN,||bft4tnqxktktly.rest^
+DOMAIN,||bgjlqmqotnzfl.space^
+DOMAIN,||brucinslinkage.cfd^
+DOMAIN,||bulkagesagapenrotella.qpon^
+DOMAIN,||cvttzhopzmukwu.com^
+DOMAIN,||czcqkmijvsbvo.online^
 DOMAIN,||daleelerah.info
+DOMAIN,||datariaarpent.com^
+DOMAIN,||degermmimosa.com^
+DOMAIN,||demainayieldhiking.qpon^
+DOMAIN,||dhangarascianbakepan.cyou^
+DOMAIN,||dnhnklfw.com^
+DOMAIN,||dpfdkelsimf.com^
+DOMAIN,||dxpaejztvuzlf.website^
 DOMAIN,||epyeepoyznjmv.site^
+DOMAIN,||feodumcresc.cfd^
+DOMAIN,||feqhkuzzyfyow.space^
+DOMAIN,||for96tweeezo7gcfb6i.cfd^
+DOMAIN,||foskbohuqbwbe.site^
 DOMAIN,||fycltijkdbwro.space^
+DOMAIN,||gbupdsnymgkbi.site^
 DOMAIN,||get-me-wow.
 DOMAIN,||gioriybdfzvu.com^
+DOMAIN,||grovelsstallmanias.qpon^
+DOMAIN,||gvixyvsnwozsr.online^
+DOMAIN,||gydxiiazuevrd.online^
+DOMAIN,||hhcjvomohnlpq.site^
 DOMAIN,||inbpnrfdpifmo.website^
+DOMAIN,||indignwiggled.cyou^
+DOMAIN,||ittrbkputssno.space^
+DOMAIN,||jcujxwbmofynd.website^
+DOMAIN,||jtbwncoobdwdy.space^
 DOMAIN,||kiakigan.cfd^
+DOMAIN,||kvhvkbejzyykt.space^
+DOMAIN,||lccwslgiotyub.site^
+DOMAIN,||ljbpalqzirfba.site^
+DOMAIN,||lotwwvjpqtziv.online^
+DOMAIN,||lsehsyecwhzyz.website^
+DOMAIN,||ltkwizwwxfnvc.site^
+DOMAIN,||mdxsavelzylin.online^
+DOMAIN,||mrsqtkhcwwezw.online^
+DOMAIN,||mulletscohere.com^
+DOMAIN,||ntyfhhcut1fuzifgunfzzc.rest^
+DOMAIN,||nuipkxzeuebdc.space^
+DOMAIN,||ogfkpyvpe.in^
 DOMAIN,||pimperysuguaro.cyou^
+DOMAIN,||pquhzqarpigmo.online^
+DOMAIN,||pxidleqcxtgfi.online^
+DOMAIN,||qsjokchmucv.com^
+DOMAIN,||refgpfaxreuky.site^
+DOMAIN,||rgnixocmfdykc.website^
+DOMAIN,||riptidesheen.qpon^
+DOMAIN,||rlpdivzvapakb.website^
+DOMAIN,||sadrvcclmwyon.online^
+DOMAIN,||sielkbqwplccr.site^
+DOMAIN,||snerpaugers.qpon^
+DOMAIN,||stremmamofette.cfd^
+DOMAIN,||tainooffside.qpon^
+DOMAIN,||tampersmoyen.qpon^
+DOMAIN,||thalerssnyes.cyou^
 DOMAIN,||thiasoiquitter.cyou^
+DOMAIN,||tooibkwmdhtdi.website^
+DOMAIN,||topdodfijtaex.website^
+DOMAIN,||tuskingobolary.com^
+DOMAIN,||twclzydspqnki.online^
+DOMAIN,||umnyzgjpqmwnr.space^
+DOMAIN,||unquodbubaupfly.qpon^
+DOMAIN,||vpbhxdrcyorss.online^
+DOMAIN,||vwrcxelybtlkv.site^
 DOMAIN,||vyukvcecywddm.site^
+DOMAIN,||wdvkvwvbijomu.website^
+DOMAIN,||whammywombierusuries.qpon^
+DOMAIN,||wwhbngbmdpsuy.website^
+DOMAIN,||xbmhvmucyelyr.com^
+DOMAIN,||xgclhfzmyvqrr.website^
+DOMAIN,||xtntsaqdlflhb.space^
+DOMAIN,||ynlelovgdgcxx.site^
+DOMAIN,||yvjtlxzacvyxb.website^
 DOMAIN,||zgdotvbmnjppu.online^
 DOMAIN,! Anti-drainer eth phishing
 DOMAIN,! $document blocks
@@ -621502,6 +621583,7 @@ DOMAIN,! Source name: EasyPrivacy Admiral tracking servers
 DOMAIN,! Source: https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers_admiral.txt
 DOMAIN,! easyprivacy_trackingservers_admiral.txt
 DOMAIN,! Admiral
+DOMAIN,||ftpmagic.com^
 DOMAIN,! Source name: EasyPrivacy international tracking servers
 DOMAIN,! Source: https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers_international.txt
 DOMAIN,! German
