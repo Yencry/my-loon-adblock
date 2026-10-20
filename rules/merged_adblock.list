@@ -1,7 +1,7 @@
 #!/bin/bash
 # 聚合广告拦截规则 - Loon格式
-# 生成时间: 2026-10-20 03:47:53
-# 总规则数: 917299
+# 生成时间: 2026-10-20 11:02:23
+# 总规则数: 917423
 # 规则来源: 1Hosts (Lite), hBlock, Multi NORMAL, Fanboy-Cookiemonster, EasylistChina, AdGuardSDNSFilter, rejectAd, Advertising_Domain, Advertising
 
 DOMAIN,! Title: 1Hosts (Lite)
@@ -605071,9 +605071,9 @@ DOMAIN,||zzycj.com^
 DOMAIN,||zzyud.com^
 DOMAIN,||zzz-event.com^
 DOMAIN,||zzzperform.com^
-DOMAIN,! Checksum: MieuLDHg11/cGCZOgEbADg
+DOMAIN,! Checksum: GHiA5JMJ8Bg7+UFyZdSu7g
 DOMAIN,! Title: Easylist Cookie List
-IP-CIDR6,! Last modified: 2026-10-19 15:50 UTC
+IP-CIDR6,! Last modified: 2026-10-20 10:25 UTC
 DOMAIN,! Expires: 9 days (update frequency)
 DOMAIN,! License: http://creativecommons.org/licenses/by/3.0/
 DOMAIN,! Please report any unblocked content or problems by email or in our forums
@@ -606733,6 +606733,7 @@ DOMAIN,hotosm.org###gdpr-banner-form
 DOMAIN,aza.org###gdpr-bar
 DOMAIN,sharefaith.com###gdpr-bot
 DOMAIN,nanotalegame.com###gdpr-consent-form
+DOMAIN,studentemail.online###gdpr-cookie-banner
 96BOARDS.ORG,alinghi.com
 DOMAIN,quizwiz.pro###gdpr-cookie-msg
 DOMAIN,uploadrar.com###gdpr-cookie-notice
@@ -614390,10 +614391,10 @@ DOMAIN,@@||rambox.app/wp-content/plugins/complianz-gdpr/$~third-party
 DOMAIN,@@||vesmir.cz/components/eu_cookie/$script
 DOMAIN,@@||vulcangas.com^*/cookie-notice/$script
 @@||WEBTV.STOFA.DK/PUBLIC/JS/COOKIE-BANNER.$SCRIPT,~third-party
-IP-CIDR,! Checksum: 9/49s35d0YoD2uY8buKKxQ
-DOMAIN,! Version: 202610200331
+DOMAIN,! Checksum: qcfq0J7nwmkubcTFrR8vdg
+DOMAIN,! Version: 202610201052
 DOMAIN,! Title: EasyList China
-IP-CIDR6,! Last modified: 20 Oct 2026 03:31 UTC
+IP-CIDR6,! Last modified: 20 Oct 2026 10:52 UTC
 DOMAIN,! Expires: 1 days (update frequency)
 DOMAIN,! Homepage: https://github.com/easylist/easylistchina/
 DOMAIN,! EasyList China subscription
@@ -614819,6 +614820,11 @@ DOMAIN,||23.231.151.252^
 DOMAIN,||v3ekghfm2l.com^
 DOMAIN,||dkphbpakvgftxm.com^
 DOMAIN,||8kbg4gnw32.com^
+DOMAIN,||cmn4xjgp67.com^
+DOMAIN,||bp44bqnvdb.com^
+DOMAIN,||6mujth3wgx.com^
+DOMAIN,||tetrahedron55.com^
+DOMAIN,||xeb3x4yj4t.com^
 DOMAIN,||1133.cc^$third-party
 DOMAIN,||1188.com^$third-party
 DOMAIN,||1fxs.com^$third-party
@@ -622847,7 +622853,7 @@ DOMAIN,! Title: AdGuard DNS filter
 ! DESCRIPTION: FILTER COMPOSED OF SEVERAL OTHER FILTERS (ADGUARD BASE FILTER,Tracking Protection filter
 DOMAIN,! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 DOMAIN,! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-IP-CIDR6,! Last modified: 2026-10-20T02:19:02.333Z
+IP-CIDR6,! Last modified: 2026-10-20T10:31:49.938Z
 DOMAIN,! Compiled by @adguard/hostlist-compiler v2.1.0
 DOMAIN,! Source name: AdGuard Base filter ad servers
 DOMAIN,! Source: https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/adservers.txt
@@ -622857,6 +622863,7 @@ DOMAIN,! The rules with hints are at the end of file.
 DOMAIN,! Good: ||doubleclick.net^$third-party
 DOMAIN,! Bad: /banner.jpg (should be in general_url.txt)
 DOMAIN,! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
+DOMAIN,||syncbm.com^
 DOMAIN,||194.63.143.96^
 DOMAIN,||103.179.189.35^
 DOMAIN,||direct-specific.com
@@ -623985,17 +623992,131 @@ DOMAIN,tototix.gif
 DOMAIN,! Source name: EasyList ad servers
 DOMAIN,! Source: https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt
 DOMAIN,! Non-flagged (Generic blocks)
+DOMAIN,||77xl8efvneuhce35zh9ngxl7.cfd^
+DOMAIN,||ackevenusher.com^
+DOMAIN,||ajbfmnrtwweat.site^
+DOMAIN,||anosiaknesset.cfd^
+DOMAIN,||aoejgndmkflug.online^
 DOMAIN,||atomergnarrow.qpon^
+DOMAIN,||ayoptcbppwmnw.site^
+DOMAIN,||aypvtboqvzeym.online^
+DOMAIN,||bewaredsainte.cyou^
+DOMAIN,||bnrhzqmmenger.site^
+DOMAIN,||buccatesmolderhelver.qpon^
+DOMAIN,||cariangrists.cfd^
+DOMAIN,||cdefgglpeiux.com^
+DOMAIN,||chromylviewy.com^
+DOMAIN,||cokeyreseek.cfd^
+DOMAIN,||congiiscazon.qpon^
 DOMAIN,||daleelerah.info
 DOMAIN,||dhotycontokolhozy.cyou^
+DOMAIN,||dmcyifgevdszu.online^
+DOMAIN,||dodsepaxial.com^
+DOMAIN,||doveletdupped.com^
+DOMAIN,||dugygysn.com^
+DOMAIN,||ejidqicqmtzkd.space^
+DOMAIN,||ejmilsccgucyno.com^
+DOMAIN,||enverkxou.com^
+DOMAIN,||eseklwvyjfceh.online^
+DOMAIN,||exjzuoukavbnv.space^
+DOMAIN,||exqubzkygkntn.space^
+DOMAIN,||fabwefnidsxul.site^
+DOMAIN,||favigirningnonly.cfd^
 DOMAIN,||fliggerthring.cfd^
+DOMAIN,||foojfzqypsubg.online^
 DOMAIN,||frgehzwmdaaxc.online^
 DOMAIN,||fundiyawned.cyou^
+DOMAIN,||fvchhlrvfopnd.site^
+DOMAIN,||fwlyluvwhurli.space^
+DOMAIN,||gemottummieswaiata.qpon^
 DOMAIN,||get-me-wow.
 DOMAIN,||ghhumhahablee.website^
+DOMAIN,||gibedencave.cfd^
+DOMAIN,||gitoninmegrel.com^
+DOMAIN,||gxrzabyhreybz.online^
+DOMAIN,||heygyxpcdlkiu.site^
+DOMAIN,||hokqtgravmhkf.space^
+DOMAIN,||hqxjnwhzvzycu.site^
+DOMAIN,||hrnpiriuokgol.website^
+DOMAIN,||idealvergent.cyou^
+DOMAIN,||incomesweekend.cyou^
+DOMAIN,||iojyknduuyebm.site^
+DOMAIN,||ipakbbrkkprli.online^
+DOMAIN,||itdcizejjqwes.website^
+DOMAIN,||jcvwteydzkhlr.space^
+DOMAIN,||jdsppzwikhqgd.website^
+DOMAIN,||jghadikzlvvnr.space^
+DOMAIN,||jokersglyphsperjink.cfd^
+DOMAIN,||junkyyolden.com^
+DOMAIN,||jyedyyaxvrvnf.site^
+DOMAIN,||kcnotfqiowvgc.space^
+DOMAIN,||kniwldbmmpzno.space^
+DOMAIN,||kunkursparm.qpon^
+DOMAIN,||lainerneedily.cyou^
+DOMAIN,||lbqcwmucunix8ygv6.rest^
+DOMAIN,||libdjtedapsjs.website^
+DOMAIN,||limbecyblent.com^
+DOMAIN,||lingywonners.cyou^
+DOMAIN,||lowdahlitesvinland.cfd^
+DOMAIN,||lpzfkjdynfxza.space^
+DOMAIN,||mahantdominuspedros.cfd^
+DOMAIN,||maxixeootwith.com^
+DOMAIN,||mcnxsrpgxzwem.online^
+DOMAIN,||mdyolswbpadfl.space^
+DOMAIN,||meloidsandron.qpon^
+DOMAIN,||minterspilleek.qpon^
+DOMAIN,||miqjmwcnxfnvk.online^
+DOMAIN,||mk8tghjxgcruxyobv.cfd^
+DOMAIN,||nbuvharullxpn.site^
+DOMAIN,||ntisospefixmi.space^
+DOMAIN,||nxmqgoxazvcwc.space^
+DOMAIN,||oapxpwezfcdla.site^
+DOMAIN,||ofpnjkbiudjsd.site^
+DOMAIN,||omrqf8x3kvm1kl.cfd^
+DOMAIN,||orclubcvkbpma.website^
+DOMAIN,||orrislieus.cyou^
+DOMAIN,||oyeuljbxouvlm.site^
+DOMAIN,||ozqekfacmwsbn.website^
+DOMAIN,||parlquacky.cfd^
+DOMAIN,||patozdkidh.in^
+DOMAIN,||pcpbzqghreucy.space^
+DOMAIN,||pghvozjaunkac.online^
 DOMAIN,||qkxqsoohtqfiw.com^
+DOMAIN,||qqfqooizvtrynq.com^
+DOMAIN,||qtsmvojqaydmm.website^
+DOMAIN,||quboqnokatcvu.space^
+DOMAIN,||resealsprucyharmoot.qpon^
+DOMAIN,||rfiqgqkcbczbo.space^
 DOMAIN,||rheboksvively.cyou^
+DOMAIN,||rmcyijfeztuoi.space^
+DOMAIN,||rnngcjenfumyn.site^
+DOMAIN,||rvmwstrjmlahh.site^
+DOMAIN,||rydfigwxabdxb.site^
+DOMAIN,||sgestpoqzewrg.site^
+DOMAIN,||showymycetes.qpon^
+DOMAIN,||simblumstaired.cyou^
+DOMAIN,||slotedembelif.qpon^
+DOMAIN,||tgclrbecoiqtz.site^
+DOMAIN,||tgxvdtsgyownn.space^
+DOMAIN,||thmgwofnkgxxw.online^
+DOMAIN,||tqodtosqykksd.space^
 DOMAIN,||uncoyunboxed.cyou^
+DOMAIN,||utwebyh6uimcov.rest^
+DOMAIN,||vjtpz13eo22it6lk4ox8wnmem.rest^
+DOMAIN,||vklaelkgewwbt.website^
+DOMAIN,||weizkvyqcgsqb.site^
+DOMAIN,||wwdjszncajqwt.online^
+DOMAIN,||wylbjbttrwwxm.website^
+DOMAIN,||xckuiejjcnppr.website^
+DOMAIN,||yavurxepklnzm.space^
+DOMAIN,||ybuwtgpqxscop.website^
+DOMAIN,||yowxibhnatxjt.website^
+DOMAIN,||yxrlvfirqiave.website^
+DOMAIN,||yyiixepuoxcyh.space^
+DOMAIN,||yyvwhkydulefq.space^
+DOMAIN,||zlxmvgbkocpqz.online^
+DOMAIN,||zslzwwvjceiom.website^
+DOMAIN,||zunianboron.cyou^
 DOMAIN,||zzelkfrhbpgex.space^
 DOMAIN,! Anti-drainer eth phishing
 DOMAIN,! $document blocks
@@ -624093,6 +624214,7 @@ DOMAIN,||collector-*.luigisbox.com^
 DOMAIN,||events-proxy.mintlify.com
 DOMAIN,||log-*.previewnetworks.com^
 DOMAIN,||mcdp-*.outbrain.com^
+DOMAIN,||mxanalytics.youruncensoredai.workers.dev^
 DOMAIN,||tracker.twenga.
 DOMAIN,! https://d3ward.github.io/toolz/adblock.html
 DOMAIN,! https://coveryourtracks.eff.org/ Cover your tracks test
@@ -624370,6 +624492,7 @@ DOMAIN,@@||go.adjust.com^|
 DOMAIN,! https://github.com/AdguardTeam/AdguardFilters/issues/150038
 DOMAIN,! Blocked by CNAME getblueshift.com
 DOMAIN,@@||clickattr.wayup.com^|
+DOMAIN,! https://github.com/AdguardTeam/AdguardFilters/issues/244587
 DOMAIN,! https://github.com/AdguardTeam/AdguardFilters/issues/240956
 DOMAIN,! https://github.com/AdguardTeam/AdguardFilters/issues/231294
 DOMAIN,! https://github.com/AdguardTeam/AdguardFilters/issues/213677
@@ -624377,6 +624500,7 @@ DOMAIN,! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/1393
 DOMAIN,! Blocked by CNAME adperfect.com
 DOMAIN,@@||used.ca^|
 DOMAIN,@@||remembering.ca^|
+DOMAIN,@@||obituaries.startribune.com^|
 DOMAIN,@@||obituaries.toacorn.com^|
 DOMAIN,@@||obituaries.thestar.com^|
 DOMAIN,@@||obituaries.therecord.com^|
