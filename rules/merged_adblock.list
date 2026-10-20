@@ -1,7 +1,7 @@
 #!/bin/bash
 # 聚合广告拦截规则 - Loon格式
-# 生成时间: 2026-10-20 16:28:21
-# 总规则数: 917832
+# 生成时间: 2026-10-20 21:20:46
+# 总规则数: 918593
 # 规则来源: 1Hosts (Lite), hBlock, Multi NORMAL, Fanboy-Cookiemonster, EasylistChina, AdGuardSDNSFilter, rejectAd, Advertising_Domain, Advertising
 
 DOMAIN,! Title: 1Hosts (Lite)
@@ -605576,9 +605576,9 @@ DOMAIN,||zzycj.com^
 DOMAIN,||zzyud.com^
 DOMAIN,||zzz-event.com^
 DOMAIN,||zzzperform.com^
-DOMAIN,! Checksum: GHiA5JMJ8Bg7+UFyZdSu7g
+DOMAIN,! Checksum: xz45TutZg0LGXORI/kG8vQ
 DOMAIN,! Title: Easylist Cookie List
-IP-CIDR6,! Last modified: 2026-10-20 10:25 UTC
+IP-CIDR6,! Last modified: 2026-10-20 16:25 UTC
 DOMAIN,! Expires: 9 days (update frequency)
 DOMAIN,! License: http://creativecommons.org/licenses/by/3.0/
 DOMAIN,! Please report any unblocked content or problems by email or in our forums
@@ -614896,10 +614896,10 @@ DOMAIN,@@||rambox.app/wp-content/plugins/complianz-gdpr/$~third-party
 DOMAIN,@@||vesmir.cz/components/eu_cookie/$script
 DOMAIN,@@||vulcangas.com^*/cookie-notice/$script
 @@||WEBTV.STOFA.DK/PUBLIC/JS/COOKIE-BANNER.$SCRIPT,~third-party
-DOMAIN,! Checksum: oTHOaaqegH8V/etaiEWuYA
-DOMAIN,! Version: 202610201622
+DOMAIN,! Checksum: r+OteILt/b9VTKGFdgDHzw
+DOMAIN,! Version: 202610202112
 DOMAIN,! Title: EasyList China
-IP-CIDR6,! Last modified: 20 Oct 2026 16:22 UTC
+IP-CIDR6,! Last modified: 20 Oct 2026 21:12 UTC
 DOMAIN,! Expires: 1 days (update frequency)
 DOMAIN,! Homepage: https://github.com/easylist/easylistchina/
 DOMAIN,! EasyList China subscription
@@ -623350,7 +623350,7 @@ DOMAIN,! Title: AdGuard DNS filter
 ! DESCRIPTION: FILTER COMPOSED OF SEVERAL OTHER FILTERS (ADGUARD BASE FILTER,Tracking Protection filter
 DOMAIN,! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 DOMAIN,! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-IP-CIDR6,! Last modified: 2026-10-20T16:17:08.958Z
+IP-CIDR6,! Last modified: 2026-10-20T20:14:56.563Z
 DOMAIN,! Compiled by @adguard/hostlist-compiler v2.1.0
 DOMAIN,! Source name: AdGuard Base filter ad servers
 DOMAIN,! Source: https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/adservers.txt
@@ -623460,22 +623460,47 @@ DOMAIN,! TODO: enable the directive when https://github.com/AdguardTeam/cname-tr
 DOMAIN,! include https://adguardteam.github.io/cname-trackers/data/ads/midnightlotusgrove.txt
 DOMAIN,! Galaksion: beixisys.com disguised advertising networks
 DOMAIN,! Company name: Galaksion
+DOMAIN,||28hrwelv17kg4.er1kz2j8x3cohtn8npx.cyou^
+DOMAIN,||35vtr.x9wy12ljtk8yz9nmrlzop2cculy1mrlwte.cfd^
+DOMAIN,||4.ycbl5btx8q1whvkgvhr.cyou^
+DOMAIN,||5qtcc.h57ozk5mkk8z62fmumtkm.cyou^
+DOMAIN,||9n89mwfq3l1wen79.po6o4mxkqfwvit5.cyou^
+DOMAIN,||emtxknnfii.mtzc88nenz4ftqctnnum64t.cyou^
+DOMAIN,||f5iq9.1m9unllxqggoyb.cyou^
+DOMAIN,||illw1u4f5.m5epm48q1een36et9utu4g1ugupc8z.cyou^
+DOMAIN,||jw.y8mu9iqtrbuxiocow9iig.cyou^
+DOMAIN,||k3lu4jt5.y814vfu5uenqwo7cbjml71lcg.cyou^
+DOMAIN,||nwyq5kmwfl.1hwbnu4kzc9rrphmfci.cyou^
+DOMAIN,||r6rew8t.7mgy2523zo2hotfjrzkgwzctez78yo1.cyou^
+DOMAIN,||uc768.wk7oecq4nzen7pvf.cyou^
+DOMAIN,||w2.umv4un51hvzze92.cyou^
+DOMAIN,||xmln6re.y6hhuyu13pl19h.cyou^
+DOMAIN,||xr5llg7.wu3hp3ifn2ro6yk.cyou^
+DOMAIN,||yiltp12m.ft8kmgi9u1qlym718rih.cyou^
+DOMAIN,||yl3kbhm44i.tu46lzh724l2ofewip1.cyou^
+DOMAIN,||yuc8w9rvobiww1wlj.u7q79l7inf4jxr.cyou^
 DOMAIN,! RealBig : park.realbig.online disguised advertising networks
 DOMAIN,! Company name: RealBig
 DOMAIN,! GoAdserver : go.goadserver.com disguised advertising networks
 DOMAIN,! Company name: GoAdserver
+DOMAIN,||go.panotads.com^
+DOMAIN,||go1.reacheffect.com^
 DOMAIN,! Adocean : adocean.pl disguised advertising networks
 DOMAIN,! Company name: Adocean
 DOMAIN,! Ad Plus : stat-rock.com disguised advertising networks
 DOMAIN,! Company name: Ad Plus
+DOMAIN,||dashboard.ausdoc.com.au^
 DOMAIN,! Ad-Shield : ad-shield.cc disguised advertising networks
 DOMAIN,! Company name: Ad-Shield
 DOMAIN,! AdSpyglass : 0i0i0i0.com disguised advertising networks
 DOMAIN,! Company name: AdSpyglass
+DOMAIN,||asg.hobby.porn^
 DOMAIN,! Aquaplatform : aquaplatform.com disguised advertising networks
 DOMAIN,! Company name: Aquaplatform
 DOMAIN,! ahacdn.me : cdn18685953.ahacdn.me disguised advertising networks
 DOMAIN,! Company name: ahacdn.me
+DOMAIN,||5921c7c895.a3daf46323.com^
+DOMAIN,||jssdk.zuzegolatehowo.com^
 DOMAIN,! Clickaine : api.clickaine.com disguised advertising networks
 DOMAIN,! Company name: Clickaine
 DOMAIN,! ads2.bid : ads.bid disguised advertising networks
@@ -623488,6 +623513,7 @@ DOMAIN,! Company name: Monetag
 DOMAIN,! NameSilo : ab1n.net disguised advertising networks
 DOMAIN,! Company name: NameSilo
 DOMAIN,||*.exaapi.com^
+DOMAIN,||api.cm9srv.com^
 DOMAIN,! nonli.com : nonli.com disguised advertising networks
 ! DISABLED,because domains are used for legitimate purposes (Nonli is used like Bitly)
 DOMAIN,! !#include https://adguardteam.github.io/cname-trackers/data/ads/nonli_com.txt
@@ -623497,6 +623523,15 @@ DOMAIN,! trackwilltrk.com : trackwilltrk.com disguised advertising networks
 DOMAIN,! Company name: trackwilltrk.com
 DOMAIN,! Webair : ak-is2.net disguised advertising networks
 DOMAIN,! Company name: Webair
+DOMAIN,||cpm.frequency33media.com^
+DOMAIN,||filter-eu.theflowads.com^
+DOMAIN,||login.adsaay.com^
+DOMAIN,||old.rtxplatform.com^
+DOMAIN,||rtb-eu.moola.network^
+DOMAIN,||rtb-uswest-v4.liftmyads.com^
+DOMAIN,||static.advolt.in^
+DOMAIN,||static.hb.hyperbrainz.com^
+DOMAIN,||static.revantagex.com^
 DOMAIN,! Rule for detecting hidden trackers when the main domain cannot be blocked.
 DOMAIN,! NOTE: CNAME disguised advertisin networks end ⬆️
 DOMAIN,! !SECTION: CNAME disguised advertising networks
@@ -624338,10 +624373,25 @@ DOMAIN,! 2cnt.net : pl02.prolitteris.2cnt.net disguised trackers
 DOMAIN,! Company name: 2cnt.net
 DOMAIN,! A8.net : a8.net disguised trackers
 DOMAIN,! Company name: A8.net
+DOMAIN,||nisii.resiliencelabo.com^
 DOMAIN,! Act-On : actonservice.com and actonsoftware.com disguised trackers
 DOMAIN,! Company name: Act-On
+DOMAIN,||communication.2ndgear.com^
+DOMAIN,||communications.obeecreditunion.com^
+DOMAIN,||info.hyper-reach.com^
+DOMAIN,||info.wosupply.com^
+DOMAIN,||marketing.destinationmadison.com^
+DOMAIN,||marketing.iglobalforum.com^
+DOMAIN,||marketing.quantumlifecycle.com^
+DOMAIN,||marketing.teamknowledge.co.uk^
+DOMAIN,||www.gogreen.hyliion.com^
+DOMAIN,||connect.redk.net^
+DOMAIN,||info.eskycity.net^
+DOMAIN,||marketing.gcaaltium.com^
+DOMAIN,||www2.red8.com^
 DOMAIN,! Actionlink.jp : mm.actionlink.jp disguised trackers
 DOMAIN,! Company name: Actionlink.jp
+DOMAIN,||al.shop.inaba-foods.jp^
 DOMAIN,! ACWEB Inc. : acweb.clog.jp disguised trackers
 DOMAIN,! Company name: ACWEB Inc.
 DOMAIN,! AD EBiS : ebis.ne.jp disguised trackers
@@ -624349,10 +624399,101 @@ DOMAIN,! Company name: AD EBiS
 DOMAIN,! Adobe Experience Cloud (formerly Omniture) : 2o7.net disguised trackers
 DOMAIN,! Disabled for AdGuard for Safari/iOS due to the limit on the number of rules
 DOMAIN,! Company name: Adobe Experience Cloud (formerly Omniture)
+DOMAIN,||analytics.autoexpress.co.uk^
+DOMAIN,||analytics.insuremypath.org^
+DOMAIN,||analytics.saveur.com^
+DOMAIN,||info.cowboys.com.au^
+DOMAIN,||metrics.amway.co.uk^
+DOMAIN,||metrics.asce.org^
+DOMAIN,||metrics.beautyriot.com^
+DOMAIN,||metrics.hrw.org^
+DOMAIN,||metrics.israelbonds.com^
+DOMAIN,||metrics.journalstar.com^
+DOMAIN,||metrics.lexusofedison.com^
+DOMAIN,||metrics.lexusstevenscreek.com^
+DOMAIN,||metrics.myhome.ie^
+DOMAIN,||metrics.mykawartha.com^
+DOMAIN,||metrics.nwitimes.com^
+DOMAIN,||metrics.peta.org^
+DOMAIN,||metrics.timeforkids.com^
+DOMAIN,||metrics.wavy.com^
+DOMAIN,||metrics.waynehomes.com^
+DOMAIN,||metrics.wthitv.com^
+DOMAIN,||metrics.wyndhamrewards.com^
+DOMAIN,||test.channelpartnersconference.com^
+DOMAIN,||adbsmetrics.imprintu.co.kr^
+DOMAIN,||analytics.infosyspublicservices.ca^
+DOMAIN,||analytics.underarmour.com.mx^
+DOMAIN,||data.e.msccruises.fi^
+DOMAIN,||data.fi.nordeafunds.com^
+DOMAIN,||data.funandseriousgamefestival.com^
+DOMAIN,||data.info.madisenskinner.com^
+DOMAIN,||data.mail.smiles.com.ar^
+DOMAIN,||data.mail.urba.com.br^
 DOMAIN,||data.orders.costco.ca^
+DOMAIN,||data.pb.nordea.dk^
+DOMAIN,||data.t.greencrossvets.com.au^
+DOMAIN,||data.test.getinvestly.com^
+DOMAIN,||edge.aok-nordwest-zusatzversicherung.de^
+DOMAIN,||info.e.msccruises.fi^
+DOMAIN,||lp01ra.marketing.riyadhair.tech^
+DOMAIN,||metrics.bny.com^
+DOMAIN,||metrics.carmax.com^
+DOMAIN,||metrics.cultura.com^
+DOMAIN,||metrics.thomasgalbraith.com^
+DOMAIN,||rchaubey-luma1.ajo2gdc.adobevlab.com^
+DOMAIN,||s.service.firestonecompleteautocare.com^
+DOMAIN,||same.cosmofunding.com^
+DOMAIN,||subscribe.dk.nordeafunds.com^
+DOMAIN,||subscribe.mejl.nordea.se^
+DOMAIN,||analytics.avis.dk^
+DOMAIN,||analytics.boomerangtv.fr^
+DOMAIN,||metrics.365g.it^
+DOMAIN,||metrics.airandgo.fr^
+DOMAIN,||metrics.ajinomoto.co.jp^
+DOMAIN,||metrics.aptaclub.co.uk^
+DOMAIN,||metrics.bayaudiology.co.nz^
+DOMAIN,||metrics.bayer.com.br^
+DOMAIN,||metrics.bestinver.es^
+DOMAIN,||metrics.boehringer-ingelheim.co.uk^
+DOMAIN,||metrics.boss.info^
+DOMAIN,||metrics.casinoladbrokes.be^
+DOMAIN,||metrics.crystalski.ie^
+DOMAIN,||metrics.cua.com.au^
+DOMAIN,||metrics.dfo.com.au^
+DOMAIN,||metrics.diabeteswhatsnext.com^
+DOMAIN,||metrics.dinersclub.se^
+DOMAIN,||metrics.grarate.com^
+DOMAIN,||metrics.jboss.org^
+DOMAIN,||metrics.jeugdbibliotheek.nl^
+DOMAIN,||metrics.kenmore.com^
+DOMAIN,||metrics.kioxia.com^
+DOMAIN,||metrics.mein-hund-hat-epilepsie.de^
+DOMAIN,||metrics.metacam.de^
+DOMAIN,||metrics.michaelkors.it^
+DOMAIN,||metrics.mistore.jp^
+DOMAIN,||metrics.motorsportreg.com^
+DOMAIN,||metrics.pahealthwellness.com^
+DOMAIN,||metrics.premera.com^
+DOMAIN,||metrics.radioimagina.cl^
+DOMAIN,||metrics.ralphlauren.es^
+DOMAIN,||metrics.robeco.nl^
+DOMAIN,||metrics.seat-auto.pl^
+DOMAIN,||metrics.shell.co.uk^
+DOMAIN,||metrics.sony.com.tw^
+DOMAIN,||metrics.swisslife.com^
+DOMAIN,||metrics.tecoloco.com.do^
+DOMAIN,||metrics.thewolf.ca^
+DOMAIN,||metrics.vwcredit.com^
+DOMAIN,||metrics.ziplyfiber.com^
+DOMAIN,||smetrics.americanairlines.ch^
+DOMAIN,||target.dertour.de^
+DOMAIN,||target.its.de^
+DOMAIN,||target.meiers-weltreisen.de^
 DOMAIN,! included to BaseFilter/sections/cname_adservers.txt
 DOMAIN,! AT Internet (formerly XiTi) : at-o.net disguised trackers
 DOMAIN,! Company name: AT Internet (formerly XiTi)
+DOMAIN,||pa.ouik-serrechevalier.ski^
 DOMAIN,! not included
 DOMAIN,! Clickaine : api.clickaine.com disguised trackers
 DOMAIN,! Commanders Act : tagcommander.com disguised trackers
@@ -624360,21 +624501,76 @@ DOMAIN,! Company name: Commanders Act
 DOMAIN,! Content Ignite : greylabeldelivery.com disguised trackers
 DOMAIN,||tccd.douglas.
 DOMAIN,! Company name: Content Ignite
+DOMAIN,||view.peek-cloppenburg.nl^
 DOMAIN,! Criteo : dnsdelegation.io disguised trackers
 DOMAIN,! Company name: Criteo
+DOMAIN,||avrsht.wolfsburger-jobanzeiger.de^
+DOMAIN,||cnqniz.hannover-jobanzeiger.de^
+DOMAIN,||demo.velpa.pl^
+DOMAIN,||file.velpa.pl^
+DOMAIN,||jdgtgb.mz-web.de^
+DOMAIN,||jnloar.stitchery.com^
+DOMAIN,||mhsqhc.parkcityvacationrentals.com^
+DOMAIN,||muojfe.mybesthome.cz^
+DOMAIN,||nbyggk.matomame.jp^
+DOMAIN,||old.velpa.pl^
+DOMAIN,||prometheus.velpa.pl^
+DOMAIN,||sxjfhh.stevenspointjournal.com^
+DOMAIN,||tvteci.nordicagolf.se^
+DOMAIN,||ubcolj.cebu-oh.com^
+DOMAIN,||vdvkiu.rhein-ruhr-jobanzeiger.de^
+DOMAIN,||xsezjw.karlsruher-jobanzeiger.de^
+DOMAIN,||ztoash.cyberpuerta.mx^
 DOMAIN,! CustomerLabs : 1p-data.co disguised trackers
 DOMAIN,! Company name: CustomerLabs
 DOMAIN,! DataUnlocker : dataunlocker.com disguised trackers
 DOMAIN,! Company name: DataUnlocker
 ! EDGETAG : EDGETAG.IO,attntags.com
 DOMAIN,! Company name: EdgeTag
+DOMAIN,||lqgne.4patriots.net^
+DOMAIN,||aqkbm.ccmusic.com^
+DOMAIN,||dsedi.ccvideo.com^
+DOMAIN,||ezcgi.deepdiscount.com^
+DOMAIN,||fymtk.poppyandpeonies.com^
+DOMAIN,||kzgqt.poppyandpeonies.com^
+DOMAIN,||lrrli.petsuppliesplus.com^
+DOMAIN,||nydfz.gog.com^
+DOMAIN,||poefd.bigbarker.com^
+DOMAIN,||rszpw.elixserpeptides.com^
+DOMAIN,||rwfhc.cleens.co.uk^
+DOMAIN,||sbvpn.gshock.com^
+DOMAIN,||zswbl.buildabear.com^
+DOMAIN,||jkcmm.therfpsuccesscompany.com^
 DOMAIN,! Ensighten : nc0.co disguised trackers
 DOMAIN,! Company name: Ensighten
 DOMAIN,||tms.capitalone.com^
 DOMAIN,! Eulerian : eulerian.net disguised trackers
 DOMAIN,! Company name: Eulerian
+DOMAIN,||af1.artikfest.com^
+DOMAIN,||cs4.cultureshawinigan.ca^
+DOMAIN,||ff4.francofest.ca^
+DOMAIN,||social.eulerian.io^
+DOMAIN,||www.euleriantech.com^
+DOMAIN,||www.euleriantech.fr^
+DOMAIN,||www.euleriantechnologies.com^
+DOMAIN,||www.euleriantechnologies.fr^
+DOMAIN,||www.master-tag.com^
+DOMAIN,||www.master-tag.fr^
+DOMAIN,||www.mastertag.fr^
 DOMAIN,! Etracker : customer.etracker.com disguised trackers
 DOMAIN,! Company name: Etracker
+DOMAIN,||data.regale-lbl.de^
+DOMAIN,||eanalytics.linqi.de^
+DOMAIN,||kkanalytics.fria-immobilien.de^
+DOMAIN,||kkanalytics.rfox.de^
+DOMAIN,||kkanalytics.terravis-biogas.de^
+DOMAIN,||kkanalytics.veravis.de^
+DOMAIN,||met.hanser-esolutions.de^
+DOMAIN,||sas2.arrowforge.de^
+DOMAIN,||stats.lisio.de^
+DOMAIN,||webstt0008.onofficeom.com^
+DOMAIN,||webstt0096.onofficeom.com^
+DOMAIN,||webtr.pdv.blue^
 DOMAIN,! Extole : extole.com disguised trackers
 DOMAIN,! Fathom : fathomdns.com disguised trackers
 DOMAIN,! Company name: Fathom
@@ -624384,10 +624580,17 @@ DOMAIN,! GMO Internet Group : ad-cloud.jp disguised trackers
 DOMAIN,! Company name: GMO Internet Group
 DOMAIN,! GoatCounter : goatcounter.com disguised trackers
 DOMAIN,! Company name: GoatCounter
+DOMAIN,||metrics.auspexai.network^
 DOMAIN,! GoDaddy : ads2.bid disguised trackers
 DOMAIN,! Ingenious Technologies : affex.org disguised trackers
 DOMAIN,! INFOnline : iocnt.net disguised trackers
 DOMAIN,! Company name: INFOnline
+DOMAIN,||data-06d20d5dfa.addradio.de^
+DOMAIN,||data-2572d220f8.motorsport-total.com^
+DOMAIN,||data-40370dcf13.mv-digital.de^
+DOMAIN,||data-47ee1b0882.ostseekino-doberan.de^
+DOMAIN,||data-63015eaef7.apps.iocnt.de^
+DOMAIN,||data-e4689287ec.derpatriot.com^
 DOMAIN,! Keyade : k.keyade.com disguised trackers
 DOMAIN,! Company name: Keyade
 DOMAIN,! kib.hu : kib.hu disguised trackers
@@ -624401,9 +624604,34 @@ DOMAIN,! NameSilo : ab1n.net disguised trackers
 DOMAIN,! Nativo : ntv.io disguised trackers
 DOMAIN,! NP6 : tracking.bp01.net disguised trackers
 DOMAIN,! Company name: NP6
+DOMAIN,||tr.fid.solocalms.fr^
 DOMAIN,! Oracle Eloqua : hs.eloqua.com disguised trackers
 DOMAIN,! Company name: Oracle Eloqua
+DOMAIN,||elq.cgs-gems.com^
+DOMAIN,||tracking.clearfieldcanola.ca^
+DOMAIN,||trck.ricoh.cz^
+DOMAIN,||trck.ricoh.hu^
+DOMAIN,||event.standardandpoors.com^
+DOMAIN,||info.cornerstoneondemand.com^
+DOMAIN,||mim-event.mfg.macquarie.com^
+DOMAIN,||officesweepstakes.ironmountain.com^
+DOMAIN,||landingpage.lesarcs.com^
+DOMAIN,||app.goutrgv.com^
+DOMAIN,||info.hortondoors.com^
+DOMAIN,||trk.catersource-cfp.com^
+DOMAIN,||images.link.pentonmanufacturing.com^
 DOMAIN,||belgium.wolterskluwer.com^
+DOMAIN,||lkr-trk.reply.com^
+DOMAIN,||engage.granular.ag^
+DOMAIN,||application.ricoh.fi^
+DOMAIN,||go.em-apexit.com^
+DOMAIN,||info.cws.cc^
+DOMAIN,||info.tbivision.com^
+DOMAIN,||reg.interop.com^
+DOMAIN,||sites.siemens-info.com^
+DOMAIN,||test.sseairtricity.com^
+DOMAIN,||go.send.fibia.dk^
+DOMAIN,||now.informamail10.com^
 DOMAIN,! Otto Group : oghub.io disguised trackers
 DOMAIN,! Company name: Otto Group
 DOMAIN,! Pardot : go.pardot.com disguised trackers
@@ -624415,6 +624643,24 @@ DOMAIN,! Plausible Analytics : custom.plausible.io disguised trackers
 DOMAIN,! Company name: Plausible Analytics
 DOMAIN,! RedTrack : rdtk.io disguised advertising networks
 DOMAIN,! Company name: RedTrack
+DOMAIN,||blog.thenewyoukpost.com^
+DOMAIN,||rtk.trk.benefitswellnessguide.com^
+DOMAIN,||rtk.trk.mindfulwellbeingcenter.com^
+DOMAIN,||rtk.trk.wellbeingadvisorzone.com^
+DOMAIN,||rtk.trk.wellnessguidancecenter.com^
+DOMAIN,||track.boxnutra.com^
+DOMAIN,||track.injuryjusticealliance.com^
+DOMAIN,||trk.mikeultra.shop^
+DOMAIN,||go.vitalbalancereport.com^
+DOMAIN,||go.yourwealth.com^
+DOMAIN,||insights.yogaforlifeonline.com^
+DOMAIN,||rtrk.newsdigestuk.co.uk^
+DOMAIN,||track.clearabreathe.com^
+DOMAIN,||track.institutoesencial.com^
+DOMAIN,||track.outlettrends.com^
+DOMAIN,||track.sportsevents365.com^
+DOMAIN,||track.stayloyal.com.au^
+DOMAIN,||trk.konner-sohnen.uk^
 DOMAIN,! Stape : stape.net disguised trackers
 DOMAIN-SUFFIX,stape.net
 DOMAIN,|load.gtm.
@@ -624423,16 +624669,475 @@ DOMAIN,|load.ss.
 DOMAIN,|load.sst.
 DOMAIN,||thegreatesthits.
 DOMAIN,! Company name: Stape
+DOMAIN,||a.thescentnest.com^
+DOMAIN,||aksudsjz.troldtekt.no^
+DOMAIN,||analytics.accordmarketing.com^
+DOMAIN,||arthurbrent.zinindenbosch.nl^
+DOMAIN,||auth.rottne.com^
+DOMAIN,||backoffice.rottne.com^
+DOMAIN,||blue.openlane.co.uk^
+DOMAIN,||cdn.academy.quantaste.com^
+DOMAIN,||chat.rottne.com^
+DOMAIN,||collect.amero.dk^
+DOMAIN,||collect.pipekit.co.uk^
+DOMAIN,||collect.transcatheteracademy.com^
+DOMAIN,||connect.schachdino.de^
+DOMAIN,||control.rottne.com^
+DOMAIN,||corp.rottne.com^
+DOMAIN,||crz.pecado.ro^
+DOMAIN,||cswebconf.rottne.com^
+DOMAIN,||d.vehgroshop.sk^
+DOMAIN,||d2.mltagdaekning.dk^
+DOMAIN,||dane.maratonska49.pl^
+DOMAIN,||dashboard.rottne.com^
+DOMAIN,||data.body-sds.dk^
+DOMAIN,||data.bouwbedrijfvanboxmeer.nl^
+DOMAIN,||data.candlelivemusic.pl^
+DOMAIN,||data.davidbock.agency^
+DOMAIN,||data.dbv-betreuer.de^
+DOMAIN,||data.eagleextend.de^
+DOMAIN,||data.goodlookin.pl^
+DOMAIN,||data.hautzentrum-innenstadt.de^
+DOMAIN,||data.kunsthojskolen.dk^
+DOMAIN,||data.mattressmick.ie^
+DOMAIN,||data.pocwarszawa.pl^
+DOMAIN,||data.smartlunch.pl^
+DOMAIN,||data.source-promo.be^
+DOMAIN,||dgx.s-medcare.co.uk^
+DOMAIN,||dt.slimbylivefresh.de^
+DOMAIN,||ea.epicads.ro^
+DOMAIN,||edge.demolink.ch^
+DOMAIN,||ee.gopas.cz^
+DOMAIN,||exdsrgqn.meblekatmandu.pl^
+DOMAIN,||forum.rottne.com^
 DOMAIN,||geux.status.stape.host^
+DOMAIN,||go.mommy-rueckbildung.de^
+DOMAIN,||go.mysc.nl^
+DOMAIN,||gtm.autohaus-carport.de^
+DOMAIN,||gtm.lappbutiken.se^
+DOMAIN,||gtm2.timo-gemmrich.de^
+DOMAIN,||gzxmkgjr.klair-online.com^
+DOMAIN,||has.kirsch.nl^
+DOMAIN,||hio.alldent-zahnzentrum-stuttgart.de^
+DOMAIN,||iris.riffonline.com^
+DOMAIN,||j.jardinmusical.org^
+DOMAIN,||jewels.dirksjewellery.dk^
+DOMAIN,||journey.junglegym.pt^
+DOMAIN,||kmxta.femsense.com^
+DOMAIN,||kokos.marketup.cz^
+DOMAIN,||ksaxpnen.furni.io^
+DOMAIN,||kydeqcjk.faerch.com^
+DOMAIN,||lb.europesnus.com^
+DOMAIN,||load.advice.businesshelpline.uk^
+DOMAIN,||load.analy.claus-holm.com^
+DOMAIN,||load.analytics.candle-shack.co.uk^
+DOMAIN,||load.bspiner.sparkforce.dk^
+DOMAIN,||load.dane.rejtanapark.pl^
+DOMAIN,||load.data.naturtreu.de^
+DOMAIN,||load.dhpjhrud.skisport.ro^
+DOMAIN,||load.gtm.fabrykabodziakow.pl^
+DOMAIN,||load.gtm.forfaitcompare.fr^
+DOMAIN,||load.gtm.wecommerce.pl^
+DOMAIN,||load.jzabutilop.gbt-shop.uk^
+DOMAIN,||load.metrics.gubadolls.art^
+DOMAIN,||load.moredata.jjgruppen.se^
+DOMAIN,||load.nsfosvrk.fitone.cz^
+DOMAIN,||load.pal.arvopartners.fi^
+DOMAIN,||load.plusat.speelgoedcamera.nl^
+DOMAIN,||load.pomznrvf.lagur.eu^
+DOMAIN,||load.pulse.paaspop.nl^
+DOMAIN,||load.quality.upscaletracking.com^
+DOMAIN,||load.s.myoticon.co.za^
+DOMAIN,||load.s.softia.fi^
+DOMAIN,||load.s2.velkyvyber.pl^
+DOMAIN,||load.s2.zuhanyajtocentrum.hu^
+DOMAIN,||load.sgtm.123homeoffice.de^
+DOMAIN,||load.sgtm.pumppilates.co.uk^
+DOMAIN,||load.sgtm.titancontainers.co.tt^
+DOMAIN,||load.sgtm.tuneind.com^
+DOMAIN,||load.soap.bubbleroom.at^
+DOMAIN,||load.ss.efterskolenforscenekunst.dk^
+DOMAIN,||load.sst.sofasgarden.com^
+DOMAIN,||load.sub.cloudhelden.org^
+DOMAIN,||load.tss.habilis.space^
+DOMAIN,||load.vtzsmmkr.nordkey.fr^
+DOMAIN,||load.wunderful.wunderbook.app^
+DOMAIN,||ltst.leg-med.dk^
+DOMAIN,||map.kurage.com^
+DOMAIN,||meas.sixtdrivesmart.pl^
+DOMAIN,||metrics.skimsafe.no^
+DOMAIN,||more.eisstock-events.de^
+DOMAIN,||moredata.saluco.se^
+DOMAIN,||mp.myportrait.ie^
+DOMAIN,||mt1.agence-acd.fr^
+DOMAIN,||mtg.motiontower.pl^
+DOMAIN,||mtr.fitometabolicdiet.hr^
+DOMAIN,||nfavgqdj.www.emlara.de^
+DOMAIN,||nlpd.dejac.ch^
+DOMAIN,||oar2dddpk2.sydensferiehuse.dk^
+DOMAIN,||order.variakeys.nl^
+DOMAIN,||pia.alldent-zahnzentrum-berlin.de^
+DOMAIN,||print.pixojet.se^
+DOMAIN,||production.rottne.com^
+DOMAIN,||pulse.thatso.nl^
+DOMAIN,||rink.baufora.de^
+DOMAIN,||s.leinos.shop^
+DOMAIN,||s.magdamalygastudio.com^
+DOMAIN,||s.myoticon.dk^
+DOMAIN,||s.myoticon.nl^
+DOMAIN,||s2.digitalsmile.hu^
+DOMAIN,||s2.onsize.ro^
+DOMAIN,||s2.waterfun.cz^
+DOMAIN,||sandbox.rottne.com^
+DOMAIN,||sdwpxddk.muscle-house.de^
+DOMAIN,||sentry.rottne.com^
+DOMAIN,||server.carlumina.de^
+DOMAIN,||server.danskteknik.dk^
+DOMAIN,||sgtm.comparafranchising.it^
+DOMAIN,||sgtm.datenfreigabepass.de^
+DOMAIN,||sgtm.dm.kaisoft.it^
+DOMAIN,||sgtm.domorebetter.ie^
+DOMAIN,||sgtm.dorelan.com^
+DOMAIN,||sgtm.imalabeling.com^
+DOMAIN,||sgtm.medical-langer.de^
+DOMAIN,||shoes.duha.world^
+DOMAIN,||slwespoe.contextridewear.co.uk^
+DOMAIN,||ss.atak.se^
+DOMAIN,||ss.bublaki.pl^
+DOMAIN,||ss.energiberegner.dk^
+DOMAIN,||ss.lie-studio.kr^
+DOMAIN,||ss.nebudose.pl^
+DOMAIN,||ss.parvum.fr^
+DOMAIN,||ss.ukraineforfolket.dk^
+DOMAIN,||ss.victorystockholm.se^
+DOMAIN,||ssk.flights.kilroy.is^
+DOMAIN,||sst.adminat.de^
+DOMAIN,||sst.awojcik.com.pl^
+DOMAIN,||sst.mistermill.nl^
+DOMAIN,||sst.offenga.nl^
+DOMAIN,||sst.productronica.com^
+DOMAIN,||sst.pua.ch^
+DOMAIN,||sst.pureclinics.nl^
+DOMAIN,||sst.reunielive.nl^
+DOMAIN,||sst.taxole.com^
+DOMAIN,||sstape.komjati.net^
+DOMAIN,||st.freundschaftspreis.de^
+DOMAIN,||st.mayafreya.fr^
+DOMAIN,||stape.mrbob.it^
+DOMAIN,||stats.galeriastron.com^
+DOMAIN,||store.eatunique.ch^
+DOMAIN,||sub.snushub.dk^
+DOMAIN,||sun.auctentic.com^
+DOMAIN,||t.oofos.ch^
+DOMAIN,||test-api.rottne.com^
+DOMAIN,||transparent.finstral.com^
+DOMAIN,||tss.almanachotels.com^
+DOMAIN,||vtzsmmkr.nordkey.io^
+DOMAIN,||xxwstajt.vela-medical.dk^
+DOMAIN,||a.culminar.nl^
+DOMAIN,||abc.ultimateorganiclife.com^
+DOMAIN,||advanced.ascendviral.com^
+DOMAIN,||analytics.astralcoach.com^
+DOMAIN,||api.blog.kdci.net^
+DOMAIN,||api.hauzriviera.com^
+DOMAIN,||api.kamalleoon.com^
+DOMAIN,||api.medsystems.com.br^
+DOMAIN,||api.profmarcelovasconcelos.com.br^
+DOMAIN,||app.votredentisterie.com^
+DOMAIN,||arif.touchdownassistke.com^
+DOMAIN,||asb.alshafi.com.bd^
+DOMAIN,||asdklf.snugglescove.com^
+DOMAIN,||asia.asiapvt.com^
+DOMAIN,||at.mypathtoretirement.com^
+DOMAIN,||aust.alliedacupuncture.com.au^
+DOMAIN,||bd.sylbaz.com^
+DOMAIN,||bhs.biolabsresearch.co^
+DOMAIN,||bhs.contourclinical.com^
+DOMAIN,||bhs.junolabs.info^
+DOMAIN,||bhs.minotaurstrategy.com^
+DOMAIN,||bhs.uspeptidelabs.co^
+DOMAIN,||bhs.zenaminos.is^
+DOMAIN,||bls.temeculainns.com^
+DOMAIN,||bmlbypkn.sounderdata.com^
+DOMAIN,||br.azlimo.com^
+DOMAIN,||capi.opnar.com^
+DOMAIN,||care.dreamwatchs.com^
+DOMAIN,||cbaix.chatbeacon.io^
+DOMAIN,||cdn.pricemysolar.co.nz^
+DOMAIN,||cloud.84pins.com^
+DOMAIN,||collect.hugcares.org^
+DOMAIN,||connect.bartekindygo.com^
+DOMAIN,||connect.ponchobonik.com^
+DOMAIN,||conteudo.eweducacao.com.br^
+DOMAIN,||dados.sejaseumentor.com^
+DOMAIN,||data.360vier.de^
+DOMAIN,||data.agenciaflamel.com.br^
+DOMAIN,||data.aulaolaracastilho.com^
+DOMAIN,||data.bmenye.dev^
+DOMAIN,||data.gobrightlights.com^
+DOMAIN,||data.juntoscomotavio.com^
+DOMAIN,||data.ronanmendes.com.br^
+DOMAIN,||data.wine.com.mx^
+DOMAIN,||dev.gallerycanada.com^
+DOMAIN,||dev.itum-almog.com^
+DOMAIN,||dk.dikasa.com.co^
+DOMAIN,||dscga.diveshopcuracao.com^
+DOMAIN,||dss.homecareassistanceofdallas.com^
+DOMAIN,||dwga.highprofilelunapier.shop^
+DOMAIN,||dwga.highprofilenj.shop^
+DOMAIN,||dwga.milligrams.co^
+DOMAIN,||dwga.myhealthstandard.com^
+DOMAIN,||edge.eletroflix.com^
+DOMAIN,||edge.mindchampselc.edu.au^
+DOMAIN,||edge.theloveplanners.com^
+DOMAIN,||eseesetebr.hokobox.com.ar^
+DOMAIN,||events.agendabio.co^
+DOMAIN,||fbc1.fullblastcreative.ca^
+DOMAIN,||ff.cassillmotors.com^
+DOMAIN,||ff.marketplacechevy.com^
+DOMAIN,||forum.euvou.events^
+DOMAIN,||getstarted.thepracticeusa.com^
+DOMAIN,||ggl.collectiononepiece.com^
+DOMAIN,||ggl.creations-chapeaux.com^
+DOMAIN,||ggl.mon-sac-bandouliere.com^
+DOMAIN,||go.hernandochiro.com^
+DOMAIN,||grow.dispo-seo.com^
+DOMAIN,||gtm-terme.unionlido.com^
+DOMAIN,||gtm.academiarapport.com^
+DOMAIN,||gtm.big.bet.br^
+DOMAIN,||gtm.greensgardeningandlandscape.co.uk^
+DOMAIN,||gtm.hauzzidesign.com^
+DOMAIN,||gtm.healthygo.id^
+DOMAIN,||gtm.ivevar.us^
+DOMAIN,||gtm.lavelle.com.mx^
+DOMAIN,||gtm.leadsharksystem.com^
+DOMAIN,||gtm.louisemayberry.com^
+DOMAIN,||gtm.lucianalourenco.com.br^
+DOMAIN,||gtm.mortgage.military.com^
+DOMAIN,||gtm.onedominosquare.com^
+DOMAIN,||gtm.ravenparts.com^
+DOMAIN,||gtm.thetechymarketers.com^
+DOMAIN,||gtm.vigilant.com.br^
+DOMAIN,||gtm.wecar.co.il^
+DOMAIN,||gtm.zaynabeauty.com^
+DOMAIN,||gtmyt.melhorversao10.online^
+DOMAIN,||hub.cairnsfuneraldirectors.com.au^
+DOMAIN,||hub.desallenfunerals.com.au^
+DOMAIN,||hub.meighans.com.au^
+DOMAIN,||hub.mulqueen.com.au^
+DOMAIN,||hub.windsorfuneralhome.com.au^
 DOMAIN,||ijxptjzn.w8solucoes.host^
+DOMAIN,||info.starinsure.co.nz^
+DOMAIN,||izi.drhollydonahue.com^
+DOMAIN,||jar.jeremyjacobs.co.uk^
+DOMAIN,||junak.principshop.com^
+DOMAIN,||kitchen.letshibachi.com^
+DOMAIN,||kxj6y.buvanha.be^
+DOMAIN,||l2.siliconeintakes.com^
+DOMAIN,||linen.allevyacomfortco.com^
+DOMAIN,||link.dev.bookinglane.com^
+DOMAIN,||load.a.bluebid.app^
+DOMAIN,||load.abc.upscalespaces.com^
+DOMAIN,||load.analytics.ethosbook.co^
+DOMAIN,||load.analytics.thesoulfulgems.com^
+DOMAIN,||load.asma.eurobdshop.com^
+DOMAIN,||load.at.regrouppartners.com^
+DOMAIN,||load.bd.striveplusbd.com^
+DOMAIN,||load.collect.vocabry.com^
+DOMAIN,||load.connect.eloriasmart.com^
+DOMAIN,||load.data.jarvoutdoor.se^
+DOMAIN,||load.data.manhooddatingsecrets.com^
+DOMAIN,||load.ff.hileymazdafortworth.com^
+DOMAIN,||load.get.myjunna.com^
+DOMAIN,||load.gg.hashlytics.ai^
+DOMAIN,||load.gm.eriklopez.com.br^
+DOMAIN,||load.gtm.albertsrelocation.com^
+DOMAIN,||load.gtm.dineline.co^
+DOMAIN,||load.gtm.goduo.co^
+DOMAIN,||load.gtm.hijazi-ts.com^
+DOMAIN,||load.gtm.mirdin.com^
+DOMAIN,||load.gtm.probel.com.br^
+DOMAIN,||load.gtm.woodlika.pl^
+DOMAIN,||load.gw.whatsapp.galantis.com^
+DOMAIN,||load.measure.squarelevelsystems.ca^
+DOMAIN,||load.plum.lyfemade.com^
+DOMAIN,||load.qrvdiajw.scaledata-store.uk^
+DOMAIN,||load.respairsleep.com^
+DOMAIN,||load.server.mm-automatico.online^
+DOMAIN,||load.server.mouratorres.com.br^
+DOMAIN,||load.server.ziaska.com^
+DOMAIN,||load.sgtm.brain2canvas.com^
+DOMAIN,||load.sgtm.cs.deals^
+DOMAIN,||load.sgtm.obuvzona.sk^
+DOMAIN,||load.sgtm.renoliva.pl^
+DOMAIN,||load.sgtm.worko.ai^
+DOMAIN,||load.ss.blueworldpools.com^
+DOMAIN,||load.ss.luxuracover.com^
+DOMAIN,||load.sst.clearauthenticbrands.com^
+DOMAIN,||load.sst.dartshopper.hr^
+DOMAIN,||load.sst.freestorebuild.com^
+DOMAIN,||load.sst.nblifelabs.com^
+DOMAIN,||load.sst.visitodense.de^
+DOMAIN,||load.sstag.e-commerce.com.uy^
+DOMAIN,||load.static.seolick.me^
+DOMAIN,||load.tatu.futeradots.com.br^
+DOMAIN,||load.tracklabs.maruplus.store^
+DOMAIN,||lp.cintiacursos.com.br^
+DOMAIN,||lux.luxmetallic.com^
+DOMAIN,||m.inhira.com^
+DOMAIN,||ma.cda.daftra.com^
+DOMAIN,||measure.longestday.org.nz^
+DOMAIN,||measure.swiftlybook.com^
+DOMAIN,||metrics.massamadreblog.com.br^
+DOMAIN,||metrics.strong.com.br^
+DOMAIN,||metrics.ubook.com^
+DOMAIN,||module.signaturesb.com^
+DOMAIN,||monitor.properforma.de^
+DOMAIN,||mvect.ecomreview.net^
+DOMAIN,||nd.babybondhu.com^
+DOMAIN,||online.ignitenatural.com.bd^
+DOMAIN,||our.designflooring.com^
+DOMAIN,||pixel.zuhrtech.com^
+DOMAIN,||qgtxyyfv.www.elegear.com^
+DOMAIN,||rastreamento.thebesocial.cc^
+DOMAIN,||relay.capaxgp.com.au^
+DOMAIN,||revolt.tsf.ro^
+DOMAIN,||rrr.mobileservicingshopbd.com^
+DOMAIN,||s.australiawristbands.com^
+DOMAIN,||s.comproourocuritibaprime.com.br^
+DOMAIN,||s.titanwealthinternational.com^
+DOMAIN,||s2s.royeraccounting.ca^
+DOMAIN,||scc.carouselchecks.com^
+DOMAIN,||serv3.travely.bd^
+DOMAIN,||serve.sigmarobots.com^
+DOMAIN,||server.astraimagem.com.br^
+DOMAIN,||server.balsamospa.com.br^
+DOMAIN,||server.bazarlon.com^
+DOMAIN,||server.blinkbpo.com.br^
+DOMAIN,||server.castelodicapri.com.br^
+DOMAIN,||server.clothify-it.com^
+DOMAIN,||server.getupmatch.com^
+DOMAIN,||server.homevalleybd.com^
+DOMAIN,||server.kommunekonsulenterne.dk^
+DOMAIN,||server.loombongo.com^
+DOMAIN,||server.megahomefurnishing.com.sg^
+DOMAIN,||server.melinabd.com^
+DOMAIN,||server.nationalcollectibles.com^
+DOMAIN,||server.ocafinanciamentos.com.br^
+DOMAIN,||server.skmart.com.bd^
+DOMAIN,||server.soloitalianwines.co.uk^
+DOMAIN,||server.stylenexusbd.com^
+DOMAIN,||server.superior.dsop.com.br^
+DOMAIN,||server.ukpaintball.co.uk^
+DOMAIN,||server.viverbem60mais.com.br^
+DOMAIN,||servidor.sanchesesandrinne.com.br^
+DOMAIN,||servidor.vivianeguerreiro.com.br^
+DOMAIN,||sgtm.acneisrael.co.il^
+DOMAIN,||sgtm.alleviatetax.co^
+DOMAIN,||sgtm.baptistworldaid.org.au^
+DOMAIN,||sgtm.bsaunas.ca^
+DOMAIN,||sgtm.fastcoupon.com.br^
+DOMAIN,||sgtm.informatica-aman.co.il^
+DOMAIN,||sgtm.joveen.com^
+DOMAIN,||sgtm.luniafarmacia.com.br^
+DOMAIN,||sgtm.luxurycottages.com^
+DOMAIN,||sgtm.roiassist.com^
+DOMAIN,||sgtm.sandiutomo.com^
+DOMAIN,||sgtm.silkcitymart.com^
+DOMAIN,||sgtm.wishsalonandnails.com^
+DOMAIN,||sgtm.x-formation.com^
+DOMAIN,||sgtmregcp.stape.re^
+DOMAIN,||sgtmsh.stape.dev^
+DOMAIN,||srv.heybranders.com^
+DOMAIN,||ss.app.upcomingsolution.com^
+DOMAIN,||ss.dentalstudio101.com^
+DOMAIN,||ss.dhongerbakso.com^
+DOMAIN,||ss.digitalhouseagency.com^
+DOMAIN,||ss.healyourmind.ca^
+DOMAIN,||ss.moonlitemoney.com^
+DOMAIN,||ss.muratkose.online^
+DOMAIN,||ss.nuvia.media^
+DOMAIN,||ss.offer.nongorfood.com^
+DOMAIN,||ss.repelmate.com^
+DOMAIN,||ss.teamventi.com^
+DOMAIN,||ss.thelumiclub.com^
+DOMAIN,||ss.trulycoastal.com^
+DOMAIN,||ss.trywellbe.pl^
+DOMAIN,||ss.withstacklab.com^
+DOMAIN,||ssgtm.instafeet.com^
+DOMAIN,||sst.48xlabs.com^
+DOMAIN,||sst.ai-neo-boat.com^
+DOMAIN,||sst.aisdcbd.org^
+DOMAIN,||sst.ayrolife.com^
+DOMAIN,||sst.birb.rent^
+DOMAIN,||sst.directo.ee^
+DOMAIN,||sst.goldworlddiamondltd.com^
+DOMAIN,||sst.iloveaurelien.com^
+DOMAIN,||sst.kcdefensecounsel.com^
+DOMAIN,||sst.loopify.world^
+DOMAIN,||sst.mysolutionwellbeing.com^
+DOMAIN,||sst.onestream.com^
+DOMAIN,||sst.pandagerman.com^
+DOMAIN,||sst.pinksaltwall.com^
+DOMAIN,||sst.recanto.uk^
+DOMAIN,||sst.refunder.co.il^
+DOMAIN,||sst.taskray.com^
+DOMAIN,||sst.ultrawears.com^
+DOMAIN,||sst.vestidosdacecilia.com^
+DOMAIN,||sst.wholesalethd.com^
+DOMAIN,||ssta.affirm-stage.com^
+DOMAIN,||stape-gtm.beautycos.fi^
+DOMAIN,||stape.assistenciahelptech.com^
+DOMAIN,||stape.carolnutricionistainfantil.com.br^
+DOMAIN,||stape.chatselling.pro^
+DOMAIN,||stape.dianeneurologista.com^
+DOMAIN,||stape.dracarolinenaback.com^
+DOMAIN,||stape.fishingmonk.com^
+DOMAIN,||stape.gftcorretora.com.br^
+DOMAIN,||stape.gustavoandrade.co^
 DOMAIN,||stape.malamute.host^
+DOMAIN,||stape.reinventte.com.br^
+DOMAIN,||stape.rjr.com.br^
+DOMAIN,||stape.sidneyhunter.com.br^
+DOMAIN,||stape.startup-bd.com^
+DOMAIN,||stape.tigomix.com^
+DOMAIN,||stape2.sweein.com^
+DOMAIN,||static.bioprevent.hr^
+DOMAIN,||static1.m-kensou.com^
+DOMAIN,||stp.piuvetrate.com^
+DOMAIN,||suup.fixsmart.ae^
+DOMAIN,||sv.camillacunha.com.br^
+DOMAIN,||svr.victorstucchi.com^
+DOMAIN,||syslink.stridekidz.com^
+DOMAIN,||t.avatarfactory.io^
+DOMAIN,||tag.questum.com.br^
+DOMAIN,||tag.wristrology.com^
+DOMAIN,||tex-server.99met.com^
+DOMAIN,||thread.bonedi.net^
+DOMAIN,||track.drdiegoespindola.com.br^
+DOMAIN,||track.gnext.ae^
+DOMAIN,||track.i-cap.co.uk^
+DOMAIN,||track.nutrishotai.com^
+DOMAIN,||tracking.wendtt.com^
+DOMAIN,||tracklabs.myorthovital.shop^
+DOMAIN,||trcbv.pdfhelp.com^
+DOMAIN,||trck.evchargers.eu^
+DOMAIN,||ts.koopjeswestland.nl^
+DOMAIN,||ucjmncxp.nordicluotto.fi^
+DOMAIN,||ucjmncxp.nordisklaan.dk^
+DOMAIN,||urtkugha.accessmedicalequipment.com^
+DOMAIN,||www.beckysellsgranbury.com^
+DOMAIN,||wyb.vieirasneakers.com^
+DOMAIN,||xifda.yourprivatechef.com.au^
 DOMAIN,! TraceDock : *.eu-central-1.elb.amazonaws.com disguised trackers
 DOMAIN,! TrueData : truedata.co disguised trackers
 DOMAIN,! Company name: TrueData
 DOMAIN,! Utiq :  utiq-aws.net disguised trackers
 DOMAIN,! Company name: Utiq
+DOMAIN,||utiq.leberry.fr.cdn.cloudflare.net^
 DOMAIN,! Webtrekk : webtrekk.net disguised trackers
 DOMAIN,! Company name: Webtrekk
+DOMAIN,||data.saarbruecker-zeitung.de^
 DOMAIN,! Wecantrack : wecantrack.com disguised trackers
 DOMAIN,! Company name: Wecantrack
 DOMAIN,! Wizaly : wizaly.com disguised trackers
@@ -624489,39 +625194,95 @@ DOMAIN,! Source name: EasyList ad servers
 DOMAIN,! Source: https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt
 DOMAIN,! Non-flagged (Generic blocks)
 DOMAIN,||1xhutg27xghu8mhl6lnvh.cfd^
+DOMAIN,||actinondistent.cyou^
 DOMAIN,||aldoct.xyz^
+DOMAIN,||amassedworldedaeolina.qpon^
+DOMAIN,||beruxpdyhibq.com^
+DOMAIN,||brassermuddifysoulter.cyou^
+DOMAIN,||britanyyonner.com^
+DOMAIN,||btpfknanzwite.space^
+DOMAIN,||bursdeejays.cfd^
+DOMAIN,||carolezaptiehjimpest.cyou^
 DOMAIN,||cbdqehoncaict.site^
+DOMAIN,||chilverrebless.cfd^
+DOMAIN,||cqoycxhmpcsuo.site^
 DOMAIN,||crxfiwpgihbnq.site^
 DOMAIN,||czejcgnayfcpg.space^
 DOMAIN,||daleelerah.info
 DOMAIN,||ddrflcgbykjdn.online^
+DOMAIN,||disturbdotty.cfd^
+DOMAIN,||eggrollharmine.cyou^
+DOMAIN,||elqismrmtijcn.website^
 DOMAIN,||elusionsmatter.cfd^
+DOMAIN,||emxwfkzddyrbh.website^
+DOMAIN,||enhvgxojuhaim.website^
+DOMAIN,||foqsgwlrbwzdj.space^
 DOMAIN,||get-me-wow.
+DOMAIN,||govtannul.cyou^
 DOMAIN,||gummosemyases.cyou^
+DOMAIN,||gym5qzeuvpujqt.rest^
 DOMAIN,||heughdonnock.com^
+DOMAIN,||hjrvmtgfxjssz.online^
 DOMAIN,||hotterpareusunshent.cfd^
+DOMAIN,||i9fle6ul2jmjcp29.cfd^
+DOMAIN,||ikwlimmgbapas.online^
 DOMAIN,||iltoyjifpdloe.website^
+DOMAIN,||imqlhxwjqjikp.site^
 DOMAIN,||imrardazbyhxf.site^
+DOMAIN,||isygrmnmxmvfb.site^
+DOMAIN,||jfhqxjmxuwtzd.online^
+DOMAIN,||johfzlcuzlzve.site^
 DOMAIN,||jqcyyl951zf93u58btj.rest^
 DOMAIN,||kfjlnu4384hkgy5fh.rest^
 DOMAIN,||kkyferlxdlabg.com^
 DOMAIN,||kmrgfeduinrr.com^
+DOMAIN,||lbvlsuhwuvvla.site^
+DOMAIN,||mddncrseyoibm.site^
 DOMAIN,||menyverse.qpon^
 DOMAIN,||miwukkkudamua.online^
+DOMAIN,||naldmskioioui.site^
 DOMAIN,||noahicformerindiges.qpon^
+DOMAIN,||omphpeaphhuut.site^
+DOMAIN,||paridaecockles.com^
+DOMAIN,||parkasohm.cfd^
+DOMAIN,||pcaxcdfwehfos.website^
 DOMAIN,||petaliaunfill.com^
+DOMAIN,||pietistfussifydoting.cfd^
 DOMAIN,||plnipszioekun.site^
+DOMAIN,||poaceaestowth.qpon^
+DOMAIN,||qmpwprhwhtzys.website^
+DOMAIN,||qmsfelaykryil.site^
+DOMAIN,||qxkaignnanlgv.site^
 DOMAIN,||rabtrilabebonnie.qpon^
+DOMAIN,||rielflunky.cyou^
+DOMAIN,||rinncuot.in^
+DOMAIN,||rkrpcguv.com^
+DOMAIN,||ruinxycqpamgj.site^
+DOMAIN,||ryokanoutbled.com^
 DOMAIN,||siozsbrddxofg.online^
+DOMAIN,||svyonobeiqevk.online^
 DOMAIN,||sxstpobuwpjgw.website^
+DOMAIN,||sxsxpcggutkfu.site^
+DOMAIN,||tfhxonvkhgchm.online^
+DOMAIN,||tnvbvulnuurry.space^
 DOMAIN,||ttkyzfbioobak.space^
 DOMAIN,||tusiunfsfdwwi.site^
+DOMAIN,||udmixzbnlymp.com^
 DOMAIN,||umzhpqqxemjaq.space^
 DOMAIN,||utwebyh6uimcov.rest^
 DOMAIN,||viblanckupwuk.site^
+DOMAIN,||vndvkeehztjtf.online^
 DOMAIN,||vphcbereqtnlb.space^
+DOMAIN,||vpnkemqagpsry.site^
+DOMAIN,||vwwiujhydyfvf.space^
+DOMAIN,||wrawcowry.com^
 DOMAIN,||wwiqkslmdcisz.site^
+DOMAIN,||xjbszxzfocvhi.website^
+DOMAIN,||ybbbodwqmxcms.space^
+DOMAIN,||ycetunvqqyzsl.website^
 DOMAIN,||ydtqgboeaqpbhr.com^
+DOMAIN,||zambiandagesh.qpon^
+DOMAIN,||zfplrxymporky.website^
 DOMAIN,||zjpupdcsxktzm.online^
 DOMAIN,||zmmidkfvtocsp.website^
 DOMAIN,||zowqtrzrgtiyl.space^
