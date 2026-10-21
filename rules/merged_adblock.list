@@ -1,7 +1,7 @@
 #!/bin/bash
 # 聚合广告拦截规则 - Loon格式
-# 生成时间: 2026-10-21 16:45:42
-# 总规则数: 920121
+# 生成时间: 2026-10-21 21:20:53
+# 总规则数: 920345
 # 规则来源: 1Hosts (Lite), hBlock, Multi NORMAL, Fanboy-Cookiemonster, EasylistChina, AdGuardSDNSFilter, rejectAd, Advertising_Domain, Advertising
 
 DOMAIN,! Title: 1Hosts (Lite)
@@ -617211,10 +617211,10 @@ DOMAIN,@@||rambox.app/wp-content/plugins/complianz-gdpr/$~third-party
 DOMAIN,@@||vesmir.cz/components/eu_cookie/$script
 DOMAIN,@@||vulcangas.com^*/cookie-notice/$script
 @@||WEBTV.STOFA.DK/PUBLIC/JS/COOKIE-BANNER.$SCRIPT,~third-party
-DOMAIN,! Checksum: gBfGYy3iznShQnKRY8JJ0w
-DOMAIN,! Version: 202610211632
+DOMAIN,! Checksum: Y+YCZQ9Cey0SWePR9CQnBA
+DOMAIN,! Version: 202610212112
 DOMAIN,! Title: EasyList China
-IP-CIDR6,! Last modified: 21 Oct 2026 16:32 UTC
+IP-CIDR6,! Last modified: 21 Oct 2026 21:12 UTC
 DOMAIN,! Expires: 1 days (update frequency)
 DOMAIN,! Homepage: https://github.com/easylist/easylistchina/
 DOMAIN,! EasyList China subscription
@@ -625665,7 +625665,7 @@ DOMAIN,! Title: AdGuard DNS filter
 ! DESCRIPTION: FILTER COMPOSED OF SEVERAL OTHER FILTERS (ADGUARD BASE FILTER,Tracking Protection filter
 DOMAIN,! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 DOMAIN,! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-IP-CIDR6,! Last modified: 2026-10-21T14:16:04.935Z
+IP-CIDR6,! Last modified: 2026-10-21T20:14:19.710Z
 DOMAIN,! Compiled by @adguard/hostlist-compiler v2.1.0
 DOMAIN,! Source name: AdGuard Base filter ad servers
 DOMAIN,! Source: https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/adservers.txt
@@ -626218,6 +626218,153 @@ DOMAIN,! Disabled in DNS filter
 !+ PLATFORM(WINDOWS,mac
 DOMAIN,! Blocking piwik analytics subdomain(for DNS filtering)
 DOMAIN,|piwik.
+DOMAIN,! NOTE: Specific rules
+DOMAIN,||zwjvbnvhnzme.heise.de^
+DOMAIN,||b.allegrocdp.com^
+DOMAIN,||metrics.shasetsu.jp^
+DOMAIN,||199.teieparm.tv^
+DOMAIN,||analytics.corretoranadja.com.br^
+DOMAIN,||analytics.dunlio.com^
+DOMAIN,||analytics.garagemdotiago.shop^
+DOMAIN,||analytics.harmoney.co.nz^
+DOMAIN,||analytics.heimdalldigitalholdings.com^
+DOMAIN,||analytics.lakbast.com^
+DOMAIN,||analytics.locataire.live^
+DOMAIN,||analytics.lucasmarquescorretor.com.br^
+DOMAIN,||analytics.palm2000.com^
+DOMAIN,||analytics.pradellaimoveis.com.br^
+DOMAIN,||analytics.pulseform.io^
+DOMAIN,||analytics.rockai.top^
+DOMAIN,||analytics.scprimeimoveis.com.br^
+DOMAIN,||analytics.start-fds.jp^
+DOMAIN,||b.tryknowmad.com^
+DOMAIN,||data.sozo24.co.uk^
+DOMAIN,||e.armandgonczol.com^
+DOMAIN,||e.pickfu.com^
+DOMAIN,||f.webhooks.cc^
+DOMAIN,||g.racingday.app^
+DOMAIN,||gtm.finaloop.com^
+DOMAIN,||k.doppio.live^
+DOMAIN,||matomo.airportlspg.ch^
+DOMAIN,||matomo.alarencontre.de^
+DOMAIN,||matomo.alpinasoft.de^
+DOMAIN,||matomo.archery-point.eu^
+DOMAIN,||matomo.arieslob.eu^
+DOMAIN,||matomo.arthurameel.eu^
+DOMAIN,||matomo.attruck.eu^
+DOMAIN,||matomo.baschpictures.de^
+DOMAIN,||matomo.berlin-media-school.de^
+DOMAIN,||matomo.bioprodukt.eu^
+DOMAIN,||matomo.btclottery.eu^
+DOMAIN,||matomo.candleforyou.eu^
+DOMAIN,||matomo.carzyfolio.eu^
+DOMAIN,||matomo.clogiq.eu^
+DOMAIN,||matomo.containersmart.de^
+DOMAIN,||matomo.duolibra.eu^
+DOMAIN,||matomo.ekskluzywnewnetrza.eu^
+DOMAIN,||matomo.enaskrent.de^
+DOMAIN,||matomo.energieberaterin-mohr.de^
+DOMAIN,||matomo.enper.eu^
+DOMAIN,||matomo.ew-bildung.de^
+DOMAIN,||matomo.finanzkobold.de^
+DOMAIN,||matomo.gallerystreetwear.eu^
+DOMAIN,||matomo.gewohnheitstier.eu^
+DOMAIN,||matomo.halal-vacation.de^
+DOMAIN,||matomo.iaa-verkaeuferrallye.de^
+DOMAIN,||matomo.irmcmaghreb-bib.org^
+DOMAIN,||matomo.italbrokers.eu^
+DOMAIN,||matomo.itmitaliacleaningdivision.eu^
+DOMAIN,||matomo.kosmetiksteingass.de^
+DOMAIN,||matomo.laboiserie.eu^
+DOMAIN,||matomo.leseberg.de^
+DOMAIN,||matomo.luther-lawfirm.com^
+DOMAIN,||matomo.m-t-gdressurausbildung.de^
+DOMAIN,||matomo.managementsurvey.eu^
+DOMAIN,||matomo.marliesvetter.de^
+DOMAIN,||matomo.minis-app.de^
+DOMAIN,||matomo.mint-online.eu^
+DOMAIN,||matomo.mis.mpg.de^
+DOMAIN,||matomo.multivalve.eu^
+DOMAIN,||matomo.mymedipass.eu^
+DOMAIN,||matomo.mysticherbals.de^
+DOMAIN,||matomo.nicecolours.de^
+DOMAIN,||matomo.nikanagel-bulgaria.eu^
+DOMAIN,||matomo.parfumerie-seuren.de^
+DOMAIN,||matomo.pcphotography.de^
+DOMAIN,||matomo.pmgroup.de^
+DOMAIN,||matomo.pol-uniwersum.eu^
+DOMAIN,||matomo.protontypes.eu^
+DOMAIN,||matomo.reisefeeverena.de^
+DOMAIN,||matomo.rohrreinigungalfter.de^
+DOMAIN,||matomo.rotary.de^
+DOMAIN,||matomo.sayinreinigung.de^
+DOMAIN,||matomo.schadenmelden24.de^
+DOMAIN,||matomo.side-one.eu^
+DOMAIN,||matomo.synthropia.eu^
+DOMAIN,||matomo.tandem-hamburg.de^
+DOMAIN,||matomo.tauben-abwehr.eu^
+DOMAIN,||matomo.tovve-coaching.de^
+DOMAIN,||matomo.turangroup.eu^
+DOMAIN,||matomo.workopia.eu^
+DOMAIN,||matomo.youtubepisnicky.eu^
+DOMAIN,||metrics.kiba.tools^
+DOMAIN,||mo.opase.com^
+DOMAIN,||ph-ca.geomirror.net^
+DOMAIN,||ph.carvertical.com^
+DOMAIN,||ph.silencershop.com^
+DOMAIN,||piwik.bluegras.de^
+DOMAIN,||plausible.solucky.win^
+DOMAIN,||proxy.adiktaty.sk^
+DOMAIN,||proxy.webpage.sk^
+DOMAIN,||pulse.abuniverse.com^
+DOMAIN,||s.cadcraft.online^
+DOMAIN,||s.pdfcraft.live^
+DOMAIN,||saltyrim.margaritavilleresorts.com^
+DOMAIN,||stats.admk.com^
+DOMAIN,||stats.berkay.tools^
+DOMAIN,||stats.bravecreativestud.io^
+DOMAIN,||stats.deadliftgame.com^
+DOMAIN,||stats.forgefrance.fr^
+DOMAIN,||stats.gogrin.co.uk^
+DOMAIN,||stats.hoergeraete-kersten.de^
+DOMAIN,||stats.imhsh.com^
+DOMAIN,||stats.lpzion.org^
+DOMAIN,||stats.macrolyzed.com^
+DOMAIN,||stats.mangerly.com^
+DOMAIN,||stats.melanrouillon.fr^
+DOMAIN,||stats.nannings365.nl^
+DOMAIN,||stats.nasslabs.nl^
+DOMAIN,||stats.ohmychart.xyz^
+DOMAIN,||stats.protoelectro.com^
+DOMAIN,||stats.regalofacile.it^
+DOMAIN,||stats.reloadingcalc.com^
+DOMAIN,||stats.rolesradar.dev^
+DOMAIN,||stats.storegga.org^
+DOMAIN,||stats.swietlikstudio.pl^
+DOMAIN,||stats.theinjection.dev^
+DOMAIN,||stats.weeberwrk.de^
+DOMAIN,||stats.wybber.com^
+DOMAIN,||t.adrili.com^
+DOMAIN,||t.haydays.app^
+DOMAIN,||t.jagerne.ai^
+DOMAIN,||t.usetrace.app^
+DOMAIN,||tracking.tpgmobile.sg^
+DOMAIN,||u.spicepairing.com^
+DOMAIN,||umami.ahkeeper.com^
+DOMAIN,||umami.cinetrotter.com^
+DOMAIN,||umami.duxlabs.dev^
+DOMAIN,||umami.huexef.cn^
+DOMAIN,||umami.luther-lawfirm.com^
+DOMAIN,||urit.launchpass.com^
+DOMAIN,||visit.audio-to-text.site^
+DOMAIN,||visit.clipdrop.pro^
+DOMAIN,||visit.hypeauditor.online^
+DOMAIN,||visit.musicremover.pro^
+DOMAIN,||visit.slazzer.pro^
+DOMAIN,||visit.syllaby.art^
+DOMAIN,||visit.texttospeechai.online^
+DOMAIN,||visit.voiceai.site^
+DOMAIN,||voyager.tech.etribes.de^
 DOMAIN,||sw.vidmoly.
 DOMAIN,||e.missav.
 DOMAIN,||stats.dulo.
@@ -626571,6 +626718,8 @@ DOMAIN,! ||sentry.anytype.io^
 DOMAIN,! ||ensighten.com^$third-party - not a tracker
 DOMAIN,! Be careful when blocking snssdk.com. It is used also for legal purposes
 DOMAIN,!||i.snssdk.com/log/*
+DOMAIN,||jisao12.cyou^
+DOMAIN,||ptrack.xyz^
 DOMAIN,||logws*.ati-host.net^
 DOMAIN,||clickhouse-collector.*.prod.plat.agency^
 DOMAIN,||bapi-*.moengage.com^
@@ -626805,18 +626954,90 @@ DOMAIN,tototix.gif
 DOMAIN,! Source name: EasyList ad servers
 DOMAIN,! Source: https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt
 DOMAIN,! Non-flagged (Generic blocks)
+DOMAIN,||5u7br9uqklv32u.rest^
 DOMAIN,||8tglybne443zhyuvc3.rest^
+DOMAIN,||acoolalangin.qpon^
+DOMAIN,||astartsitta.qpon^
+DOMAIN,||backsetretallylethes.qpon^
 DOMAIN,||bdosvvruhvhiu.site^
+DOMAIN,||bgdugbsdvpkcx.space^
 DOMAIN,||boilingfiats.cfd^
 DOMAIN,||bvmourdkqvyqa.website^
+DOMAIN,||cissusbilchrepale.cyou^
+DOMAIN,||classerdotlike.cfd^
 DOMAIN,||daleelerah.info
+DOMAIN,||daqsvmdrgchu.com^
+DOMAIN,||dijtvqgoemjhv.website^
+DOMAIN,||dkijbymomybjs.site^
+DOMAIN,||donovantimersstrone.qpon^
+DOMAIN,||edpzlobrjxsyk.online^
+DOMAIN,||eucivb22zuzloxcz.cfd^
+DOMAIN,||euroscachou.qpon^
+DOMAIN,||fkqklnhkzmkmz.site^
 DOMAIN,||get-me-wow.
+DOMAIN,||gklzfjohwrrvd.website^
+DOMAIN,||glowerstarrish.com^
+DOMAIN,||gob3uq6xni9uktr6kut72u182.rest^
 DOMAIN,||grunchpotfuls.qpon^
+DOMAIN,||guyotcalmer.com^
+DOMAIN,||hartinquiesce.com^
+DOMAIN,||humbuzzenows.cfd^
+DOMAIN,||ixorituyaubcu.site^
+DOMAIN,||jbbbrbnocgbly.website^
+DOMAIN,||jcbvxknlgmbrr.site^
+DOMAIN,||jetwareunshout.cfd^
 DOMAIN,||juntospassirwindill.cfd^
+DOMAIN,||jvjvq6wl36mtnn1.cfd^
+DOMAIN,||jwliheqrwgfjp.website^
+DOMAIN,||kebbyizzyavicula.cyou^
+DOMAIN,||ktzeogwpchikm.online^
+DOMAIN,||lknkjugdwtipe.space^
+DOMAIN,||lotritereavows.cfd^
+DOMAIN,||mahsurusenetchalah.qpon^
+DOMAIN,||mblrkaoudwbrx.space^
+DOMAIN,||mflraiaalxrvc.website^
+DOMAIN,||mfynsjpmuspgr.online^
+DOMAIN,||mintysimilor.com^
+DOMAIN,||mlibxnfwpglpv.site^
+DOMAIN,||mreftjhknmzdc.site^
+DOMAIN,||murzasaeume.com^
+DOMAIN,||nebnfvbsgosfp.site^
+DOMAIN,||nlbgmzxjrmwep.website^
+DOMAIN,||nvwsrvdunhxbo.website^
+DOMAIN,||oceanetsequin.cyou^
+DOMAIN,||odipgsswzzzju.online^
+DOMAIN,||oenpvyvmonaqy.site^
+DOMAIN,||ogzqfnrjkvvdd.space^
+DOMAIN,||ohpfnxpyyrydv.space^
+DOMAIN,||olvhzhkjnwrqk.website^
 DOMAIN,||owsemormyre.qpon^
+DOMAIN,||pauncheviler.cfd^
+DOMAIN,||pertishlhota.com^
+DOMAIN,||pgtanhkemxoqn.site^
 DOMAIN,||pithylunula.cfd^
+DOMAIN,||pkvjquvxvbd.com^
+DOMAIN,||qbzjwamdgxydg.website^
+DOMAIN,||qidnnlpqkolie.website^
+DOMAIN,||qnwxfphbpgtvx.space^
+DOMAIN,||remapbepity.cyou^
+DOMAIN,||rewokenchoosey.qpon^
+DOMAIN,||ssootnhnblbmcs.com^
+DOMAIN,||thiaminspumous.qpon^
+DOMAIN,||tirassefpscomplex.cyou^
+DOMAIN,||tjyhoanihjlxs.online^
+DOMAIN,||unsneckcornin.com^
+DOMAIN,||wolframpriapic.com^
+DOMAIN,||wpyhziiepacds.site^
+DOMAIN,||wvebuflbbjgae.website^
+DOMAIN,||wwasimhci.in^
+DOMAIN,||xavhiszxjspce.website^
+DOMAIN,||xccntpclgxpkn.space^
+DOMAIN,||xefzrsvohnvsb.space^
+DOMAIN,||xvbqcjcztyipn.website^
+DOMAIN,||ybmocrrhqwalk.site^
 DOMAIN,||yezlduofqspds.online^
 DOMAIN,||ypfqfviyyzwxz.site^
+DOMAIN,||zucftqalgatnf.site^
 DOMAIN,! Anti-drainer eth phishing
 DOMAIN,! $document blocks
 DOMAIN,!! Third-party
@@ -626856,6 +627077,9 @@ DOMAIN,! Source name: EasyPrivacy Admiral tracking servers
 DOMAIN,! Source: https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers_admiral.txt
 DOMAIN,! easyprivacy_trackingservers_admiral.txt
 DOMAIN,! Admiral
+DOMAIN,||largetony.com^
+DOMAIN,||uncommonalias.com^
+DOMAIN,||unifybots.com^
 DOMAIN,! Source name: EasyPrivacy international tracking servers
 DOMAIN,! Source: https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers_international.txt
 DOMAIN,! German
