@@ -1,7 +1,7 @@
 #!/bin/bash
 # 聚合广告拦截规则 - Loon格式
-# 生成时间: 2026-10-24 15:31:24
-# 总规则数: 926960
+# 生成时间: 2026-10-24 20:22:32
+# 总规则数: 927037
 # 规则来源: 1Hosts (Lite), hBlock, Multi NORMAL, Fanboy-Cookiemonster, EasylistChina, AdGuardSDNSFilter, rejectAd, Advertising_Domain, Advertising
 
 DOMAIN,! Title: 1Hosts (Lite)
@@ -610128,9 +610128,9 @@ DOMAIN,||zzycj.com^
 DOMAIN,||zzyud.com^
 DOMAIN,||zzz-event.com^
 DOMAIN,||zzzperform.com^
-DOMAIN,! Checksum: a+8oAeiiaBiviO5DxAAX6g
+IP-CIDR,! Checksum: GbG/jXIrdELs9Ht6/8IeYQ
 DOMAIN,! Title: Easylist Cookie List
-IP-CIDR6,! Last modified: 2026-10-24 14:25 UTC
+IP-CIDR6,! Last modified: 2026-10-24 16:50 UTC
 DOMAIN,! Expires: 9 days (update frequency)
 DOMAIN,! License: http://creativecommons.org/licenses/by/3.0/
 DOMAIN,! Please report any unblocked content or problems by email or in our forums
@@ -616802,7 +616802,7 @@ DOMAIN,cmotors.co.il###cm-consent-banner
 DOMAIN,ortcolleges.org.il###cookie-alert-dialog
 DOMAIN,tambour.co.il###cookie-consent-acf-backdrop
 IMPRESS-STORES.CO.IL,tambour.co.il###cookie-consent-acf-modal
-ERTZCAMPING.CO.IL,graphor87.co.il
+AZRAD.CO.IL,cable.co.il
 DOMAIN,ngsoft.com###cookie-consent-strip
 DOMAIN,zinger-organic.com###cookie-consent-wrapper
 DOMAIN,019mobile.co.il###cookie-except-banner
@@ -616853,7 +616853,7 @@ DOMAIN,ipo.co.il###rg-privacy-wrap
 ALUMGADSTORE.CO.IL,ari-g.co.il
 ROZI-ARIZOT.CO.IL,willi-food.co.il###scm-banner
 ROZI-ARIZOT.CO.IL,willi-food.co.il###scm-custom
-DOMAIN,bike.co.il###scn-banner-root
+BIKE.CO.IL,bniyah.co.il###scn-banner-root
 CLIMMA.CO.IL,derech-eretz.co.il
 DOMAIN,brurya.co.il###tera-cookie-consent
 DAN-MARBLE.CO.IL,israel-extreme.com
@@ -616878,6 +616878,7 @@ ALONI-ALUM.CO.IL,iballoon.co.il
 DOMAIN,ladaat.co##.ck-cookie-banner
 DOMAIN,nooa.co.il##.cmplz-cookiebanner
 DOMAIN,israelpost.co.il##.cookie-agreement
+DOMAIN,moadonsport.com##.cookie-agreement-container
 DOMAIN,yad2.co.il##.cookie-implementation-disclaimer_popupRoot__CLI1m
 DEASY.CO.IL,easygo.co.il##.cookieMessage
 DOMAIN,icomp.co.il##.cookieagry
@@ -619472,10 +619473,10 @@ DOMAIN,@@||rambox.app/wp-content/plugins/complianz-gdpr/$~third-party
 DOMAIN,@@||vesmir.cz/components/eu_cookie/$script
 DOMAIN,@@||vulcangas.com^*/cookie-notice/$script
 @@||WEBTV.STOFA.DK/PUBLIC/JS/COOKIE-BANNER.$SCRIPT,~third-party
-DOMAIN,! Checksum: dUvO8eqCKlt0b0SlX8NoJw
-DOMAIN,! Version: 202610241522
+DOMAIN,! Checksum: BYRE1WvmYznnZXGeImtKow
+DOMAIN,! Version: 202610242012
 DOMAIN,! Title: EasyList China
-IP-CIDR6,! Last modified: 24 Oct 2026 15:22 UTC
+IP-CIDR6,! Last modified: 24 Oct 2026 20:12 UTC
 DOMAIN,! Expires: 1 days (update frequency)
 DOMAIN,! Homepage: https://github.com/easylist/easylistchina/
 DOMAIN,! EasyList China subscription
@@ -627930,7 +627931,7 @@ DOMAIN,! Title: AdGuard DNS filter
 ! DESCRIPTION: FILTER COMPOSED OF SEVERAL OTHER FILTERS (ADGUARD BASE FILTER,Tracking Protection filter
 DOMAIN,! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 DOMAIN,! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-IP-CIDR6,! Last modified: 2026-10-24T14:12:11.319Z
+IP-CIDR6,! Last modified: 2026-10-24T20:12:50.894Z
 DOMAIN,! Compiled by @adguard/hostlist-compiler v2.1.0
 DOMAIN,! Source name: AdGuard Base filter ad servers
 DOMAIN,! Source: https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/adservers.txt
@@ -629072,105 +629073,182 @@ DOMAIN,! Source name: EasyList ad servers
 DOMAIN,! Source: https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt
 DOMAIN,! Non-flagged (Generic blocks)
 DOMAIN,||219veo9vnjle6mouez.cfd^
+DOMAIN,||2yv33e3yih6yetq65kb8p1txi25mbvn4xhpw.rest^
+DOMAIN,||4lu114x7k9ef6qr82.cfd^
+DOMAIN,||7imiy33o9vkqvrggxo2xr8y3.rest^
+DOMAIN,||abkgsnvrgkikq.online^
+DOMAIN,||abromalorarii.com^
+DOMAIN,||adewpxnzsnvib.site^
+DOMAIN,||agenddoomsnatchy.qpon^
+DOMAIN,||aleppobragslutayo.cyou^
+DOMAIN,||ammankalians.qpon^
 DOMAIN,||apzptquixoyr.com^
+DOMAIN,||aqubzryzaqdxe.space^
+DOMAIN,||asemquips.cfd^
 DOMAIN,||ataqsinsgufxk.online^
+DOMAIN,||athyridlidgate.cyou^
 DOMAIN,||awdddntkckatv.online^
+DOMAIN,||bandletscobs.qpon^
 DOMAIN,||batemanlyopoma.cyou^
 DOMAIN,||bdavjbhjpzjmt.space^
 DOMAIN,||bellicuneal.qpon^
+DOMAIN,||bgyfguewhfyjx.site^
 DOMAIN,||bonnilyfurnish.qpon^
 DOMAIN,||brenzcdjozwpw.website^
+DOMAIN,||byk4vjplgq1phgcn7y1re66n.cfd^
 DOMAIN,||cexwqhxuxixew.site^
 DOMAIN,||chcekcxekirtx.online^
+DOMAIN,||cnejpkmvsjvft.com^
 DOMAIN,||cntsmkfxhorvt.site^
 DOMAIN,||coiffesreal.qpon^
 DOMAIN,||cpufcccvnbyvo.website^
 DOMAIN,||croupyacouchysheers.cfd^
 DOMAIN,||daleelerah.info
 DOMAIN,||djhanucviqf.com^
+DOMAIN,||djoregzqjwthd.site^
+DOMAIN,||dotalsamisentrompe.cfd^
+DOMAIN,||drkmkdnfarrey.site^
 DOMAIN,||dystomeuterus.qpon^
 DOMAIN,||ecvihexbkacpa.space^
 DOMAIN,||efiktugboat.qpon^
+DOMAIN,||ejfohieuzjdbm.site^
 DOMAIN,||engsinseeovaria.cfd^
 DOMAIN,||epswiopwxylwi.site^
 DOMAIN,||eschelesiphoid.com^
 DOMAIN,||ettlederethicgriskin.cyou^
 DOMAIN,||eucztfyfooswmy.com^
+DOMAIN,||fakerstoterframing.qpon^
+DOMAIN,||finfishamyelia.com^
 DOMAIN,||fukmxaatfztwq.space^
 DOMAIN,||fvvjspqqigorm.website^
 DOMAIN,||garbcougars.cfd^
 DOMAIN,||get-me-wow.
 DOMAIN,||gilgulberat.cfd^
+DOMAIN,||gnlmaqgvmwbkk.space^
+DOMAIN,||grlrmortbxvee.space^
+DOMAIN,||gslozndcnlvvi.site^
 DOMAIN,||gytzzylfaokwt.online^
 DOMAIN,||hogubqiagoail.space^
 DOMAIN,||htaptaidjcase.online^
 DOMAIN,||icpjsggtmkdul.site^
+DOMAIN,||ihihbckxoquli.online^
 DOMAIN,||iikkhsvwsiobw.space^
 DOMAIN,||ijryyfexcfknw.online^
 DOMAIN,||ikecwekdmbftc.space^
 DOMAIN,||imefvemjrroxa.online^
 DOMAIN,||ipwqobevglbdk.online^
 DOMAIN,||iqjgwbkeqkpix.online^
+DOMAIN,||irxtrbfehlpvu.online^
+DOMAIN,||itxvswrxzslgt.online^
 DOMAIN,||jmbxsgugxfied.space^
+DOMAIN,||jqosaebrqhihi.space^
+DOMAIN,||juliettcorylet.com^
 DOMAIN,||jvserdywzwvmh.website^
 DOMAIN,||kfqmlaniiddgw.online^
 DOMAIN,||kirkifyfoam.qpon^
+DOMAIN,||kmfqivcurfuku.site^
+DOMAIN,||knjasgnwitdwf.space^
 DOMAIN,||knqspohyhyxwp.space^
 DOMAIN,||kskbpvqhwamtu.site^
 DOMAIN,||kwmtfcylgivln.space^
 DOMAIN,||kwyiknngshfhg.site^
+DOMAIN,||kxtsxpdqpksaw.online^
 DOMAIN,||kyqkyumnlbjik.online^
 DOMAIN,||lavnkios.in^
+DOMAIN,||lfzerayskzafi.online^
+DOMAIN,||lhibnuyxomzqv.space^
 DOMAIN,||lineyalary.cyou^
+DOMAIN,||loomedhymn.qpon^
 DOMAIN,||lowwoodtanner.cfd^
 DOMAIN,||lwxsocpvczuiq.online^
 DOMAIN,||lzswdckjqxbjr.site^
+DOMAIN,||mandirpeoplet.com^
+DOMAIN,||medicalenstamptictoc.qpon^
 DOMAIN,||mfgygyhpddlyo.online^
+DOMAIN,||mharavczumra.in^
+DOMAIN,||minyansbarble.cfd^
 DOMAIN,||misdeemacetary.cfd^
 DOMAIN,||mjhwpnzxkjocw.space^
+DOMAIN,||mkefhmdydhnck.site^
+DOMAIN,||mqkosdxagptzh.online^
 DOMAIN,||mricm8uun4y359.rest^
 DOMAIN,||mulchdenyhows.cyou^
+DOMAIN,||mvwzqtwvkhgei.site^
 DOMAIN,||n25oieie5rxghc.cfd^
 DOMAIN,||napmfrdfkulkh.site^
 DOMAIN,||nmbdeqxdkvhvm.site^
 DOMAIN,||oazfmcblopdje.online^
+DOMAIN,||odpktokz.com^
+DOMAIN,||ofeiaibnwirml.online^
 DOMAIN,||omeliepoetry.cfd^
 DOMAIN,||packetspoisesbally.cfd^
+DOMAIN,||pbdxhfmuarvgv.space^
 DOMAIN,||pbztcgfpuwzem.website^
+DOMAIN,||pekrqyieeeeht.online^
+DOMAIN,||pezcuiqgpqrhs.site^
 DOMAIN,||phustcugnffcn.space^
+DOMAIN,||piannetrabat.cyou^
 DOMAIN,||ptkvumzaajsob.website^
+DOMAIN,||qjcjjbrocheou.online^
 DOMAIN,||qrnjezhqzokqz.website^
 DOMAIN,||qtoonoecxthnl.space^
 DOMAIN,||qwtrmnaewnctq.space^
+DOMAIN,||ravktufmpgula.site^
+DOMAIN,||rcwjxhashhfyg.online^
 DOMAIN,||resizederinize.cfd^
+DOMAIN,||rgbaayfdyjzou.online^
 DOMAIN,||robinggnathic.cfd^
+DOMAIN,||rodratton.qpon^
 DOMAIN,||rosaliediiodid.com^
 DOMAIN,||rpgghmnptqhhi.online^
+DOMAIN,||sabulumtarocco.com^
 DOMAIN,||saltedfrieze.com^
 DOMAIN,||sellingafaced.com^
 DOMAIN,||simconbutanefear.cfd^
+DOMAIN,||tabaxirethnize.cyou^
 DOMAIN,||tcerhxvlurvwf.site^
 DOMAIN,||temptedpitta.cfd^
+DOMAIN,||thyriswh.cyou^
 DOMAIN,||todditehexarch.com^
+DOMAIN,||treatssenegajiggit.cyou^
 DOMAIN,||tritonaneling.qpon^
+DOMAIN,||tupshits.com^
 DOMAIN,||ty1lqyw6muhtvpiu.rest^
+DOMAIN,||uaeapcmjbmzad.space^
 DOMAIN,||ubogicetmixgdl.com^
+DOMAIN,||umkchjusteppy.site^
+DOMAIN,||umtnpbqxhwuqr.online^
 DOMAIN,||unedgedshank.com^
 DOMAIN,||unrobebemottoirfan.cfd^
+DOMAIN,||upriahndtskmd.space^
 DOMAIN,||urrfkabrkhxjat.com^
+DOMAIN,||vbjxaorqqwubz.space^
 DOMAIN,||vfcakwrxiaaws.site^
 DOMAIN,||vleqrwluxgslv.online^
 DOMAIN,||vrzhovgxkeoag.space^
 DOMAIN,||vsnctrfamkmai.online^
+DOMAIN,||vvwoecwtugszl.online^
 DOMAIN,||vwsuoczefptjr.website^
 DOMAIN,||wangunszeguha.qpon^
 DOMAIN,||wareggasehyo.cfd^
+DOMAIN,||whwfabebnnjfoi.com^
 DOMAIN,||wicmdokqlpdso.space^
 DOMAIN,||wodzxaloxquvz.space^
+DOMAIN,||wvvxvfxbbsvcp.space^
 DOMAIN,||wwukvmgeutahv.website^
 DOMAIN,||xdcxjbptkyzol.space^
+DOMAIN,||xkxxrdeuknhvz.site^
+DOMAIN,||xlwfwvxwtozoa.space^
+DOMAIN,||xvtqdotyggrjt.site^
 DOMAIN,||yezzzrhgrkwli.space^
+DOMAIN,||ylfnmfzbplwpg.online^
+DOMAIN,||ymhzywtdnrsta.site^
 DOMAIN,||yoksaffiant.cyou^
+DOMAIN,||yuwpcczbgmolj.com^
+DOMAIN,||yypmhepqhbnmc.site^
+DOMAIN,||yyxjwgyzltmkf.site^
+DOMAIN,||zgnxnixkxhcik.website^
+DOMAIN,||zhppxjstwhjko.online^
 DOMAIN,||zmrdjhej.com^
 DOMAIN,||zowjwdmzntmyn.online^
 DOMAIN,! Anti-drainer eth phishing
@@ -629212,6 +629290,7 @@ DOMAIN,! Source name: EasyPrivacy Admiral tracking servers
 DOMAIN,! Source: https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers_admiral.txt
 DOMAIN,! easyprivacy_trackingservers_admiral.txt
 DOMAIN,! Admiral
+DOMAIN,||pingprove.com^
 DOMAIN,! Source name: EasyPrivacy international tracking servers
 DOMAIN,! Source: https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers_international.txt
 DOMAIN,! German
@@ -629307,8 +629386,8 @@ DOMAIN,! Source name: hostsVN ad servers
 DOMAIN,! Source: https://raw.githubusercontent.com/bigdargon/hostsVN/master/filters/adservers.txt
 DOMAIN,! Title: hostsVN
 DOMAIN,! Description: The filter contains ad and tracking networks in Vietnam.
-IP-CIDR6,! Last modified: 13 Oct 2026 16:19 UTC+7
-DOMAIN,! Version: 2610131619
+IP-CIDR6,! Last modified: 24 Oct 2026 22:48 UTC+7
+DOMAIN,! Version: 2610242248
 DOMAIN,! Blocked: 847 rules
 DOMAIN,! Homepage: https://bigdargon.github.io/hostsVN/
 DOMAIN,||admicro*.vcmedia.vn^
@@ -629322,8 +629401,6 @@ DOMAIN,! Source name: hostsVN Threat
 DOMAIN,! Source: https://raw.githubusercontent.com/bigdargon/hostsVN/master/extensions/threat/filter.txt
 DOMAIN,! Title: hostsVN Threat
 DOMAIN,! Description: Only include threat domains
-IP-CIDR6,! Last modified: 12 Oct 2026 16:00 UTC+7
-DOMAIN,! Version: 2610121600
 DOMAIN,! Blocked: 4.899 rules
 DOMAIN,||Free-4paid.com^
 DOMAIN,||wvOntgd.pqmg.bid^
