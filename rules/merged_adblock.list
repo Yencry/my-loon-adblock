@@ -1,7 +1,7 @@
 #!/bin/bash
 # 聚合广告拦截规则 - Loon格式
-# 生成时间: 2026-10-24 10:26:32
-# 总规则数: 926886
+# 生成时间: 2026-10-24 15:31:24
+# 总规则数: 926960
 # 规则来源: 1Hosts (Lite), hBlock, Multi NORMAL, Fanboy-Cookiemonster, EasylistChina, AdGuardSDNSFilter, rejectAd, Advertising_Domain, Advertising
 
 DOMAIN,! Title: 1Hosts (Lite)
@@ -610128,9 +610128,9 @@ DOMAIN,||zzycj.com^
 DOMAIN,||zzyud.com^
 DOMAIN,||zzz-event.com^
 DOMAIN,||zzzperform.com^
-DOMAIN,! Checksum: xmwThJrPtnfl7yfcHNsf+Q
+DOMAIN,! Checksum: a+8oAeiiaBiviO5DxAAX6g
 DOMAIN,! Title: Easylist Cookie List
-IP-CIDR6,! Last modified: 2026-10-24 09:25 UTC
+IP-CIDR6,! Last modified: 2026-10-24 14:25 UTC
 DOMAIN,! Expires: 9 days (update frequency)
 DOMAIN,! License: http://creativecommons.org/licenses/by/3.0/
 DOMAIN,! Please report any unblocked content or problems by email or in our forums
@@ -612539,6 +612539,7 @@ DOMAIN,landsend.com##.at-gdpr-msg
 DOMAIN,atptour.com##.atp_cookie-message
 DOMAIN,scandalbeauties.com##.attention-msg
 DOMAIN,amplify.com##.augusta-campaign
+DOMAIN,avioadsb.org##.avio-cc-box
 DOMAIN,alivecolors.com##.awarning
 DOMAIN,amundi.com##.awf-eu-cookie-compliance
 DOMAIN,airwallex.com##.awx-privcbanner-root
@@ -614255,7 +614256,8 @@ CHERYTR.COM,cine-max.sk##body .cc-nb-main-container
 DOMAIN,community.nexthink.com##c-community-cookie-consent-banner
 DOMAIN,success.trendmicro.com##c-dcx-cookie
 DOMAIN,criticalsoftware.com##c15t-ui-bannerVisible-pYYY9
-DOMAIN,order.maxburgers.com##consent-banner.ng-scope
+DOMAIN,zohorecruit.*##career-cookie-consent
+DOMAIN,order.maxburgers.com##consent-banner
 DOMAIN,qualified.io##consent-cookie-popup
 DOMAIN,23degrees.io##consent-toast
 AXIS.COM,orbis.com##cookie-consent
@@ -614721,7 +614723,7 @@ DOMAIN,flexiti.com##.z-999
 DOMAIN,!! .z-100
 COTE.CO.UK,ennismore.com
 DOMAIN,!! .cookie-panel
-1CBIT.RU,schools.by
+1CBIT.RU,1pc.co.il
 DOMAIN,!! .cookie-bar
 AMATEURTVX.COM,ansell.com.cn
 DOMAIN,!! .cookie_bar
@@ -616800,7 +616802,7 @@ DOMAIN,cmotors.co.il###cm-consent-banner
 DOMAIN,ortcolleges.org.il###cookie-alert-dialog
 DOMAIN,tambour.co.il###cookie-consent-acf-backdrop
 IMPRESS-STORES.CO.IL,tambour.co.il###cookie-consent-acf-modal
-HOUSE-DESIGN.SHOP,kerenby.co.il
+ERTZCAMPING.CO.IL,graphor87.co.il
 DOMAIN,ngsoft.com###cookie-consent-strip
 DOMAIN,zinger-organic.com###cookie-consent-wrapper
 DOMAIN,019mobile.co.il###cookie-except-banner
@@ -616824,6 +616826,7 @@ DOMAIN,mizraney-olympia.co.il###flexiblecookies_container
 DOMAIN,kleibait.com###floating_privacy_notice
 DOMAIN,jfc.org.il###footer_cookies_message_wrap
 DOMAIN,car-keys.co.il###fzcn-banner
+DOMAIN,hanson-israel.com###gdpr-modal-overlay
 DOMAIN,bigelectric.co.il###gdprCookieBar
 DOMAIN,andjoy.co.il###hpPrivacyPopup
 DOMAIN,idan88.co.il###idan-cookie-banner
@@ -616833,6 +616836,8 @@ ASOFTA.CO.IL,carmelph.co.il
 PTORA.CO.IL,zmaneshkol.co.il###ilp-consent-banner
 DOMAIN,jppi.org.il###jppi-cc-banner
 DOMAIN,lizlol.co.il###lz-consent
+DOMAIN,maven-group.co.il###maven-cookie
+DOMAIN,maven-group.co.il###maven-cookie-overlay
 DOMAIN,wine-eilat.com###mcc-cookie-bar
 DOMAIN,smnh.tau.ac.il###nmoCookieBanner
 DOMAIN,tekoafarms.co.il###pcm-consent-popup
@@ -616840,7 +616845,7 @@ DOMAIN,pezzi.co.il###pezzi-cookie-popup
 DOMAIN,momflavours.co.il###pl-acg-bar
 BARGAD.CO.IL,coi.co.il
 DOMAIN,inz.org.il###privacyPrompt
-NABOB-LOCK.CO.IL,shukhashmal.co.il###privacy_alert
+NABOB-LOCK.CO.IL,ronitek.co.il
 DUNIETZ-ELAD.CO.IL,invoice4u.co.il###privacy_policy_popup
 DOMAIN,ivory.co.il###removeBannerCookie
 DOMAIN,ipo.co.il###rg-privacy-wrap
@@ -616875,6 +616880,7 @@ DOMAIN,nooa.co.il##.cmplz-cookiebanner
 DOMAIN,israelpost.co.il##.cookie-agreement
 DOMAIN,yad2.co.il##.cookie-implementation-disclaimer_popupRoot__CLI1m
 DEASY.CO.IL,easygo.co.il##.cookieMessage
+DOMAIN,icomp.co.il##.cookieagry
 DOMAIN,novelsat.com##.cookiepopup
 DOMAIN,gesher-theatre.co.il##.cookies-approval-strip-wrapper
 DOMAIN,bug.co.il##.cookies-policy-modal-container
@@ -616887,6 +616893,7 @@ BURSTEINSTORE.CO.IL,kitchenware.co.il
 DOMAIN,tel-aviv.gov.il##.customerAgreement
 MEDIC-CENTER-SPORT.CO.IL,winehouse.co.il##.digita-privacy-popup
 DOMAIN,drushim.co.il##.dr-cookie-banner
+DOMAIN,digitall.co.il##.dt-cookie
 DOMAIN,mtoys.co.il##.e2w-cookie-popup
 DOMAIN,booknet.co.il##.ec_modal-cover
 BCOMMUNICATIONS.CO.IL,ir.maxstock.co.il##.ecl-banner
@@ -616901,7 +616908,7 @@ DOMAIN,fattal.co.il##.gFFPlX
 ABIRSPORT.CO.IL,cinema-city.co.il
 DOMAIN,decostop.co.il##.gdprmodal
 BATHANDBODYWORKS.CO.IL,castro.com
-AKLIMAPRO.CO.IL,sleepspa.co.il
+AKLIMAPRO.CO.IL,hameigaash.co.il
 DOMAIN,sleepspa.co.il##.info_popup
 DOMAIN,tami4.co.il##.jAASJS
 DOMAIN,ksp.co.il##.ltr-1075xo6
@@ -616928,7 +616935,9 @@ BLEECKERBAKERY.CO.IL,million-kisot.co.il##.sgcc-main-wrapper
 DOMAIN,my.mor.org.il##.shadow-consent-banner
 JSPCA.ORG.IL,letlive.org.il##.site-consent-banner
 DOMAIN,l-s.co.il##.sogo-pc-banner
+DOMAIN,israelprintcenter.co.il##.sux-cb-backdrop
 DOMAIN,htrl.co.il##.w3d-cb-banner
+DOMAIN,mgweb.co.il##.widget_privacy_alert
 DOMAIN,sancar.co.il##.xtra-cookie
 DOMAIN,lastminute.co.il##app-notifications-container
 DOMAIN,iec.co.il##app-sticky-banner
@@ -617597,7 +617606,7 @@ DOMAIN,itaka.pl##.cky-modal
 DOMAIN,itaka.pl##.cky-overlay
 DOMAIN,aterima-work.pl##.cm-popup-wrapper
 DOMAIN,pracuj.pl##.cmulq7z
-PLS.PL,tauronliga.pl##.cokie-manager-dialog
+MEZCZYZNI.MISTRZOSTWAPOLSKIMASTERS.PL,pls.pl
 DOMAIN,sklep.szprychy.com##.config-messages
 DOMAIN,rozetka.pl##.consent-layout
 DOMAIN,gonet.tv##.consent_form_basic
@@ -617994,6 +618003,7 @@ DOMAIN,actualitati-arad.ro##.viral-pro-privacy-policy
 DOMAIN,altex.ro##.z-1050
 DOMAIN,! ---------- Russian ----------
 DOMAIN,abekker.ru###GDPR-container
+DOMAIN,developers.sber.ru###GDPRBanner
 DOMAIN,videosmile.ru###accept_q
 DOMAIN,startsmile.ru###access_cookie
 DOMAIN,spbtvonline.ru###agreeC
@@ -618163,6 +618173,7 @@ DOMAIN,spbu.ru##.cookie-block
 DOMAIN,akit.ru##.cookie-consent-banner
 DOMAIN,supersamsev.ru##.cookie-consent-container-wrap
 DOMAIN,4ege.ru##.cookie-consent-mini
+DOMAIN,bsb.by##.cookie-fix-wrapper
 DOMAIN,lk-new.vtbnpf.ru##.cookie-layout
 DOMAIN,theblueprint.ru##.cookie-line
 DOMAIN,rutube.ru##.cookie-message-module__cookie-consent
@@ -619461,10 +619472,10 @@ DOMAIN,@@||rambox.app/wp-content/plugins/complianz-gdpr/$~third-party
 DOMAIN,@@||vesmir.cz/components/eu_cookie/$script
 DOMAIN,@@||vulcangas.com^*/cookie-notice/$script
 @@||WEBTV.STOFA.DK/PUBLIC/JS/COOKIE-BANNER.$SCRIPT,~third-party
-DOMAIN,! Checksum: fZ1C2fXrxl00IpXM/NiIzw
-DOMAIN,! Version: 202610241012
+DOMAIN,! Checksum: dUvO8eqCKlt0b0SlX8NoJw
+DOMAIN,! Version: 202610241522
 DOMAIN,! Title: EasyList China
-IP-CIDR6,! Last modified: 24 Oct 2026 10:12 UTC
+IP-CIDR6,! Last modified: 24 Oct 2026 15:22 UTC
 DOMAIN,! Expires: 1 days (update frequency)
 DOMAIN,! Homepage: https://github.com/easylist/easylistchina/
 DOMAIN,! EasyList China subscription
@@ -619887,6 +619898,9 @@ DOMAIN,||154.7.80.158^
 DOMAIN,||194.59.220.161^
 DOMAIN,||205.209.138.102^
 DOMAIN,||23.231.151.252^
+DOMAIN,||xf9o6c6jnp.com^
+DOMAIN,||cbxp9xqbnh.com^
+DOMAIN,||t1ufw6nz5f.com^
 DOMAIN,||1133.cc^$third-party
 DOMAIN,||1188.com^$third-party
 DOMAIN,||1fxs.com^$third-party
@@ -627916,7 +627930,7 @@ DOMAIN,! Title: AdGuard DNS filter
 ! DESCRIPTION: FILTER COMPOSED OF SEVERAL OTHER FILTERS (ADGUARD BASE FILTER,Tracking Protection filter
 DOMAIN,! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 DOMAIN,! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-IP-CIDR6,! Last modified: 2026-10-24T10:13:11.953Z
+IP-CIDR6,! Last modified: 2026-10-24T14:12:11.319Z
 DOMAIN,! Compiled by @adguard/hostlist-compiler v2.1.0
 DOMAIN,! Source name: AdGuard Base filter ad servers
 DOMAIN,! Source: https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/adservers.txt
@@ -629059,46 +629073,106 @@ DOMAIN,! Source: https://raw.githubusercontent.com/easylist/easylist/master/easy
 DOMAIN,! Non-flagged (Generic blocks)
 DOMAIN,||219veo9vnjle6mouez.cfd^
 DOMAIN,||apzptquixoyr.com^
+DOMAIN,||ataqsinsgufxk.online^
 DOMAIN,||awdddntkckatv.online^
 DOMAIN,||batemanlyopoma.cyou^
+DOMAIN,||bdavjbhjpzjmt.space^
+DOMAIN,||bellicuneal.qpon^
+DOMAIN,||bonnilyfurnish.qpon^
 DOMAIN,||brenzcdjozwpw.website^
+DOMAIN,||cexwqhxuxixew.site^
 DOMAIN,||chcekcxekirtx.online^
+DOMAIN,||cntsmkfxhorvt.site^
 DOMAIN,||coiffesreal.qpon^
+DOMAIN,||cpufcccvnbyvo.website^
+DOMAIN,||croupyacouchysheers.cfd^
 DOMAIN,||daleelerah.info
+DOMAIN,||djhanucviqf.com^
 DOMAIN,||dystomeuterus.qpon^
+DOMAIN,||ecvihexbkacpa.space^
 DOMAIN,||efiktugboat.qpon^
+DOMAIN,||engsinseeovaria.cfd^
+DOMAIN,||epswiopwxylwi.site^
 DOMAIN,||eschelesiphoid.com^
+DOMAIN,||ettlederethicgriskin.cyou^
+DOMAIN,||eucztfyfooswmy.com^
 DOMAIN,||fukmxaatfztwq.space^
 DOMAIN,||fvvjspqqigorm.website^
 DOMAIN,||garbcougars.cfd^
 DOMAIN,||get-me-wow.
 DOMAIN,||gilgulberat.cfd^
+DOMAIN,||gytzzylfaokwt.online^
+DOMAIN,||hogubqiagoail.space^
+DOMAIN,||htaptaidjcase.online^
+DOMAIN,||icpjsggtmkdul.site^
+DOMAIN,||iikkhsvwsiobw.space^
+DOMAIN,||ijryyfexcfknw.online^
+DOMAIN,||ikecwekdmbftc.space^
 DOMAIN,||imefvemjrroxa.online^
+DOMAIN,||ipwqobevglbdk.online^
+DOMAIN,||iqjgwbkeqkpix.online^
+DOMAIN,||jmbxsgugxfied.space^
+DOMAIN,||jvserdywzwvmh.website^
 DOMAIN,||kfqmlaniiddgw.online^
+DOMAIN,||kirkifyfoam.qpon^
 DOMAIN,||knqspohyhyxwp.space^
 DOMAIN,||kskbpvqhwamtu.site^
+DOMAIN,||kwmtfcylgivln.space^
+DOMAIN,||kwyiknngshfhg.site^
 DOMAIN,||kyqkyumnlbjik.online^
+DOMAIN,||lavnkios.in^
+DOMAIN,||lineyalary.cyou^
+DOMAIN,||lowwoodtanner.cfd^
+DOMAIN,||lwxsocpvczuiq.online^
+DOMAIN,||lzswdckjqxbjr.site^
+DOMAIN,||mfgygyhpddlyo.online^
 DOMAIN,||misdeemacetary.cfd^
 DOMAIN,||mjhwpnzxkjocw.space^
+DOMAIN,||mricm8uun4y359.rest^
+DOMAIN,||mulchdenyhows.cyou^
+DOMAIN,||n25oieie5rxghc.cfd^
 DOMAIN,||napmfrdfkulkh.site^
 DOMAIN,||nmbdeqxdkvhvm.site^
 DOMAIN,||oazfmcblopdje.online^
+DOMAIN,||omeliepoetry.cfd^
 DOMAIN,||packetspoisesbally.cfd^
 DOMAIN,||pbztcgfpuwzem.website^
+DOMAIN,||phustcugnffcn.space^
 DOMAIN,||ptkvumzaajsob.website^
+DOMAIN,||qrnjezhqzokqz.website^
 DOMAIN,||qtoonoecxthnl.space^
+DOMAIN,||qwtrmnaewnctq.space^
 DOMAIN,||resizederinize.cfd^
+DOMAIN,||robinggnathic.cfd^
+DOMAIN,||rosaliediiodid.com^
+DOMAIN,||rpgghmnptqhhi.online^
+DOMAIN,||saltedfrieze.com^
 DOMAIN,||sellingafaced.com^
+DOMAIN,||simconbutanefear.cfd^
+DOMAIN,||tcerhxvlurvwf.site^
+DOMAIN,||temptedpitta.cfd^
 DOMAIN,||todditehexarch.com^
+DOMAIN,||tritonaneling.qpon^
 DOMAIN,||ty1lqyw6muhtvpiu.rest^
+DOMAIN,||ubogicetmixgdl.com^
+DOMAIN,||unedgedshank.com^
 DOMAIN,||unrobebemottoirfan.cfd^
 DOMAIN,||urrfkabrkhxjat.com^
+DOMAIN,||vfcakwrxiaaws.site^
+DOMAIN,||vleqrwluxgslv.online^
+DOMAIN,||vrzhovgxkeoag.space^
+DOMAIN,||vsnctrfamkmai.online^
+DOMAIN,||vwsuoczefptjr.website^
+DOMAIN,||wangunszeguha.qpon^
+DOMAIN,||wareggasehyo.cfd^
 DOMAIN,||wicmdokqlpdso.space^
 DOMAIN,||wodzxaloxquvz.space^
 DOMAIN,||wwukvmgeutahv.website^
+DOMAIN,||xdcxjbptkyzol.space^
 DOMAIN,||yezzzrhgrkwli.space^
 DOMAIN,||yoksaffiant.cyou^
 DOMAIN,||zmrdjhej.com^
+DOMAIN,||zowjwdmzntmyn.online^
 DOMAIN,! Anti-drainer eth phishing
 DOMAIN,! $document blocks
 DOMAIN,!! Third-party
