@@ -1,7 +1,7 @@
 #!/bin/bash
 # 聚合广告拦截规则 - Loon格式
-# 生成时间: 2026-11-03 13:45:32
-# 总规则数: 924962
+# 生成时间: 2026-11-03 22:58:55
+# 总规则数: 925023
 # 规则来源: 1Hosts (Lite), hBlock, Multi NORMAL, Fanboy-Cookiemonster, EasylistChina, AdGuardSDNSFilter, rejectAd, Advertising_Domain, Advertising
 
 DOMAIN,! Title: 1Hosts (Lite)
@@ -622561,10 +622561,10 @@ DOMAIN,@@||rambox.app/wp-content/plugins/complianz-gdpr/$~third-party
 DOMAIN,@@||vesmir.cz/components/eu_cookie/$script
 DOMAIN,@@||vulcangas.com^*/cookie-notice/$script
 @@||WEBTV.STOFA.DK/PUBLIC/JS/COOKIE-BANNER.$SCRIPT,~third-party
-DOMAIN,! Checksum: CmfWPz+crHPf+t6Q/48IDQ
-DOMAIN,! Version: 202611031332
+DOMAIN,! Checksum: qYMZbYch3x7QL+Kfa42zog
+DOMAIN,! Version: 202611032252
 DOMAIN,! Title: EasyList China
-IP-CIDR6,! Last modified: 03 Nov 2026 13:32 UTC
+IP-CIDR6,! Last modified: 03 Nov 2026 22:52 UTC
 DOMAIN,! Expires: 1 days (update frequency)
 DOMAIN,! Homepage: https://github.com/easylist/easylistchina/
 DOMAIN,! EasyList China subscription
@@ -631020,7 +631020,7 @@ DOMAIN,! Title: AdGuard DNS filter
 ! DESCRIPTION: FILTER COMPOSED OF SEVERAL OTHER FILTERS (ADGUARD BASE FILTER,Tracking Protection filter
 DOMAIN,! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 DOMAIN,! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-IP-CIDR6,! Last modified: 2026-11-03T12:13:15.645Z
+IP-CIDR6,! Last modified: 2026-11-03T22:08:18.027Z
 DOMAIN,! Compiled by @adguard/hostlist-compiler v2.1.0
 DOMAIN,! Source name: AdGuard Base filter ad servers
 DOMAIN,! Source: https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/adservers.txt
@@ -631030,6 +631030,8 @@ DOMAIN,! The rules with hints are at the end of file.
 DOMAIN,! Good: ||doubleclick.net^$third-party
 DOMAIN,! Bad: /banner.jpg (should be in general_url.txt)
 DOMAIN,! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
+DOMAIN,||inyourpocket.co.uk^
+DOMAIN,||lzopmoas.in^
 DOMAIN,||194.63.143.96^
 DOMAIN,||103.179.189.35^
 DOMAIN,||direct-specific.com
@@ -631481,6 +631483,7 @@ DOMAIN,||54.222.186.106^
 DOMAIN,! AfreecaTV
 DOMAIN,! Yandex ads in apps
 DOMAIN,!NOTE: Regular rules
+DOMAIN,||asttoxa.ru^
 DOMAIN-SUFFIX,libaishuo.com^
 DOMAIN,||adapi*.boomplaymusic.com^
 DOMAIN,||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
@@ -631574,6 +631577,7 @@ DOMAIN,! Disabled in DNS filter
 DOMAIN,! Blocking piwik analytics subdomain(for DNS filtering)
 DOMAIN,|piwik.
 DOMAIN,! NOTE: Regular rules
+DOMAIN,||api-node.corvexa.cloud^
 DOMAIN,||analytics.dulo.
 DOMAIN,||cnt.iceporn.
 DOMAIN,||sw.vidmoly.
@@ -632162,52 +632166,109 @@ DOMAIN,! Source name: EasyList ad servers
 DOMAIN,! Source: https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt
 DOMAIN,! Non-flagged (Generic blocks)
 DOMAIN,||6blw4whh5lc83lji3y7q2l83m.cfd^
+DOMAIN,||aafrjewsszwiv.site^
+DOMAIN,||abtsofhqtqdnl.online^
+DOMAIN,||abxcsiahbpqmw.space^
+DOMAIN,||afvcrykaqo.in^
 DOMAIN,||ahgrlvcedusvr.site^
 DOMAIN,||airtsroyalty.cyou^
 DOMAIN,||aisgbphgmpnis.site^
 DOMAIN,||amccfczlswotq.online^
+DOMAIN,||awgrxtcvxnjqa.online^
+DOMAIN,||ayadsdyieahbn.space^
+DOMAIN,||bqohmtzgtwyvi.space^
 DOMAIN,||bsoezfextjrla.space^
 DOMAIN,||cekxakzxmkgsm.site^
 DOMAIN,||ceresshoepac.cyou^
 DOMAIN,||civilermake.cfd^
+DOMAIN,||cjpgaszjnhhzh.space^
 DOMAIN,||daleelerah.info
+DOMAIN,||dbcsbfwaegztc.space^
+DOMAIN,||djhvqumujikde.site^
+DOMAIN,||dplapevefntpx.online^
+DOMAIN,||dqjlsxiccfxvi.site^
 DOMAIN,||dsgqxzkacskjx.online^
 DOMAIN,||duhurzgxqzncg.website^
 DOMAIN,||envvxffzamteq.space^
+DOMAIN,||evmxvermhmljo.website^
 DOMAIN,||fbojksrucqczm.space^
+DOMAIN,||fkdeavpxkjuoa.space^
+DOMAIN,||freealremark.org^
 DOMAIN,||gaolcomptlytaxable.cfd^
+DOMAIN,||gaxejjfvhogej.space^
 DOMAIN,||get-me-wow.
+DOMAIN,||gljnvnqgrnhwm.website^
+DOMAIN,||gqdwbcvnltcmy.website^
+DOMAIN,||gusonzwqabdjh.space^
 DOMAIN,||hordesfrappe.cfd^
 DOMAIN,||htspggvvemyge.online^
+DOMAIN,||icsocthifkbge.online^
+DOMAIN,||ihcmxwwdihsdi.site^
+DOMAIN,||iucwyrvskyyvn.space^
+DOMAIN,||jhuqoqpfxpnay.site^
 DOMAIN,||jkxhafagsdbma.website^
 DOMAIN,||joowrimbxopnu.site^
+DOMAIN,||jukcdvsgozbiy.space^
 DOMAIN,||jyfddsmcthvfw.space^
 DOMAIN,||knhcehpvrnbiy.space^
 DOMAIN,||ktndfphaxeiyq.site^
 DOMAIN,||lasingpmt.cfd^
+DOMAIN,||lxcnkjbyglfvy.site^
 DOMAIN,||marigoodby.cfd^
 DOMAIN,||mhgmbxdjtohmb.site^
 DOMAIN,||njrzsnbgomkzd.website^
 DOMAIN,||nunnifysparkle.com^
+DOMAIN,||ohtunuswezbap.space^
+DOMAIN,||oigreykofphcz.site^
+DOMAIN,||oizfzrjavugyq.space^
+DOMAIN,||ojevjamihdgxf.site^
+DOMAIN,||ojwblyznkhapl.site^
+DOMAIN,||orviwiatndnfy.website^
 DOMAIN,||pbnsbetvavbho.website^
 DOMAIN,||pdqvqmzxsnwte.space^
+DOMAIN,||pfxrcmdqklsld.online^
 DOMAIN,||photicssuttees.cfd^
 DOMAIN,||phournaghaahu.site^
 DOMAIN,||plllgmpgxzyqr.site^
 DOMAIN,||poddqnuplenod.site^
+DOMAIN,||psilemjexhttc.site^
+DOMAIN,||psjadixqzliqg.online^
 DOMAIN,||purrmolify.cyou^
+DOMAIN,||pzpvrkegstxrv.site^
+DOMAIN,||qfkuuzpoynibg.online^
+DOMAIN,||qwtukixnvmrdx.online^
+DOMAIN,||qzfjenkimltmx.site^
+DOMAIN,||rdemlukxlxtrj.online^
+DOMAIN,||rergkrakgvxpa.online^
+DOMAIN,||rmfdjplxffznf.website^
+DOMAIN,||rmzzjmbshnjbo.space^
 DOMAIN,||rwejcjqvhmwxg.online^
+DOMAIN,||slqdkguiypxzu.online^
+DOMAIN,||spmdauzpayeda.space^
+DOMAIN,||sqccqjeqebguz.site^
+DOMAIN,||svjvuwevdwqxv.space^
+DOMAIN,||tadodpfikom.in^
+DOMAIN,||tailorydemele.com^
 DOMAIN,||tegymvxaqpdoj.site^
+DOMAIN,||tettvlflcprdr.site^
+DOMAIN,||txapmczlkxoux.space^
 DOMAIN,||u5r27xblmpv1pp.rest^
 DOMAIN,||ueqgrzwnziqmt.site^
+DOMAIN,||uffpoomcsktub.site^
 DOMAIN,||uljmkkewrunla.space^
 DOMAIN,||unduolraqlrco.online^
+DOMAIN,||vaylkkybnfbbn.site^
+DOMAIN,||vimvqukyxpaso.site^
 DOMAIN,||vpumhrzrfdjgc.site^
 DOMAIN,||vxjxgmqdfwenp.site^
 DOMAIN,||waasitcawi.cfd^
 DOMAIN,||wichcarientaguan.cyou^
+DOMAIN,||wwesvxfqdabhf.space^
+DOMAIN,||xgyfzcnypzvas.space^
 DOMAIN,||xxxbqfmvmmfjt.space^
+DOMAIN,||ygnkikbxptrce.website^
 DOMAIN,||yqehntfitbylp.online^
+DOMAIN,||zcyllaortfdtu.site^
 DOMAIN,||zxaatlfjhb.com^
 DOMAIN,! Anti-drainer eth phishing
 DOMAIN,! $document blocks
