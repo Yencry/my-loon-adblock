@@ -1,7 +1,7 @@
 #!/bin/bash
 # 聚合广告拦截规则 - Loon格式
-# 生成时间: 2026-11-04 05:10:23
-# 总规则数: 925250
+# 生成时间: 2026-11-04 13:54:17
+# 总规则数: 925362
 # 规则来源: 1Hosts (Lite), hBlock, Multi NORMAL, Fanboy-Cookiemonster, EasylistChina, AdGuardSDNSFilter, rejectAd, Advertising_Domain, Advertising
 
 DOMAIN,! Title: 1Hosts (Lite)
@@ -613516,9 +613516,9 @@ DOMAIN,||zzycj.com^
 DOMAIN,||zzyud.com^
 DOMAIN,||zzz-event.com^
 DOMAIN,||zzzperform.com^
-DOMAIN,! Checksum: DIV5r8fbwc1rnhqXda+7XA
+DOMAIN,! Checksum: ROp6VWKQoFNqx1oFnaG/aQ
 DOMAIN,! Title: Easylist Cookie List
-IP-CIDR6,! Last modified: 2026-11-02 22:25 UTC
+IP-CIDR6,! Last modified: 2026-11-04 07:50 UTC
 DOMAIN,! Expires: 9 days (update frequency)
 DOMAIN,! License: http://creativecommons.org/licenses/by/3.0/
 DOMAIN,! Please report any unblocked content or problems by email or in our forums
@@ -617346,6 +617346,7 @@ DOMAIN,repovive.com##.rounded-lg.max-w-3xl
 DOMAIN,smallpdf.com##.rplgd-0
 DOMAIN,totalserversolutions.com##.rplm-alert
 DOMAIN,ramseysolutions.com##.rs-CookieBanner
+DOMAIN,rudderstack.com##.rs-cookie
 DOMAIN,seamless.ai##.rs-message-info
 DOMAIN,rsc.org##.rsc-onetrust-cookie-footer
 DOMAIN,limaeasy.com##.rstbox
@@ -620329,7 +620330,7 @@ ELECTRA-DANKO.CO.IL,electra-elco-cs.co.il
 DOMAIN,ksp.co.il##.rtl-1075xo6
 ARAD-AC.CO.IL,tlvmall.com##.sbb-sticky-bar
 DOMAIN,mazda.co.il##.sc-26e57d0b-0.hsLpSr
-BLEECKERBAKERY.CO.IL,million-kisot.co.il##.sgcc-main-wrapper
+BLEECKERBAKERY.CO.IL,million-kisot.co.il
 DOMAIN,my.mor.org.il##.shadow-consent-banner
 JSPCA.ORG.IL,letlive.org.il##.site-consent-banner
 DOMAIN,l-s.co.il##.sogo-pc-banner
@@ -622875,10 +622876,10 @@ DOMAIN,@@||rambox.app/wp-content/plugins/complianz-gdpr/$~third-party
 DOMAIN,@@||vesmir.cz/components/eu_cookie/$script
 DOMAIN,@@||vulcangas.com^*/cookie-notice/$script
 @@||WEBTV.STOFA.DK/PUBLIC/JS/COOKIE-BANNER.$SCRIPT,~third-party
-DOMAIN,! Checksum: 8Mk/vKWVVnL1EQJrPOeLxA
-DOMAIN,! Version: 202611040502
+DOMAIN,! Checksum: Ll8CEmV0w7foSpLDq1jE0g
+DOMAIN,! Version: 202611041342
 DOMAIN,! Title: EasyList China
-IP-CIDR6,! Last modified: 04 Nov 2026 05:02 UTC
+IP-CIDR6,! Last modified: 04 Nov 2026 13:42 UTC
 DOMAIN,! Expires: 1 days (update frequency)
 DOMAIN,! Homepage: https://github.com/easylist/easylistchina/
 DOMAIN,! EasyList China subscription
@@ -623306,6 +623307,12 @@ DOMAIN,||jptifzvqhanvha.com^
 DOMAIN,||487wlz7nbc.com^
 DOMAIN,||q70t79hxor.com^
 DOMAIN,||5p478n58i9.com^
+DOMAIN,||9nvj3swk9l.com^
+DOMAIN,||1wxj1q0wo5.com^
+DOMAIN,||rrd14g5o8n.com^
+DOMAIN,||1p5j4qb3zc.com^
+DOMAIN,||477d95h3tj.com^
+DOMAIN,||wrsy5mdrj1.com^
 DOMAIN,||1133.cc^$third-party
 DOMAIN,||1188.com^$third-party
 DOMAIN,||1fxs.com^$third-party
@@ -631337,7 +631344,7 @@ DOMAIN,! Title: AdGuard DNS filter
 ! DESCRIPTION: FILTER COMPOSED OF SEVERAL OTHER FILTERS (ADGUARD BASE FILTER,Tracking Protection filter
 DOMAIN,! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 DOMAIN,! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-IP-CIDR6,! Last modified: 2026-11-04T04:10:58.437Z
+IP-CIDR6,! Last modified: 2026-11-04T12:13:37.840Z
 DOMAIN,! Compiled by @adguard/hostlist-compiler v2.1.0
 DOMAIN,! Source name: AdGuard Base filter ad servers
 DOMAIN,! Source: https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/adservers.txt
@@ -631872,6 +631879,8 @@ DOMAIN,||184.106.248.76^
 DOMAIN,||200.72.40.46^
 DOMAIN,! Source name: AdGuard Spanish/Portuguese filter ad servers first-party
 DOMAIN,! Source: https://adguardteam.github.io/AdguardFilters/SpanishFilter/sections/adservers_firstparty.txt
+DOMAIN,||e-afiliacao.estadao.com.br^
+DOMAIN,||smartads.estadao.com.br^
 DOMAIN,! Source name: AdGuard Tracking Protection filter first-party trackers
 DOMAIN,! Source: https://adguardteam.github.io/AdguardFilters/SpywareFilter/sections/tracking_servers_firstparty.txt
 ! THIS SECTION CONTAINS THE LIST OF TRACKING NETWORKS DOMAINS,which are hosted on non advertising sites as subdomains.
@@ -632478,25 +632487,126 @@ DOMAIN,tototix.gif
 DOMAIN,! Source name: EasyList ad servers
 DOMAIN,! Source: https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt
 DOMAIN,! Non-flagged (Generic blocks)
+DOMAIN,||02e8dff099.com^
+DOMAIN,||17npj4uch9l4zbgw6npmkqz.rest^
+DOMAIN,||4bcebtnplcxyqu65fcz.cfd^
+DOMAIN,||aahmghubjrbof.site^
 DOMAIN,||aegbkonatretu.online^
+DOMAIN,||aelurgilqquze.space^
+DOMAIN,||apiculalukan.cyou^
+DOMAIN,||aromadenotes.cyou^
+DOMAIN,||axjzikchjstld.space^
+DOMAIN,||axtglbfykxrew.online^
+DOMAIN,||barrerameconweb.cfd^
+DOMAIN,||beakedlacmoid.cfd^
+DOMAIN,||bepearlmoujiks.com^
+DOMAIN,||biotechsecurer.cyou^
+DOMAIN,||bveaafwiwktxb.space^
+DOMAIN,||bwuonpqazac.in^
+DOMAIN,||cachinafalters.cyou^
 DOMAIN,||catvelkqzbchr.space^
+DOMAIN,||cnkjtpqtqedzo.space^
+DOMAIN,||cr9y8xbt.xyz^
 DOMAIN,||daleelerah.info
+DOMAIN,||dargopastinadogsled.cyou^
 DOMAIN,||ddrrjhzhgkjqg.online^
+DOMAIN,||ddzqjccz.com^
+DOMAIN,||defocustrigla.cyou^
+DOMAIN,||delibleronnels.com^
+DOMAIN,||doajepnvrgyke.website^
+DOMAIN,||droveil.cyou^
+DOMAIN,||dry-contact.com^
+DOMAIN,||dsyauycdyffqn.website^
+DOMAIN,||dulcianatinga.com^
 DOMAIN,||elbfsgwewfamv.website^
+DOMAIN,||eutifqebn.com^
+DOMAIN,||evpbmtwhtjjmx.website^
+DOMAIN,||excellentrobin.com^
+DOMAIN,||fegarythack.cfd^
+DOMAIN,||fenskemplethetic.cyou^
+DOMAIN,||fiarwvwtdltmu.site^
+DOMAIN,||forintsisseis.cyou^
+DOMAIN,||fullambiontlabis.cyou^
+DOMAIN,||gefiqdoiagfof.online^
 DOMAIN,||get-me-wow.
 DOMAIN,||gmmrnnunwgabr.site^
 DOMAIN,||gpppzpcnfxvld.website^
+DOMAIN,||hentoe.xyz^
+DOMAIN,||hojlkgrcpboga.site^
+DOMAIN,||horsedconter.com^
+DOMAIN,||i5nb1iokj8lwiel.cfd^
 DOMAIN,||idukyjiamozoj.space^
+DOMAIN,||isvjczyvbahdb.space^
+DOMAIN,||jhvvdcqyhuwud.online^
+DOMAIN,||joyouschalk.com^
+DOMAIN,||jwegptdhydbhd.space^
+DOMAIN,||kbnvgrvmerpzy.website^
+DOMAIN,||kfkcialdwxput.online^
 DOMAIN,||krwmjjcvurbmq.online^
+DOMAIN,||kwgqsagwndtpu.space^
 DOMAIN,||kzmbwwoxkelzr.website^
+DOMAIN,||liquidyvrows.com^
+DOMAIN,||mdsqflfaztdxh.site^
+DOMAIN,||minorstoryismnursy.cyou^
 DOMAIN,||mltbtapkgslck.space^
+DOMAIN,||mooseviolet.com^
+DOMAIN,||mopxnksuwhbpl.online^
+DOMAIN,||mqqhfyfavftyk.com^
+DOMAIN,||nvbkpigfbaljg.space^
+DOMAIN,||nwafilfwaas.in^
+DOMAIN,||okxfhypljrweg.website^
+DOMAIN,||ovjtceagpk.in^
+DOMAIN,||p4h8nz7fbgu8npiiyhg24.cfd^
+DOMAIN,||pemrxjfjiuyhz.space^
+DOMAIN,||persaltgofflecoaeval.cyou^
+DOMAIN,||phngnclbpkibk.website^
+DOMAIN,||pizzmikimc.in^
+DOMAIN,||placateinodes.cfd^
+DOMAIN,||playnygxninfa.online^
+DOMAIN,||prlqvaxljviwu.site^
+DOMAIN,||pvhnpsxvmczcz.site^
+DOMAIN,||r1uwn95z2r4wxj315qkpefkrxf.cfd^
+DOMAIN,||rbqlocmewza.com^
+DOMAIN,||rhamncurs.cyou^
+DOMAIN,||roeyjvxuqodon.site^
 DOMAIN,||rvvsnowgyqzeg.site^
+DOMAIN,||saltazoccotobies.cyou^
+DOMAIN,||semynmdqxacxa.site^
+DOMAIN,||sltdvcqzeaqzz.site^
+DOMAIN,||smudgesalcayde.cfd^
+DOMAIN,||sonchusbulimic.cyou^
 DOMAIN,||spjtlgxmhogip.space^
+DOMAIN,||sqqassary.cyou^
+DOMAIN,||tiffanysatchel.cyou^
 DOMAIN,||tlnmttmhpcarf.online^
+DOMAIN,||ttlhsaltbaijk.space^
+DOMAIN,||tuaregalytes.cyou^
+DOMAIN,||u36xom64ofp5ooiilk8y911bytyk1g.rest^
 DOMAIN,||ugcsgjbpzrqvn.website^
+DOMAIN,||ushasfloosytrolls.cfd^
+DOMAIN,||uyhifvdohrxoy.site^
+DOMAIN,||vazijiavfyebf.site^
+DOMAIN,||vbsrpojnzuktp.online^
+DOMAIN,||vhrjzafblesxw.com^
+DOMAIN,||viscidvareusebetitle.cfd^
+DOMAIN,||vkvguedutesbt.website^
+DOMAIN,||vzncjeftbnbxt.online^
+DOMAIN,||weaeaxth.com^
 DOMAIN,||wfjltfxsgdjkk.online^
+DOMAIN,||whorltheines.cfd^
+DOMAIN,||wmpjftsjjmsps.space^
+DOMAIN,||x5yl6br9km9t93gylo4f.rest^
+DOMAIN,||xfepscsxpywbd.site^
 DOMAIN,||xldkomuhpflxj.online^
+DOMAIN,||xzhgiwsvvwuza.space^
+DOMAIN,||ydyyntztrcchb.online^
+DOMAIN,||ynkmxryvmhfhh.website^
+DOMAIN,||z4outthbgcywj4jp4.rest^
+DOMAIN,||zapfzecciajw.in^
+DOMAIN,||zpwfrhdzjozby.space^
 DOMAIN,||zytfycpmnlzio.online^
+DOMAIN,||zyvhofzjqlvwb.space^
+DOMAIN,||zzgmtalhhma.com^
 DOMAIN,! Anti-drainer eth phishing
 DOMAIN,! $document blocks
 DOMAIN,!! Third-party
@@ -632536,6 +632646,8 @@ DOMAIN,! Source name: EasyPrivacy Admiral tracking servers
 DOMAIN,! Source: https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers_admiral.txt
 DOMAIN,! easyprivacy_trackingservers_admiral.txt
 DOMAIN,! Admiral
+DOMAIN,||dataconsumed.com^
+DOMAIN,||operawise.com^
 DOMAIN,! Source name: EasyPrivacy international tracking servers
 DOMAIN,! Source: https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers_international.txt
 DOMAIN,! German
