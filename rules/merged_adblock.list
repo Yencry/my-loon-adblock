@@ -1,7 +1,7 @@
 #!/bin/bash
 # 聚合广告拦截规则 - Loon格式
-# 生成时间: 2026-11-10 14:28:43
-# 总规则数: 916740
+# 生成时间: 2026-11-10 22:55:28
+# 总规则数: 916874
 # 规则来源: 1Hosts (Lite), hBlock, Multi NORMAL, Fanboy-Cookiemonster, EasylistChina, AdGuardSDNSFilter, rejectAd, Advertising_Domain, Advertising
 
 DOMAIN,! Title: 1Hosts (Lite)
@@ -604934,9 +604934,9 @@ DOMAIN,||zzsno1.com^
 DOMAIN,||zzycj.com^
 DOMAIN,||zzyud.com^
 DOMAIN,||zzz-event.com^
-DOMAIN,! Checksum: bmhipJdUfy4WnLuLmUkoZw
+DOMAIN,! Checksum: 0iSnra4R+HuatIptN3Iq+Q
 DOMAIN,! Title: Easylist Cookie List
-IP-CIDR6,! Last modified: 2026-11-09 20:50 UTC
+IP-CIDR6,! Last modified: 2026-11-10 19:50 UTC
 DOMAIN,! Expires: 9 days (update frequency)
 DOMAIN,! License: http://creativecommons.org/licenses/by/3.0/
 DOMAIN,! Please report any unblocked content or problems by email or in our forums
@@ -614303,10 +614303,10 @@ DOMAIN,@@||rambox.app/wp-content/plugins/complianz-gdpr/$~third-party
 DOMAIN,@@||vesmir.cz/components/eu_cookie/$script
 DOMAIN,@@||vulcangas.com^*/cookie-notice/$script
 @@||WEBTV.STOFA.DK/PUBLIC/JS/COOKIE-BANNER.$SCRIPT,~third-party
-DOMAIN,! Checksum: GQPUzhKZk5Vphlq9VFVY1w
-DOMAIN,! Version: 202611101415
+DOMAIN,! Checksum: loby7hEcR9ocoAG/YuiP/g
+DOMAIN,! Version: 202611102242
 DOMAIN,! Title: EasyList China
-IP-CIDR6,! Last modified: 10 Nov 2026 14:15 UTC
+IP-CIDR6,! Last modified: 10 Nov 2026 22:42 UTC
 DOMAIN,! Expires: 1 days (update frequency)
 DOMAIN,! Homepage: https://github.com/easylist/easylistchina/
 DOMAIN,! EasyList China subscription
@@ -622714,7 +622714,7 @@ DOMAIN,! Title: AdGuard DNS filter
 ! DESCRIPTION: FILTER COMPOSED OF SEVERAL OTHER FILTERS (ADGUARD BASE FILTER,Tracking Protection filter
 DOMAIN,! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 DOMAIN,! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-IP-CIDR6,! Last modified: 2026-11-10T14:09:42.538Z
+IP-CIDR6,! Last modified: 2026-11-10T22:08:50.712Z
 DOMAIN,! Compiled by @adguard/hostlist-compiler v2.1.0
 DOMAIN,! Source name: AdGuard Base filter ad servers
 DOMAIN,! Source: https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/adservers.txt
@@ -623863,121 +623863,252 @@ DOMAIN,! Source name: EasyList ad servers
 DOMAIN,! Source: https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt
 DOMAIN,! Non-flagged (Generic blocks)
 DOMAIN,||67oqe5ok7b29qh2yc1g59t7m63b.rest^
+DOMAIN,||9umyy8kcwv5uc7589mpeten6.rest^
+DOMAIN,||aamunqjutjfiq.website^
 DOMAIN,||ablowbulchin.com^
+DOMAIN,||acylsheaths.com^
+DOMAIN,||aheqhrasvveur.website^
+DOMAIN,||aiscsaxgwwdtj.online^
 DOMAIN,||alimentashtray.click^
+DOMAIN,||amercedmexicabourock.cfd^
 DOMAIN,||anfblijzchzbr.site^
 DOMAIN,||apbrumavwr.in^
+DOMAIN,||arwpochlfvqoe.online^
 DOMAIN,||atuudhyvlwexf.site^
 DOMAIN,||avigatejungle.click^
 DOMAIN,||aybyrsiypzevk.site^
+DOMAIN,||baiyxkgvjvphx.space^
+DOMAIN,||baleicleektrickle.cfd^
+DOMAIN,||bcxaiqdkdmcbu.site^
+DOMAIN,||bheqglfizenut.website^
+DOMAIN,||binioudaikers.cyou^
 DOMAIN,||bistrosflu.com^
+DOMAIN,||booejgnliutcd.online^
 DOMAIN,||bqbgshfmnhuza.space^
+DOMAIN,||bringlrecl.cyou^
+DOMAIN,||bukvwavcmonjv.space^
+DOMAIN,||bvzzcqfalsend.space^
 DOMAIN,||bxkhuffkbmxln.space^
 DOMAIN,||byarjsfxfrove.space^
+DOMAIN,||bzrgbresuhvrw.space^
+DOMAIN,||cacciastary.com^
+DOMAIN,||canliopenest.rest^
+DOMAIN,||capricsucci.cyou^
+DOMAIN,||carrochrancourdacitic.cfd^
+DOMAIN,||ccvmhtybbbhir.website^
+DOMAIN,||cdxwzqkuuacxl.site^
 DOMAIN,||ceymmbgyqnnes.space^
 DOMAIN,||chalinamajagga.click^
 DOMAIN,||chpvafnhytjbm.website^
 DOMAIN,||cjvwedvpdnjsi.online^
+DOMAIN,||claristequipttonish.cfd^
+DOMAIN,||cloyerpapaw.click^
 DOMAIN,||cocklettherial.cyou^
 DOMAIN,||coelarwhosome.com^
 DOMAIN,||colhanygoyohp.space^
 DOMAIN,||crpdadadgogyh.site^
+DOMAIN,||cyclopslicorn.com^
 DOMAIN,||daleelerah.info
 DOMAIN,||ddyejopzyjxxzf.com^
+DOMAIN,||deducedcallid.cfd^
 DOMAIN,||depurgearomas.com^
+DOMAIN,||dqwqglbiiealk.website^
+DOMAIN,||dsznwssdfnylt.website^
 DOMAIN,||dvzcfqpdoaxtr.website^
 DOMAIN,||earringmavin.cyou^
 DOMAIN,||eccztfkgzgean.site^
+DOMAIN,||eeztfgqkdagfl.online^
 DOMAIN,||eirqltkfddttl.website^
+DOMAIN,||entomhefteroverfee.cyou^
 DOMAIN,||epigeumexpone.click^
+DOMAIN,||epnllezkjgpif.website^
 DOMAIN,||eqrzjerfwhcvx.space^
 DOMAIN,||eructsgirt.rest^
 DOMAIN,||eskarsunleavesmokier.cyou^
+DOMAIN,||espebwvbducri.space^
 DOMAIN,||eufwayegexdjs.online^
 DOMAIN,||exdsogxhiatsx.space^
 DOMAIN,||ezkzzvzwfjasj.website^
 DOMAIN,||ezygwbeelptbx.site^
 DOMAIN,||fcqxqbrhpduuk.space^
 DOMAIN,||firstswynns.click^
+DOMAIN,||fixpsemfjmejn.online^
+DOMAIN,||fjfxeuiqwjhfo.website^
 DOMAIN,||frtjdwbojvpyz.space^
+DOMAIN,||fskamdkxhobeu.site^
 DOMAIN,||fuahwnyxymhlq.site^
 DOMAIN,||fzlcthmjydxty.online^
 DOMAIN,||get-me-wow.
 DOMAIN,||ggp7fwgmj7kvqeulw5335.cfd^
 DOMAIN,||ghrjyouvkdqwu.space^
+DOMAIN,||gjfjmxslylmem.space^
+DOMAIN,||gjuf2qyz4u14x9ouo587z833.cfd^
 DOMAIN,||gkwvubnomcnst.website^
+DOMAIN,||gmnszkjjkaznf.site^
 DOMAIN,||gqrvjbpmobsvi.online^
+DOMAIN,||gusbpwgmnekeg.site^
 DOMAIN,||helvineslaked.rest^
 DOMAIN,||hickeysideaful.com^
 DOMAIN,||hildiwblwfzpm.website^
 DOMAIN,||hmuejryuvwnzv.online^
+DOMAIN,||hoffpsrrqcymm.site^
+DOMAIN,||hubhoisableto.org^
 DOMAIN,||hulvertaluks.cyou^
 DOMAIN,||hymmrhjrbtvqa.website^
+DOMAIN,||ibsbjipbonaxj.site^
+DOMAIN,||idjypemjqnivb.space^
 DOMAIN,||ihcjfeclbdzde.site^
 DOMAIN,||iijbombwncqrx.space^
 DOMAIN,||jhloeccwchpee.space^
+DOMAIN,||jpeogzqizz.in^
 DOMAIN,||jqrrbqfdjkazm.site^
+DOMAIN,||jsdndfzpzrdt.com^
 DOMAIN,||jurjdpyqrgezo.site^
+DOMAIN,||jzkhcjmzghcsf.space^
+DOMAIN,||kbwakkvqlxmvp.space^
+DOMAIN,||kcmneiugitzfg.website^
+DOMAIN,||kesfktgsfpdqx.site^
 DOMAIN,||kfbysoxcbleqk.space^
+DOMAIN,||knelledzinged.cyou^
+DOMAIN,||ksceuuupvjpes.space^
 DOMAIN,||kvjthavimymgk.online^
 DOMAIN,||kwbomltgixbkn.space^
 DOMAIN,||lcc2y2bnzwfmw97w9z6l86ily214l.rest^
+DOMAIN,||lcutmzhnetsum.website^
 DOMAIN,||lechersreable.com^
+DOMAIN,||libzyrjinzgld.space^
 DOMAIN,||livdnkbosjtwv.website^
 DOMAIN,||lr8znx4rnowrb5owqkq1kmh.cfd^
+DOMAIN,||lrhkpzszyrhzl.site^
+DOMAIN,||luphmjsczvmgx.online^
 DOMAIN,||lxxdiuzxfvylv.site^
+DOMAIN,||lymphkokumin.com^
+DOMAIN,||lyrhgcbvzesii.website^
+DOMAIN,||lyricaljustinewicked.cyou^
 DOMAIN,||mendsionic.com^
+DOMAIN,||misformchipsggr.cyou^
+DOMAIN,||mlyynfnutrtvq.space^
+DOMAIN,||mtueecezoqlmx.site^
 DOMAIN,||muggurscamden.click^
+DOMAIN,||muiiiwbdzkyvc.online^
+DOMAIN,||mvhkwtwdciprs.online^
+DOMAIN,||mzmkwyqvjpqgs.website^
+DOMAIN,||nattierfalsest.rest^
+DOMAIN,||ngqedenika.com^
 DOMAIN,||nmdthrgpykmpo.website^
+DOMAIN,||nozzleslaxate.com^
 DOMAIN,||nucppjcuskmeg.com^
 DOMAIN,||nwmzoqaznoukm.website^
 DOMAIN,||nzxepbrvqtmwn.online^
 DOMAIN,||obtsbskplemtn.website^
 DOMAIN,||olpzlcurobnfs.website^
+DOMAIN,||ophimdoxrnedh.website^
 DOMAIN,||opmfyjcxcbtdh.space^
 DOMAIN,||oqrrrulukth.in^
 DOMAIN,||outboretaenite.cyou^
 DOMAIN,||parergygrates.com^
+DOMAIN,||pnspihrxaduyk.site^
 DOMAIN,||pryerssnuffed.cyou^
 DOMAIN,||puywath.cyou^
+DOMAIN,||pxfheijvtbkik.website^
+DOMAIN,||pzeqrifnmbatb.space^
+DOMAIN,||qaegccfsfdqqr.website^
+DOMAIN,||qifieukjmlhpb.space^
+DOMAIN,||qlhbogdkshotr.website^
 DOMAIN,||qrgetitbngtiz.online^
+DOMAIN,||qwjjfgqlfkmih.site^
 DOMAIN,||qypgnzjkoawpe.online^
 DOMAIN,||raccooncorders.click^
 DOMAIN,||rakefulseorita.cfd^
 DOMAIN,||rattideletehindgut.cyou^
+DOMAIN,||rdchdwkqmdhxr.website^
+DOMAIN,||redwardanubingtewsome.cyou^
 DOMAIN,||regluespitons.click^
+DOMAIN,||reliableparrot.biz^
 DOMAIN,||ressctjygpsyx.website^
 DOMAIN,||restateeggedjutish.cyou^
 DOMAIN,||rfwhdtsxfcwtd.space^
+DOMAIN,||rhdthcujhslgr.online^
 DOMAIN,||richeshumpies.com^
 DOMAIN,||rpegalclg.com^
 DOMAIN,||rsecahgkyjzas.site^
+DOMAIN,||rtmtuclivckwu.site^
 DOMAIN,||rtsxqfqqhafwt.space^
+DOMAIN,||rwupvdrxiaeyk.online^
 DOMAIN,||rxyicljgqjtyk.space^
+DOMAIN,||sandsnow.info^
+DOMAIN,||sdoqnyfwqamhk.site^
+DOMAIN,||sendeewhine.cfd^
+DOMAIN,||shakdfjwwwjsn.space^
 DOMAIN,||shvgtjwblivhm.website^
+DOMAIN,||sitrepsoning.rest^
 DOMAIN,||smvxwnlahkdea.online^
+DOMAIN,||sngpyudhhdjca.space^
+DOMAIN,||snvsicdqsihlo.online^
+DOMAIN,||spignetsidled.click^
 DOMAIN,||stethyclapt.cfd^
 DOMAIN,||svmfpwebpfiwn.website^
 DOMAIN,||sweatsneozoic.com^
 DOMAIN,||syvxbvuaibmaf.site^
 DOMAIN,||taversroomthy.com^
+DOMAIN,||tbfnzwjrgirrg.space^
 DOMAIN,||teensysarsnetrandier.cfd^
+DOMAIN,||terciohagrid.click^
+DOMAIN,||tgudxroftsego.site^
+DOMAIN,||tjpeczevnjrws.space^
+DOMAIN,||tluniiykkzmdx.website^
+DOMAIN,||towslowmen.cfd^
 DOMAIN,||ttfwotjetavmk.website^
 DOMAIN,||ttnimlmqitkne.online^
+DOMAIN,||tubmvfsqcjuvm.space^
 DOMAIN,||uawtcosldsclx.site^
+DOMAIN,||ubgomvvnftoom.space^
 DOMAIN,||ufauolqhhcpmd.space^
+DOMAIN,||ugazuogyeeadt.online^
+DOMAIN,||ugzmqcshtlyuo.online^
 DOMAIN,||uielpzzqvawfb.online^
+DOMAIN,||ulg5n21zpek6wmic8u1.rest^
 DOMAIN,||umiakfibster.com^
+DOMAIN,||uphufwudbxxhq.website^
 DOMAIN,||urineyduools.com^
+DOMAIN,||uudzkdihvjtit.site^
+DOMAIN,||uuhhghulm.com^
+DOMAIN,||uuzzelntjacau.online^
+DOMAIN,||uvreconche.rest^
+DOMAIN,||uwtgyywrefbls.website^
+DOMAIN,||uyicwh6muelyyuxcrqcnhjnz.rest^
+DOMAIN,||vangloeducat.com^
+DOMAIN,||vesjqclgesawj.site^
 DOMAIN,||vicaireresowscohol.cyou^
 DOMAIN,||viscuslegliketel.cyou^
+DOMAIN,||vklwhznqazlgl.website^
 DOMAIN,||vkvmatnuscqkn.space^
+DOMAIN,||vligfctcykwng.website^
+DOMAIN,||vpbugplg.com^
 DOMAIN,||vtqrnirqxrqqq.site^
+DOMAIN,||vwvxrfnsmwakf.online^
 DOMAIN,||wcunhtgrhdkdt.online^
+DOMAIN,||wfumfysum.in^
+DOMAIN,||wjkjigxhegfss.online^
+DOMAIN,||wkcltobnpuxtr.site^
+DOMAIN,||wstcflqkgohpu.site^
+DOMAIN,||wtufqkijiqssw.site^
 DOMAIN,||wwsohqfbubqyg.online^
+DOMAIN,||xcuaxkknloypd.site^
+DOMAIN,||xdniaximcmxti.website^
+DOMAIN,||xgfoyrudzstsr.online^
+DOMAIN,||ximdoqxdrighn.space^
 DOMAIN,||xkysykhputthf.space^
+DOMAIN,||xngbmsgvckcqi.space^
+DOMAIN,||ydbglhqwywrns.site^
 DOMAIN,||yowsyejcaudph.site^
+DOMAIN,||ypq72b6ningrip8jy.cfd^
+DOMAIN,||yrninidzsdiwt.online^
+DOMAIN,||yzwpxwxkmeqxt.site^
+DOMAIN,||zamiaboort.com^
 DOMAIN,||zioshdvobbgim.website^
+DOMAIN,||zjownvjdhfqub.site^
+DOMAIN,||znaoznsvisqke.site^
 DOMAIN,||znftxennxelii.website^
 DOMAIN,||zntdyevefrxsr.website^
 DOMAIN,||zqgkiobtofztc.site^
@@ -624020,6 +624151,9 @@ DOMAIN,! Source name: EasyPrivacy Admiral tracking servers
 DOMAIN,! Source: https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers_admiral.txt
 DOMAIN,! easyprivacy_trackingservers_admiral.txt
 DOMAIN,! Admiral
+DOMAIN,||intobuddy.com^
+DOMAIN,||limitowl.com^
+DOMAIN,||scrubchi.com^
 DOMAIN,! Source name: EasyPrivacy international tracking servers
 DOMAIN,! Source: https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers_international.txt
 DOMAIN,! German
